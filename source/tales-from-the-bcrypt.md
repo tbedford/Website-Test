@@ -4,30 +4,33 @@ So, I had to write a little piece of code to authorize users into my
 web app. I know enough that you really don't want to store passwords
 in plain text. But simply hashing a password leaves it vulnerable to
 dictionary lookup attacks. You need to spice up the hash a bit with
-some salt. You could just generate a GUID for your salt and that wouod
-work. You could also use the random module to generate a random
-number, or perhaps use a datetime value somehow as a salt. Of course
-you'd need to pick a hashing algorithm, and one that was not too fast
-mind (the faster the hashing algorithm is, the more vulnerable it is
-to brute force attacks), and you'd also need to store the salt on your
-datbase, along with the hashed password.
+some salt. You could just generate a GUID for your salt and that would
+work.
+
+You could also use the random module to generate a random number, or
+perhaps use a datetime value somehow as a salt. Of course you'd need
+to pick a hashing algorithm, and one that was not too fast mind (the
+faster the hashing algorithm is, the more vulnerable it is to brute
+force attacks), and you'd also need to store the salt on your
+database, along with the hashed password.
 
 Well, you could do all that. 
 
 But why do that when the hard work's been done for you?
 
-That's where the wonderful bcrypt module comes in. Bcrypt is a little
-different in that it's a hasing algorithm that stores the salt with
-the hashed value. So you don't need to store the salt
-separately. That's good. It's also incrediby easy to use in Pythn too.
+That's where the wonderful `bcrypt` module comes in. Bcrypt is a
+little different in that it's a hashing algorithm that stores the salt
+with the hashed value. So you don't need to store the salt
+separately. That's good. It's also incredibly easy to use in Python
+too.
 
 You have a little function that hashes up the plain text password. The
 hashed password can get stored in your database with the user's
 credentials. When the user logs in you need to retrieve the hashed
 password. You then need to hash the plain text password the user has
-just given you, and here's the mindblowing bit, using the hashed
+just given you, and here's the mind-blowing bit, using the hashed
 password you've just retrieved. The salt will be extracted from it and
-used to hash the plaintext password again, to give you a hased
+used to hash the plaintext password again, to give you a hashed
 password generated from the given plaintext password the user just
 gave you.
 
