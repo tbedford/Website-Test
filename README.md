@@ -8,6 +8,18 @@ coffeeandcode.neocities.org
 
 I think neocities is cool and I'd like to support it in a small way.
 
+## Markdown
+
+Markdown converter produces simpler HTML compared to Grip. The HTML
+requires some fixing up though.
+
+To install:
+
+``` shell
+brew install npm
+npm install markdown-to-html -g
+```
+
 ## Grip
 
 Grip can be used to convert GFM to HTML. The HTML can then be uploaded
