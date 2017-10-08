@@ -8,9 +8,10 @@ coffeeandcode.neocities.org
 
 I think neocities is cool and I'd like to support it in a small way.
 
-I'm using Grip to convert GFM to HTML. The HTML can then be uploaded to Neocities.
+## Grip
 
-There is some post-processing required to tidy up the output of Grip.
+Grip can be used to convert GFM to HTML. The HTML can then be uploaded
+to Neocities.
 
 To install Grip (on Mac OS X):
 
@@ -29,5 +30,6 @@ You can of course preview `*.md` fine in GitHub.
 I have used Hugo before, but honestly, I don;t need anything too fancy
 for this.
 
-
+After having a good look at the output produced by Grip I decided
+to look for a parser that produces simpler/cleaner output. 
 
