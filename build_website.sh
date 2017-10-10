@@ -5,20 +5,18 @@
 # sudo apt-get install mmv
 ####
 
-# Convert *.md to *.html
-find ./source -type f -name "*.md" -exec markdown {} \;
-mkdir html
-mv source/*.html html/
+# Convert Markdown to HTML and clean HTML
+find ./source -name "*.md" -type f | ./clean.py
 
-cd html
-
-# Fix up HTML
-find . -name "*.html" -type f | ./clean.py # clean generates *.tmp files
+# Remove uncleaned HTML
+rm *.html
 
 # Rename *.tmp files to *.html
 mmv '*.tmp' '#1.html'
 
-cd ..
+mv *.html ./html
+
+#cd ..
 
 # Run HTML through Tidy
 # -m = modifies input files (so you don't have to deal with output files)

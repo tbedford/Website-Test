@@ -10,6 +10,7 @@ html_head = '''
   <head>
 <title>TITLE</title>
 
+<link href="/style.css" rel="stylesheet" type="text/css" media="all">
 <link rel="stylesheet"
       href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/solarized-dark.min.css">
 
@@ -19,6 +20,8 @@ html_head = '''
 '''
 
 html_foot = '''
+    <hr/>
+    <p>Make your own cool site: <a href="https://neocities.org">Neocities</a>.</p>
     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
     <script>hljs.initHighlightingOnLoad();</script>
   </body>
@@ -29,19 +32,28 @@ html_foot = '''
 # Read filename from stdin
 for filename in fileinput.input():
 
-    print ("- File: "+filename)
+    print ("Markdown file: "+filename)
     
     # chomp
     filename = filename.rstrip()
 
-    # Determine output file name
+    # HTML file name
     base = os.path.basename(filename)
     base = os.path.splitext(base)[0]
-    base = base + '.tmp'
+    html_filename = base + '.html'
+    print ("HTML file: "+html_filename)
+    
+    # Run markdown on .md
+    cmd = "markdown " + filename  + " > " + html_filename
+    print ("System command: " + cmd)
+    os.system(cmd)
+    
+    # Determine output file name
+    out_filename = base + '.tmp'
 
     # open files
-    fin = open (filename, 'r')
-    fout = open (base, 'w')
+    fin = open (html_filename, 'r')
+    fout = open (out_filename, 'w')
 
     # Grab all of HTML
     html = fin.read()
