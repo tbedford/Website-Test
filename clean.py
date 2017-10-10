@@ -21,6 +21,7 @@ html_head = '''
 
 html_foot = '''
     <hr/>
+    <img alt="Neocities logo" src="./images/neocities.png">
     <p>Make your own cool site: <a href="https://neocities.org">Neocities</a>.</p>
     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
     <script>hljs.initHighlightingOnLoad();</script>
@@ -31,12 +32,12 @@ html_foot = '''
 
 # Read filename from stdin
 for filename in fileinput.input():
-
-    print ("Markdown file: "+filename)
     
     # chomp
     filename = filename.rstrip()
 
+    print ("Markdown file: "+filename)
+    
     # HTML file name
     base = os.path.basename(filename)
     base = os.path.splitext(base)[0]

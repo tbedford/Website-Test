@@ -23,10 +23,13 @@ mv *.html ./html
 # tidy.cfg contains a few configuration options
 find ./html -type f -name "*.html" -exec tidy -config tidy.cfg -f errors.txt -m {} \;
 
+# Copy stylesheet into upload package
+cp ./css/style.css ./html
 
-# copy images to package
-#echo "INFO: Copy image files to package..."
-#cp -R ./build/html/images/* ./package/images
+# copy images into package
+cp -R ./images/* ./html/images
+
+
 #echo "Done."
 
 #zipfile="userguide-${PRODUCT}.zip"
