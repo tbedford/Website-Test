@@ -5,7 +5,6 @@ import re
 import os
 
 html_head = '''
-<!DOCTYPE html>
 <html>
   <head>
 <title>TITLE</title>
@@ -21,8 +20,7 @@ html_head = '''
 
 html_foot = '''
     <hr/>
-    <img alt="Neocities logo" src="./images/neocities.png">
-    <p>Make your own cool site: <a href="https://neocities.org">Neocities</a>.</p>
+    <p><a href="https://coffeeandcode.neocities.org">Home</a></p>
     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
     <script>hljs.initHighlightingOnLoad();</script>
   </body>
