@@ -5,6 +5,7 @@
 
 ## Articles
 
+* [Excel ain't a database](./excel-aint-a-database.html)
 * [How Python saved my sanity](./how-python-saved-my-sanity.html)
 * [Calculating entropy](./calculating-entropy.html)
 * [Can Rust help?](./can-rust-help.html)
@@ -13,5 +14,5 @@
 * [Tracing memory allocations](./tracing-memory-allocations.html)
 * [Don't forget the Unix tools](./dont-forget-unix-tools.html)
 * [Remembering TurboDOS](./remembering-turbo-dos.html)
-
+* [Why I still use Emacs](./why-i-still-use-emacs.html)
 
