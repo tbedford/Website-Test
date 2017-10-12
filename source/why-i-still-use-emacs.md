@@ -127,7 +127,7 @@ quickly you can find stuff. What's more `C-r` is incredibly useful on
 the command line to find previously entered shell commands. This alone
 will save you lots of time (and typing). I should also mention you can
 actually run a terminal in an Emacs buffer too - quite handy as you
-can compile and run code without having to leave the magificence of
+can compile and run code without having to leave the magnificence of
 Emacs.
 
 ## It's really, really fast
