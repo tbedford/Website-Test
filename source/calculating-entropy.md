@@ -141,6 +141,7 @@ A few runs of the program are shown here:
 bash-3.2$ ./a.out 63
 Entropy Bits: 6
 00111111
+bash-3.2$ ./a.out 244
 Entropy Bits: 8
 11110100
 bash-3.2$ ./a.out 19
