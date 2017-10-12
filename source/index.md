@@ -1,4 +1,6 @@
-# Coffee and Code - my simple blog
+# Coffee and Code
+
+Thoughts on code, cats and coffee...
 
 * [About](./about.html) 
 * [Contact](./contact.html) 
