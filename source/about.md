@@ -22,4 +22,4 @@ You can contact me through my [Contact page](./contact.html).
 
 [I have GitHub too](https://github.com/tbedford)
 
-
+![tony](./images/johnny_starbucks_resized.jpg "Tony")
