@@ -5,6 +5,7 @@
 
 ## Articles
 
+* [Spreadsheets everywhere](./spreadsheets-everywhere.html)
 * [Stdout was a bad, bad boy](./stdout-utf-8-nastiness.html)
 * [Python `env` issue on Ubuntu](./python-env-issue-on-ubuntu.html)
 * [Excel ain't a database](./excel-aint-a-database.html)
