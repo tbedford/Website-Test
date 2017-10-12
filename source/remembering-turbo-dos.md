@@ -19,10 +19,11 @@ yet). I include a snippet of the email I sent here:
 >called Seiscom Delta United who had an office ten minutes from my
 >house down the old Rusham Road industrial estate in Egham. Seiscom
 >were an oil exploration company and their entire office was powered
->by a Northstar Horizon with a Z80 co-processor board running
->TurboDOS. I remember the startup screen quite clearly. We were
->running Wordstar, Supercalc 2 and Dbase (forget which version now -
->maybe 2 and later 3).
+>by a [Northstar
+>Horizon](https://en.wikipedia.org/wiki/NorthStar_Horizon) with a Z80
+>co-processor board running TurboDOS. I remember the startup screen
+>quite clearly. We were running Wordstar, Supercalc 2 and Dbase
+>(forget which version now - maybe 2 and later 3).
 
 >When I left the company in 1987 they were still quite happily running
 >everything on TurboDOS. However, I think we were on Supercalc 3 by
