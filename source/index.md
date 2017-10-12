@@ -9,6 +9,6 @@
 * [Don't forget to flush](./flush-stdout.html)
 * [Tracing memory allocations](./tracing-memory-allocations.html)
 * [Don't forget the Unix tools](./dont-forget-unix-tools.html)
-* [Remembering TurboDOS](./remembering-turbodos.html)
+* [Remembering TurboDOS](./remembering-turbo-dos.html)
 
 
