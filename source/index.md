@@ -5,6 +5,7 @@
 
 ## Articles
 
+* [How Python saved my sanity](./how-python-saved-my-sanity.html)
 * [Calculating entropy](./calculating-entropy.html)
 * [Can Rust help?](./can-rust-help.html)
 * [Tales from the bcrypt](./tales-from-the-bcrypt.html)
