@@ -144,6 +144,7 @@ Entropy Bits: 6
 Entropy Bits: 8
 11110100
 bash-3.2$ ./a.out 19
+Entropy Bits: 5
 00010011
 bash-3.2$
 ```
