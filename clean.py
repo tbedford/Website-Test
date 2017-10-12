@@ -11,7 +11,7 @@ html_head = '''
 
 <link href="/style.css" rel="stylesheet" type="text/css" media="all">
 <link rel="stylesheet"
-      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/solarized-dark.min.css">
+      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/solarized-light.min.css">
 
   </head>
   
