@@ -22,4 +22,10 @@ You can contact me through my [Contact page](./contact.html).
 
 [I have GitHub too](https://github.com/tbedford)
 
+Here's my cat Timmy:
+
+![Timmy](./images/timmy.png "Timmy")
+
+And here's me posing: ;)
+
 ![tony](./images/johnny_starbucks_resized.jpg "Tony")
