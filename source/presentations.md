@@ -2,6 +2,43 @@
 
 Some recently watched presentations (with notes):
 
+
+[Memory by Handmade Hero - Casey
+Muratori](https://www.youtube.com/watch?v=MvDUe2evkHg&list=PLEMXAbCVnmY6Azbmzj3BiC3QRYHE9QoG7)
+
+Wow! AMAZING VIDEO. If you have any interest at all in memory,
+especially games - go watch this!
+
+* Game allocation (asset management) is essentially a caching problem,
+  not a GC problem.
+* Fragmentation can be an issue because assets are of different sizes.
+* Try to have fixed size allocators if possible.
+* RAII - Resource Acquisition Is Initialization.
+* Fascinating to see how other programmers work.
+
+[Anatomy of a memory allocation by Jorge Rodriguez](https://www.youtube.com/watch?v=c0g3S_2QxWM)
+
+Interesting video on memory allocation. The video looks at what
+happens after you do a `new` in C++. I also learnt that the point at
+the end of the heap, marking the void between the heap and the stack,
+is called the 'break'. I hadn't heard that before but it explains why
+the `sbrk` instruction has that name! 
+
+The lack of speed in memory allocation comes from the usual culprits:
+locking (to avoid context switching during memory allocation routines)
+and context switching from user space to kernel mode (to extend the
+heap if required) and then back again. There may be paging out to disk
+(in the worst case scenario).
+
+Interesting point is the constructor (in C++) is potentially unbounded
+(in time). Not ideal for 'real-time' systems.
+
+Things to read up on:
+
+- Ring allocator
+- Frame allocator
+- Static allocator
+
 [Deconstructing the OS](https://www.youtube.com/watch?v=h7D88U-5pKc)
 
 Absolutely brilliant talk by Alfred Bratterud. Alfred is a great
@@ -66,9 +103,6 @@ this talk! One of the best presenters I've seen in a while.
 
 ## Presentations yet to watch
 
-[Memory by Handmade
-Hero](https://www.youtube.com/watch?v=MvDUe2evkHg&list=PLEMXAbCVnmY6Azbmzj3BiC3QRYHE9QoG7)
+[Making Allocators Work Part 1 by Alisdair Meredith](https://www.youtube.com/watch?v=YkiYOP3d64E)
 
-Note watch any videos by Handmade Hero yet, but they look very cool.
-
-
+Started.
