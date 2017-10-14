@@ -4,6 +4,7 @@ Thoughts on code, cats and coffee...
 
 * [About](./about.html) 
 * [Contact](./contact.html) 
+* [Presentations](./presentations.html)
 
 ## Articles
 
