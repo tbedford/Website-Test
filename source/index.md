@@ -9,6 +9,7 @@ Thoughts on code, cats and coffee...
 
 ## Articles
 
+* [Tracing version of malloc](./tracing-malloc.html)
 * [Diving into the buffer pool](./diving-into-the-buffer-pool.html)
 * [Spreadsheets everywhere](./spreadsheets-everywhere.html)
 * [Stdout was a bad, bad boy](./stdout-utf-8-nastiness.html)

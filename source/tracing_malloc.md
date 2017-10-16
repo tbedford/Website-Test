@@ -1,4 +1,4 @@
-# Getting hash define syntax working
+# Tracing version of malloc
 
 It was a small victory, but after quite a bit of fiddling I managed to
 get `#define` to do my bidding! This seemed to be much more fiddly
