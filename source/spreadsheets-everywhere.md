@@ -18,6 +18,7 @@ the spreadsheet. Python makes this so trivial it's almost a travesty
 to bill clients for it.
 
 ``` python
+
 # grabs data from XLS file. Delimits columns by '|'. Use redirection
 # to write out to file, otherwise output is to stdout
 
@@ -51,6 +52,7 @@ colstr2 = record_array[1].strip()
 if not colstr1 == "None":
     if not colstr2 == "None":
         print(record_string) 
+
 ```
 
 So, the code is easy enough. A spreadsheet file usually has one or
