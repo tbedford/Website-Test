@@ -2,6 +2,10 @@
 
 Some recently watched presentations (with notes):
 
+[Memory and C++ debugging at EA by Scott Wardle](https://www.youtube.com/watch?v=8KIvWJUYbDA)
+
+Very nice presentation. The custom debugging tools are very
+impressive.
 
 [Memory by Handmade Hero - Casey
 Muratori](https://www.youtube.com/watch?v=MvDUe2evkHg&list=PLEMXAbCVnmY6Azbmzj3BiC3QRYHE9QoG7)
