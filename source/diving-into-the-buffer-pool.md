@@ -36,3 +36,22 @@ then be able to continue to receive packets.
 The main point is a deadlock has not been reached, as the memory
 hungry sub-system that exhausted its buffer pool would be blocked to
 prevent deadlocking the other sub-systems due to memory starvation.
+
+## Fragmentation
+
+Earlier in these notes I talked mainly about how buffer pools can
+prevent memory exhaustion by blocking a process when its buffer pool
+is exhausted. However, there is a really big advantage of buffer pools
+I did not mention before - fragmentation prevention.
+
+The great thing about buffer pools in that, for a specific buffer
+pool, all buffers are of the same size. This means fragmentation is
+impossible. OK well, that's not exactly true. Let's be more
+specific. Fragmentation can occur in that as you free buffers you will
+get gaps in memory. But the advantage of buffer pools is because all
+buffers are of the same size you will never get a case where memory
+allocation fails due to a free block not being big enough.
+
+Buffer pools are an excellent solution in embedded systems, or in any
+scenario where you are going to create a lot of allocations of the
+same size.
