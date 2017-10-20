@@ -14,12 +14,12 @@ I have talked about on this site and in my extensive notes on
 allocators in my GitHub. 
 
 The problem with memory fragmentation is that when your memory map
-looks like Swiss chees (that is, it's full of holes) it can be that an
-individual hole is not big enough to satisfy a memory request. The game
-then fails as it cannot load the required texture, level or sound
+looks like Swiss cheese (that is, it's full of holes) it can be that
+an individual hole is not big enough to satisfy a memory request. The
+game then fails as it cannot load the required texture, level or sound
 effect.
 
-What you really want to do is take or those lovely holes (free space)
+What you really want to do is take all those lovely holes (free space)
 and squash them all together so that they make up a much more usable
 free space lump. This is memory defragmentation or compaction.
 
@@ -34,14 +34,15 @@ the target of Wolf, had a 24-bit address bus. In theory that meant it
 could address a 16MB address space. However, most 286-based PCs at
 that time had 1MB. The reason for this was due to the fact that RAM
 upgrades were hideously expensive (expect to pay something like $1,500
-for a 4MB expansion card - yes that is MegaBytes - not
-GigaBytes). Also, DOS, which was the prevalent operating system at the
-time was essentially designed for the 8086 chip which had a 20-bit
-address bus. The memory set up on DOS machines was complicated, but
-basically you had a 640K "conventional memory" area where the program
-code and most data was stored. Then, depending on your setup, you
-might have access to the memory between 640K and the 1MB point, and
-data could be stored there.
+for a 4MB expansion card - yes that is MegaBytes - not GigaBytes).
+
+Also, DOS, which was the prevalent operating system at the time, was
+essentially designed for the 8086 chip which had a 20-bit address
+bus. The memory setup on DOS machines was complicated, but basically
+you had a 640K "conventional memory" area where the program code and
+most data was stored. Then, depending on your setup, you might have
+access to the memory between 640K and the 1MB point, and some data
+could be stored there.
 
 So with all this and complications such as XMS, EMS and upper memory
 areas, and the need for compaction, the memory manager had to be a
@@ -64,31 +65,35 @@ loaded.
 A problem can arise though if you are low on memory and you have a lot
 of objects in a scene and what happens is the memory manager purges
 blocks to try and create free space and then reloads those same assets
-as they are required. You end up with thrashing going on. You would
-expect the frame rate to drop off a cliff at this point because the
-manager will keep scanning the block list and purging to try and make
-space, and then reloading the assets - all this takes time. 
+as they are required for the scene. You end up with thrashing going
+on. 
+
+You would expect the frame rate to drop off a cliff at this point
+because the manager will scan the block list, purge it to try and make
+space, and then reload assets - all this takes time.
 
 Thrashing might happen on a PC with only conventional memory as the
 user has not set up the system to use the area above 640K - or has
 that area clogged up with so-called Terminate and Stay Resident
 programs (TSRs). TSRs were "a thing" back in the DOS days.
 
-Of course you still end up with fragmentation, so the Id memory
-manager has another trick up its sleeve - compaction.
+Of course even with purging, you can still end up with fragmentation,
+and a subsequent "out of memory" error.  So the Id memory manager has
+another trick up its sleeve - compaction.
 
 Compaction in this implementation involves copying allocated blocks so
 they are contiguous. This eliminates the holes between allocated
-blocks, collecting the holes together at the upper end of the memory
-map in a contiguous free space. In other words you effectively collect
+blocks, in effect collecting the holes together at the upper end of
+the memory map in a contiguous free space. In other words you gather
 all the little holes into one big hole!
 
 This is somewhat complicated in the implementation as some blocks are
-deemed locked and so cannot be moved. I've not investigated this but
-at a guess I would say that some data in memory is transferred by the
-DMA controller, say from RAM to the Sound Blaster card, and if you
-moved the source memory, the DMA controller would quite happily copy
-over incorrect data, the origonal source data having moved!
+deemed locked and so cannot be moved. I've not investigated this in
+detail but at a guess I would say that some data in memory is
+transferred by the DMA controller, say from RAM to the Sound Blaster
+card, and if you moved the source memory, the DMA controller would
+quite happily copy over incorrect data, the original source data
+having moved!
 
 The list of allocated blocks is structured as a singly linked-list,
 which is set up with a head pointer and a "rover", which points to the
@@ -100,25 +105,30 @@ block itself, as it's not being used for anything - it's free
 memory. However, if you keep a list of allocated blocks like the Wolf
 memory manager, where do you store the list node data structures?
 
-Looking at the source code what Wolf seems to do is allocate memory
+Looking at the source code, what Wolf seems to do is allocate memory
 for the list node data structures on the stack by simply allocating an
 array. It looks like the array is hardcoded to have enough space for
 700 list nodes. I'm guessing this number was based on John Carmack's
 familiarity with the requirements of the game, some basic
-instrumenting, and a bit of trial and error.
+instrumenting, and a bit of trial and error. You have to remember this
+is a game-specific allocator, not a general purpose allocator. You
+could not really get away with hard-coded limits like this in a
+general purpose allocator.
 
 There's also another interesting little aspect. When you do a
 compaction and move blocks of data, it means that the pointer to the
-original allocation is no longer valid. How is this dealt with? Well
-there are a couple of approaches - one is to use memory handles which
-are a lookup into a table of pointers. If a pointer is moved then the
-pointer entry in the table is updated, but the handle is still valid.
+original allocation is no longer valid. How is this dealt with? 
+
+Well there are a couple of possible approaches. One is to use memory
+handles which are a lookup into a table of pointers. If a pointer is
+moved then the pointer entry in the table is updated, but the handle
+is unchanged and still valid.
 
 What the Wolf memory manager does is store a pointer to the original
 returned pointer in its allocated memory block data structure. This
 pointer to a pointer is called the `Usepointer` (U). This points to
-the actual memory pointer (M) which is the thing that actually points
-to the allocated memory area that the application will use. 
+the memory pointer (M) which is the thing that actually points to the
+allocated memory area that the application will use.
 
 In other words the application uses the pointer M, but the memory
 manager uses U. If a block of allocated memory is moved during
@@ -139,9 +149,8 @@ bugs.
 Overall the Wolf memory manager is a clever piece of software that
 John Carmack wrote when he was just 21 years old. When you consider it
 was just one of many ground-breaking pieces of technology he had to
-develop in order to get a fast First Person Shooter up and running
-fast on the limited hardware of the time, it really puts into
-perspective what an amazing achievement it was.
-
+create in order to get a fast First Person Shooter up and running fast
+on the limited hardware of the time, it really puts into perspective
+what an amazing achievement it was.
 
 
