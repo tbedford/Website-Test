@@ -139,7 +139,9 @@ the M pointer and then manipulated itself to process a block of
 memory. You would then have a potentially rogue pointer on your
 hands. However, it's possible I didn't fully understand how the
 usepointer is used. I will need to spend some more time on that to be
-absolutely sure.
+absolutely sure. (Update: Apparently I did understand it - quick email
+exchange with Fabien confirmed it - never copy or move the allocated
+block pointer - this is a good argument for using handles if you can.)
 
 John Carmack himself has said that custom memory managers are a source
 of many bugs. Any code that has a lot of pointer manipulation (think
