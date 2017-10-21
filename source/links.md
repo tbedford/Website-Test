@@ -2,6 +2,8 @@
 
 Useful/interesting links:
 
+* [Great website by Paul Hsieh](http://www.azillionmonkeys.com/qed/index.html)
+* [Hashing functions](http://burtleburtle.net/bob/c/lookup3.c)
 * [Try out old DiskMags - very cool!](https://archive.org/details/diskmags?and[]=subject%3A%22MS-DOS+diskmags%22)
 * [History of data compression in Japan](http://oku.edu.mie-u.ac.jp/~okumura/compression/history.html)
 * [Inside a storage allocator](http://www.flounder.com/inside_storage_allocation.htm)
