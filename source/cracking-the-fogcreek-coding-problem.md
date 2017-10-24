@@ -1,11 +1,11 @@
-# Cracking the FogCreek coding problem
+# Cracking the Fog Creek coding problem
 
->SPOILER ALERT: If you are actually applying for a job at FogCreek
+>SPOILER ALERT: If you are actually applying for a job at Fog Creek
 >please do not read this article!
 
 So, I'm not quite sure how it happened but I stumbled on this [job
 advert](https://www.fogcreek.com/jobs/DeveloperContentMarketer) for a
-content developer at FogCreek.
+content developer at Fog Creek.
 
 Go read the advertisement especially the coding puzzle.
 
