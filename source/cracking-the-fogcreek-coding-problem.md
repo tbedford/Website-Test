@@ -51,18 +51,23 @@ character in the dictionary before incrementing it.
 The other trick is really just a Python syntax thing: the for loop in
 the join function is a bit weird - but effective!
 
-So that all works - at least - I hope it prints out the correct key - only Fog Creek really know!
+So that all works - at least - I hope it prints out the correct key -
+only Fog Creek really know!
 
-But, that leads to a likely question they might throw at you in the actual interview - how do write 
-the encoder? Gulp! You didn't think they'd ask you that did you?
+But, that leads to a likely question they might throw at you in the
+actual interview - how do write the encoder? Gulp! You didn't think
+they'd ask you that did you?
 
-Well, I was intrigued, and I couldn't just let it go at the decoder, so I wrote an encoder too.
+Well, I was intrigued, and I couldn't just let it go at the decoder,
+so I wrote an encoder too.
 
-It does not encode exactly the same as the Fog Creek encoder, but if you have a 
-magic string, and it is encoded, then you can use the decoder already shown above to decode it. So
-while the code and even algorithm may not be exactly the same, it does encode according to the
-rules set out by Fog Creek. Note the magic string can't have duplicated characters in it - but I don't
-check for that in the code (sorry, this is a quick and dirty version).
+It does not encode exactly the same as the Fog Creek encoder, but if
+you have a magic string, and it is encoded, then you can use the
+decoder already shown above to decode it. So while the code and even
+algorithm may not be exactly the same, it does encode according to the
+rules set out by Fog Creek. Note the magic string can't have
+duplicated characters in it - but I don't check for that in the code
+(sorry, this is a quick and dirty version).
 
 Here's the code:
 
@@ -105,6 +110,9 @@ while len(keys) > 0:
 print(encoded_string)    
 ```
 
-You can run this to generate the encoded string, and then use the earlier decoder to decode it - that 
-should print the magic string you started with.
+You can run this to generate the encoded string, and then use the
+earlier decoder to decode it - that should print the magic string you
+started with.
 
+Disclaimer: I don't guarantee this is any kind of ideal solution. It
+appears to do the job though from the limited testing I have given it.
