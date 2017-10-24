@@ -9,6 +9,7 @@ Thoughts on code, cats and coffee...
 
 ## Articles
 
+* [Cracking the Fog Creek coding problem](./cracking-the-fogcreek-coding-problem.html)
 * [Wolfenstein's memory manager](./wolf-memory-manager.html)
 * [Tracing version of malloc](./tracing-malloc.html)
 * [Diving into the buffer pool](./diving-into-the-buffer-pool.html)
