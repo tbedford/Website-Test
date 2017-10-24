@@ -82,7 +82,8 @@ duplicated characters in it - but I don't check for that in the code
 
 Here's the code:
 
-```Python
+``` Python
+# Fog Creek magic encoder
 from random import randint 
 
 magic_string = "keyboarding_"
@@ -101,7 +102,7 @@ for c in magic_list:
     if c in base_list:
         base_list.remove(c)
 
-# encode remaining base list        
+# encode remaining base list
 for c in base_list:
     encoded_dict[c] = count
     count = count - 1
@@ -118,7 +119,7 @@ while len(keys) > 0:
     elif encoded_dict[key] == 0:
         keys.remove(key)
 
-print(encoded_string)    
+print(encoded_string)
 ```
 
 You can run this to generate the encoded string, and then use the
