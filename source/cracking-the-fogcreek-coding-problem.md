@@ -51,6 +51,17 @@ character in the dictionary before incrementing it.
 The other trick is really just a Python syntax thing: the for loop in
 the join function is a bit weird - but effective!
 
+So a few words of explanation on the code:
+
+1. Convert the string into a list as it's then easier to process.
+2. Create a dictionary where we will store character counts.
+3. Go through the character list figuring out the count of each character. We do this
+as we are trying to find the most frequently used characters (according to the spec).
+4. Create a sorted list. The list is ordered based on most frequently occuring characters.
+5. We convert the sorted characters back into a string.
+6. Split the string based on the '_' character to get the magic string.
+7. `split()` generates an array but we only need the first part so we print that out as the magic word. 
+
 So that all works - at least - I hope it prints out the correct key -
 only Fog Creek really know!
 
