@@ -128,3 +128,19 @@ started with.
 
 Disclaimer: I don't guarantee this is any kind of ideal solution. It
 appears to do the job though from the limited testing I have given it.
+
+**UPDATE**: My son just contacted me with his solution:
+
+``` Python
+>>> from collections import Counter
+>>> str = "The big long Fog Creek string"
+>>> Counter(str)
+```
+
+Doh! Lesson learned - always check the standard library first! This
+really is a much less error prone way of getting the solution!
+
+I think I should retire at this point! :(
+
+
+
