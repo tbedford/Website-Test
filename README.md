@@ -1,47 +1,31 @@
 # Website-Test
 
-Building a simple website from GFM.
+My website. 
 
-There are a few ways to do this but I plan to host on:
+The website is also hosted at [Neocities](https://coffeeandcode.neocities.org).
 
-coffeeandcode.neocities.org
+## About
 
-I think neocities is cool and I'd like to support it in a small way.
+The website is a few notes mostly on technical topics. It is not meant
+to be taken too seriously - I do enough "serious writing" in my day
+job thank you very much. This is some light relief.
 
-## Markdown
+## Tools
 
-Markdown converter produces simpler HTML compared to Grip. The HTML
-requires some fixing up though.
+So, I could have set up Wordpress and a MySQL database and all that
+jazz but the DIY approach seemed fine for what I needed.
 
-To install:
+A few notes on how this website is put together:
 
-``` shell
-brew install npm
-npm install markdown-to-html -g
-```
+1. Source is written in GitHub flavoured markdown (GFM). This has the
+   advantage of being quite readable in GitHub itself.
+2. I use [this markdown tool](https://github.com/cwjohan/markdown-to-html) to convert to GFM to HTML.
+3. I then post process the HTML to add syntax colouring and a full HTML page structure using `clean.py`.
+4. The website building script, which is very simple, also cleans HTML Tidy to tidy up the HTML.
+5. I upload a copy of the generated HTML to Neocities.
 
-## Grip
+OK so my website is very simple, but it does have fast page load
+times, and it would be a *lot* fast if I had no CSS and no syntax
+colouring.
 
-Grip can be used to convert GFM to HTML. The HTML can then be uploaded
-to Neocities.
-
-To install Grip (on Mac OS X):
-
-``` shell
-brew install grip
-```
-
-Running Grip:
-
-``` shell
-grip file.md --export --no-inline file.html
-```
-
-You can of course preview `*.md` fine in GitHub.
-
-I have used Hugo before, but honestly, I don;t need anything too fancy
-for this.
-
-After having a good look at the output produced by Grip I decided
-to look for a parser that produces simpler/cleaner output. 
 
