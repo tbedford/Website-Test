@@ -2,6 +2,7 @@
 
 Useful/interesting links:
 
+* [Unicode and wchar_t](http://icu-project.org/docs/papers/unicode_wchar_t.html)
 * [Great website by Paul Hsieh](http://www.azillionmonkeys.com/qed/index.html)
 * [Hashing functions](http://burtleburtle.net/bob/c/lookup3.c)
 * [Try out old DiskMags - very cool!](https://archive.org/details/diskmags?and[]=subject%3A%22MS-DOS+diskmags%22)
