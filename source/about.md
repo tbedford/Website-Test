@@ -26,7 +26,9 @@ a course on Embedded C for Nokia (Camberley, UK).
 
 You can contact me through my [Contact page](./contact.html).
 
-[I have GitHub too](https://github.com/tbedford)
+You can read this website directly in [my
+GitHub](https://github.com/tbedford). I also store the tools to build
+this site there.
 
 Here's my cat Timmy:
 
