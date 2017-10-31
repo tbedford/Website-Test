@@ -3,21 +3,21 @@
 Just thought it was interesting to take a look at console RAM sizes
 over the years:
 
-| Model         | Year   |  RAM (MB) | VRAM (MB) 
-|---------------|:------:|:----------|:---------
-| Playstation 1 |  1994  | 2         | 1 
-| Playstation 2 |  2000  | 32        | 4 
-| Playstation 3 |  2006  | 256       | 256 
-| Playstation 4 |  2013  | 8000      | 256
-| Playstation 5 |  2020? |  ??       | ??
+| Model         |   Year   |   RAM (MB) | VRAM (MB) |
+|:--------------|:--------:|:----------:|:---------:|
+| Playstation 1 |  1994    | 2          | 1         |
+| Playstation 2 |  2000    | 32         | 4         |
+| Playstation 3 |  2006    | 256        | 256       |
+| Playstation 4 |  2013    | 8000       | 256       |
+| Playstation 5 |  2020?   |  ??        | ??        |
 
 
-| Model         | Year   |  RAM (MB) | VRAM (MB) 
-|---------------|:------:|:----------|:---------
-| Xbox          |  2001  | 64        | ? 
-| Xbox 360      |  2005  | 512       | ? 
-| Xbox One      |  2013  | 8000      | ?
-| Xbox One X    |  2017  | 12000     | ?
+| Model         | Year   |  RAM (MB) | VRAM (MB)| 
+|:--------------|:------:|:---------:|:--------:|
+| Xbox          |  2001  | 64        | ?        |
+| Xbox 360      |  2005  | 512       | ?        |
+| Xbox One      |  2013  | 8000      | ?        |
+| Xbox One X    |  2017  | 12000     | ?        |
 
 A few other examples for comparison:
 
