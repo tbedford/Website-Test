@@ -30,6 +30,8 @@ You can read this website directly in [my
 GitHub](https://github.com/tbedford). I also store the tools to build
 this site there.
 
+I also occasionally tweet at @anthead62
+
 Here's my cat Timmy:
 
 ![Timmy](./images/timmy.png "Timmy")
@@ -38,4 +40,5 @@ And here's me posing: ;)
 
 ![tony](./images/johnny_starbucks_resized.jpg "Tony")
 
-I am currently based in the UK.
+I am currently based in the UK, but spend as much time as I can in the
+Philippines.

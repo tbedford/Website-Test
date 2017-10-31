@@ -2,6 +2,7 @@
 
 Useful/interesting links:
 
+* [Superscale Networks use Rust and Linux-based routers](https://www.superscale.io)
 * [Unicode and wchar_t](http://icu-project.org/docs/papers/unicode_wchar_t.html)
 * [Great website by Paul Hsieh](http://www.azillionmonkeys.com/qed/index.html)
 * [Hashing functions](http://burtleburtle.net/bob/c/lookup3.c)

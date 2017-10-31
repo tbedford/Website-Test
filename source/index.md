@@ -9,6 +9,7 @@ Thoughts on code, cats and coffee...
 
 ## Articles
 
+* [On console RAM sizes](./console-memory.html)
 * [How long to transfer a 1TB file?](./transfer-time.html)
 * [Cracking the Fog Creek coding problem](./cracking-the-fogcreek-coding-problem.html)
 * [Wolfenstein's memory manager](./wolf-memory-manager.html)
