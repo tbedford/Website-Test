@@ -20,6 +20,10 @@
 * [Riak revisited podcast](https://changelog.com/podcast/40)
 * [Wallaroo Labs - users of Pony](https://www.wallaroolabs.com/technology)
 * [Blog post on using Pony](https://blog.wallaroolabs.com/2017/10/why-we-used-pony-to-write-wallaroo/)
+* [Google Megastore](https://research.google.com/pubs/pub36971.html)
+* [Google Bigtable](https://research.google.com/archive/bigtable.html)
+* [Google Spanner](https://research.google.com/archive/spanner.html)
+
 
 ## C
 
@@ -51,10 +55,4 @@
 * [Hotel global ID](https://www.tnooz.com/article/can-the-latest-dip-into-the-global-hotel-id-swamp-work/)
 * [Open travel specs](http://www.opentraveldevelopersnetwork.com/implementation-guide)
 * [Travel companies defeating web scrapers](https://www.tnooz.com/article/how-icruise-com-defeated-web-scrapers-with-distil-networks/)
-
-## Papers
-
-* [Google Megastore](https://research.google.com/pubs/pub36971.html)
-* [Google Bigtable](https://research.google.com/archive/bigtable.html)
-* [Google Spanner](https://research.google.com/archive/spanner.html)
 
