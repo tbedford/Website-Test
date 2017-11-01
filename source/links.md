@@ -48,9 +48,9 @@
 
 ## Travel
 
-[Hotel global ID](https://www.tnooz.com/article/can-the-latest-dip-into-the-global-hotel-id-swamp-work/)
-[Open travel specs](http://www.opentraveldevelopersnetwork.com/implementation-guide)
-[Travel companies defeating web scrapers](https://www.tnooz.com/article/how-icruise-com-defeated-web-scrapers-with-distil-networks/)
+* [Hotel global ID](https://www.tnooz.com/article/can-the-latest-dip-into-the-global-hotel-id-swamp-work/)
+* [Open travel specs](http://www.opentraveldevelopersnetwork.com/implementation-guide)
+* [Travel companies defeating web scrapers](https://www.tnooz.com/article/how-icruise-com-defeated-web-scrapers-with-distil-networks/)
 
 ## Papers
 
