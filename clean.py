@@ -20,7 +20,9 @@ html_head = '''
 
 html_foot = '''
     <hr/>
-    <p><a href="https://coffeeandcode.neocities.org">Home</a></p>
+    <div class="footer">
+       <p><a href="https://coffeeandcode.neocities.org">Home</a> | (c) 2017 Tony Bedford</p>
+    </div>
     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
     <script>hljs.initHighlightingOnLoad();</script>
   </body>
