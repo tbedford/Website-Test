@@ -1,19 +1,31 @@
 body {
-  background-color: steelblue;
-  color: white;
-  font-family: Verdana;
+    background-color: steelblue;
+    color: white;
+    font-family: Verdana;
 }
 
 a {
-  color: hotpink;  
+    color: gold;  
+}
+
+a:visited {
+    color: hotpink;  
+}
+
+a:hover {
+    color: greenyellow;   
+}
+
+a:selected {
+    color: turquoise;   
 }
 
 h1 {
-  color: greenyellow;  
+    color: greenyellow;  
 }
 
 h2 {
-  color: turquoise;
+    color: turquoise;
 }
 
 li {
