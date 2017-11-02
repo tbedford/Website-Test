@@ -4,7 +4,8 @@ Thoughts on code, cats and coffee...
 
 * [About](./about.html) 
 * [Contact](./contact.html) 
-* [Presentations](./presentations.html)
+* [My projects](./projects.html) 
+* [Presentations (by others)](./presentations.html)
 * [Links](./links.html)
 
 ## Articles

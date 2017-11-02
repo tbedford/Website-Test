@@ -24,10 +24,22 @@
 * [Google Megastore](https://research.google.com/pubs/pub36971.html)
 * [Google Bigtable](https://research.google.com/archive/bigtable.html)
 * [Google Spanner](https://research.google.com/archive/spanner.html)
+* [Lucene segment merges](http://blog.mikemccandless.com/2011/02/visualizing-lucenes-segment-merges.html)
+* [Programming SSDs by Emmanuel Goossaert](http://codecapsule.com/2014/02/12/coding-for-ssds-part-1-introduction-and-table-of-contents/)
+* [Distributed systems by Emmanuel Goossaert](http://codecapsule.com/2016/01/03/how-to-get-started-with-infrastructure-and-distributed-systems/)
+* [LSM advantages over B-tree](http://smalldatum.blogspot.co.uk/2016/01/summary-of-advantages-of-lsm-vs-b-tree.html)
+* [Amazing amount of info on databases](https://db-engines.com/en/)
+
 
 ## Information Retrieval
 
 * [Free IR book online](https://nlp.stanford.edu/IR-book/html/htmledition/irbook.html)
+
+## Memory
+
+* [General article on memory allocators - good background reading before implementation](http://www.flounder.com/memory_allocation.htm)
+* [Are we out of memory?](http://www.swedishcoding.com/2008/08/31/are-we-out-of-memory/)
+* [Inside a storage allocator](http://www.flounder.com/inside_storage_allocation.htm)
 
 ## Data compression
 
@@ -40,8 +52,13 @@
 * [An early history of Pony](https://www.ponylang.org/blog/2017/05/an-early-history-of-pony/)
 * [Blog post on using Pony](https://blog.wallaroolabs.com/2017/10/why-we-used-pony-to-write-wallaroo/)
 
+## Erlang
+
+* [Learn you some Erlang - free book](http://learnyousomeerlang.com/content)
+
 ## C
 
+* [C file I/O](https://www.cs.bu.edu/teaching/c/file-io/intro/)
 * [Unicode and wchar_t](http://icu-project.org/docs/papers/unicode_wchar_t.html)
 * [Hashtables in C](https://stackoverflow.com/questions/6118539/why-are-there-no-hashtables-in-the-c-standard-library)
 
@@ -54,12 +71,6 @@
 * [Emacs keybindings](http://www.cs.colostate.edu/helpdocs/emacs-bindings)
 * [Extensive info on Emacs key bindings including hard to find syntax](http://www.nongnu.org/emacs-tiny-tools/keybindings/)
 * [Great Emacs related info and blog by Sacha Chua](http://sachachua.com/blog/category/emacs/) 
-
-## Memory
-
-* [General article on memory allocators - good background reading before implementation](http://www.flounder.com/memory_allocation.htm)
-* [Are we out of memory?](http://www.swedishcoding.com/2008/08/31/are-we-out-of-memory/)
-* [Inside a storage allocator](http://www.flounder.com/inside_storage_allocation.htm)
 
 ## Travel
 
