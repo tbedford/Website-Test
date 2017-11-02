@@ -16,8 +16,6 @@ mmv '*.tmp' '#1.html'
 
 mv *.html ./html
 
-#cd ..
-
 # Run HTML through Tidy
 # -m = modifies input files (so you don't have to deal with output files)
 # tidy.cfg contains a few configuration options
@@ -28,21 +26,4 @@ cp ./css/style.css ./html
 
 # copy images into package
 cp -R ./images/* ./html/images
-
-
-#echo "Done."
-
-#zipfile="userguide-${PRODUCT}.zip"
-
-# zip up
-#echo "INFO: Creating package..."
-#zip -Rq $zipfile ./package/*.html ./package/images/* 
-#echo "Done."
-# Test package integrity
-#echo "INFO: Testing package integrity..."
-#zip -T $zipfile
-#echo "Done."
-
-# clean up
-#rm -rf package/
 

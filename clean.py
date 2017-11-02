@@ -11,7 +11,7 @@ html_head = '''
 
 <link href="/style.css" rel="stylesheet" type="text/css" media="all">
 <link rel="stylesheet"
-      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/xt256.min.css">
+      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/solarized-dark.min.css">
 
   </head>
   
@@ -61,7 +61,9 @@ for filename in fileinput.input():
     html = re.sub (r'<style[\s\S]*?<\/style>', r'', html)
     html = re.sub (r'<link[\s\S]*?<\/link>', r'', html)
     html = re.sub (r'<br>', r' ', html)
-    html = re.sub (r'<code[\s\S]*?>', r'<code>', html)
+    html = re.sub (r'<code class="lang-C">', r'<code class="c">', html)
+    html = re.sub (r'<code class="lang-Python">', r'<code class="python">', html)
+    html = re.sub (r'<code class="lang-shell">', r'<code class="shell">', html)
 
     # Add header and footer
     html = html_head + html

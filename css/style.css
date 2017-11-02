@@ -1,5 +1,21 @@
 body {
-  background-color: white;
-  color: black;
+  background-color: steelblue;
+  color: white;
   font-family: Verdana;
+}
+
+a {
+  color: hotpink;  
+}
+
+h1 {
+  color: greenyellow;  
+}
+
+h2 {
+  color: turquoise;
+}
+
+li {
+    color: goldenrod;
 }
