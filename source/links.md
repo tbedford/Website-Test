@@ -19,11 +19,14 @@
 * [Crate Scalable SQL](https://crate.io)
 * [Riak revisited podcast](https://changelog.com/podcast/40)
 * [Wallaroo Labs - users of Pony](https://www.wallaroolabs.com/technology)
-* [Blog post on using Pony](https://blog.wallaroolabs.com/2017/10/why-we-used-pony-to-write-wallaroo/)
 * [Google Megastore](https://research.google.com/pubs/pub36971.html)
 * [Google Bigtable](https://research.google.com/archive/bigtable.html)
 * [Google Spanner](https://research.google.com/archive/spanner.html)
 
+## Pony
+
+* [An early history of Pony](https://www.ponylang.org/blog/2017/05/an-early-history-of-pony/)
+* [Blog post on using Pony](https://blog.wallaroolabs.com/2017/10/why-we-used-pony-to-write-wallaroo/)
 
 ## C
 
