@@ -107,6 +107,8 @@ this talk! One of the best presenters I've seen in a while.
 
 ## Presentations yet to watch
 
+[Strange details of strings at FaceBook](https://www.youtube.com/watch?v=kPR8h4-qZdk)
+
 [Making Allocators Work Part 1 by Alisdair Meredith](https://www.youtube.com/watch?v=YkiYOP3d64E)
 
 Started.

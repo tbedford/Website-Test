@@ -32,9 +32,11 @@
 * [Amazing amount of info on databases](https://db-engines.com/en/)
 
 
-## Information Retrieval
+## Information Retrieval / Search
 
 * [Free IR book online](https://nlp.stanford.edu/IR-book/html/htmledition/irbook.html)
+* [Interview with Matt Wells of Gigablast (PDF)](http://www.gigablast.com/acmqueue.pdf)
+* [Gigablast costs](http://www.gigablast.com/searchfeed.html) - Bing also offers a paid search API (free on small scale)
 
 ## Memory
 
@@ -57,8 +59,9 @@
 
 * [Learn you some Erlang - free book](http://learnyousomeerlang.com/content)
 
-## C
+## C/CPP
 
+* [Strange details of strings!](https://www.youtube.com/watch?v=kPR8h4-qZdk)
 * [C file I/O](https://www.cs.bu.edu/teaching/c/file-io/intro/)
 * [Unicode and wchar_t](http://icu-project.org/docs/papers/unicode_wchar_t.html)
 * [Hashtables in C](https://stackoverflow.com/questions/6118539/why-are-there-no-hashtables-in-the-c-standard-library)
