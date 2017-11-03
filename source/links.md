@@ -10,6 +10,7 @@
 
 ## Databases/distributed data
 
+* [Berkeley DB architecture](http://www.aosabook.org/en/bdb.html)
 * [RocksDB blog](http://rocksdb.blogspot.co.uk)
 * [RocksDB research topics](http://rocksdb.blogspot.co.uk/2017/04/research-topics-in-rocksdb.html)
 * [History of RocksDB](http://rocksdb.blogspot.co.uk/2013/11/the-history-of-rocksdb.html)
