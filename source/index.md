@@ -10,6 +10,7 @@ Thoughts on code, cats and coffee...
 
 ## Articles
 
+* [The woeful web](./woeful-web.html)
 * [Caching in](./disk-caching.html)
 * [On console RAM sizes](./console-memory.html)
 * [How long to transfer a 1TB file?](./transfer-time.html)
