@@ -3,7 +3,15 @@
 ####
 # REQUIRES : mmv
 # sudo apt-get install mmv
+# Designed for Mac OS X or Linux
 ####
+
+if [ ! -d "html" ]; then
+    mkdir html
+    cd html
+    mkdir images
+    cd ../..
+fi
 
 # Convert Markdown to HTML and clean HTML
 find ./source -name "*.md" -type f | ./clean.py
