@@ -5,8 +5,15 @@ recently. I was tasked with scraping some data off various sites in
 Thailand. It was not a pleasant experience. 
 
 Exhibit A: the Grand Old Daddy of Bangkok malls inflicts [this
-beauty](http://www.mbk-center.co.th) on customers. Trust me, that
-rabbit gets annoying after two or three page loads. 
+beauty](http://www.mbk-center.co.th) on customers. 
+
+What's more every time you load a page you'll see this character, for
+probably a lot longer than you'd like:
+
+![MBK rabbit](./images/mbk_rabbit.png "MBK rabbit")
+
+Trust me, that rabbit gets real annoying after two or three page
+loads.
 
 It gets worse.
 
@@ -19,8 +26,7 @@ better than this.
 First, these sites are SLOW. Check out this data for the Central Plaza
 site tested via the excellent [pingdom](https://tools.pingdom.com):
 
-![Central Plaza Pingdom](./images/central_plaza_pingdom.png "Central
-Plaza Pingdom")
+![Central Plaza Pingdom](./images/central_plaza_pingdom.png "Central Plaza Pingdom")
 
 Yep, you are looking down the barrel of 46 second page load
 times. While testing the site I was, even with page caching, very
