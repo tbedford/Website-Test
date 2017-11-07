@@ -63,10 +63,15 @@ for filename in fileinput.input():
     html = re.sub (r'<style[\s\S]*?<\/style>', r'', html)
     html = re.sub (r'<link[\s\S]*?<\/link>', r'', html)
     html = re.sub (r'<br>', r' ', html)
+
+    # Handle code blocks
     html = re.sub (r'<code class="lang-C">', r'<code class="c">', html)
     html = re.sub (r'<code class="lang-Python">', r'<code class="python">', html)
     html = re.sub (r'<code class="lang-shell">', r'<code class="shell">', html)
-
+    html = re.sub (r'<code class="lang-text">', r'<code class="text">', html)
+    html = re.sub (r'<code class="lang-html">', r'<code class="html">', html)
+    html = re.sub (r'<code class="lang-xml">', r'<code class="xml">', html)
+    
     # Add header and footer
     html = html_head + html
     html = html + html_foot
