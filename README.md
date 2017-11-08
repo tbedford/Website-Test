@@ -10,6 +10,17 @@ The website is a few notes mostly on technical topics. It is not meant
 to be taken too seriously - I do enough "serious writing" in my day
 job thank you very much. This is some light relief.
 
+## TODO
+
+1. ~~Add dates to articles and use CSS to highlight them (ISO-8601) YYYY-MM-DD~~
+2. Simple Atom feed generator class
+3. Simple RSS feed generator class
+4. Page from CSV
+5. Page from database (MySQL)
+6. Page from text
+7. Page from XML
+8. Makefile for site build
+
 ## Tools
 
 So, I could have set up Wordpress and a MySQL database and all that
