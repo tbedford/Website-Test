@@ -71,6 +71,9 @@ for filename in fileinput.input():
     html = re.sub (r'<code class="lang-text">', r'<code class="text">', html)
     html = re.sub (r'<code class="lang-html">', r'<code class="html">', html)
     html = re.sub (r'<code class="lang-xml">', r'<code class="xml">', html)
+
+    # ISO-8601 format dates (YYYY-MM-DD) 2017-10-27
+    html = re.sub (r'(\d\d\d\d-[0-1][0-9]-[0-3][0-9])', r'<span class="date">\1</span>', html)
     
     # Add header and footer
     html = html_head + html
