@@ -38,6 +38,12 @@
 * [Interview with Matt Wells of Gigablast (PDF)](http://www.gigablast.com/acmqueue.pdf)
 * [Gigablast costs](http://www.gigablast.com/searchfeed.html) - Bing also offers a paid search API (free on small scale)
 
+## Syndication / publishing protocols
+
+* [Dive into Python 3 - Atom notes](http://www.diveintopython3.net/xml.html)
+* [Python Universal Feed Parser](https://pypi.python.org/pypi/feedparser)
+* [Atom publishing protocol](https://www.ibm.com/developerworks/library/x-atompp1/index.html)
+
 ## Memory
 
 * [General article on memory allocators - good background reading before implementation](http://www.flounder.com/memory_allocation.htm)
