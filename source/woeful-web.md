@@ -18,10 +18,9 @@ loads.
 It gets worse.
 
 There's [this site](http://www.centralplaza.co.th/index.php). The
-company that owns [this one](http://www.centralplaza.co.th/index.php)
-is a $2 billion a year company. So not exactly a fly-by-night
-outfit. You would have thought they could put together something
-better than this.
+company that owns this one is a $2 billion a year company. So not
+exactly a fly-by-night outfit. You would have thought they could put
+together something better than this.
 
 ## Slow, slow, slow
 
@@ -49,9 +48,9 @@ provide relevant information.
 
 Again with Central, event articles and promotions that are often out
 of date as soon as they are uploaded is one issue I've noticed more
-often that I'd like. It's almost like these things are an
-afterthought, rather than part of an integrated approach to delivering
-a business platform.
+often that I'd like. There's also no RSS feed of events - more on this
+topic later. It's almost like these things are an afterthought, rather
+than part of an integrated approach to delivering a business platform.
 
 Take another example - location information. First you've got to try
 and find that Locations page - Central don't make that a top menu
@@ -74,7 +73,7 @@ driver. On this page you can't, at least without going through various
 shenanigans.
 
 You can probably scrape together some information from this, but it's
-fiddly, whether you are a human or a machine.
+fiddly, regardless of whether you are a human or a machine.
 
 I am not especially "picking" on these sites, they are sympomatic of
 what's out there generally. I've also dealt with a lot worse, believe
@@ -91,10 +90,12 @@ corner of the [Location
 page](https://www.furama.com/silom/Location). And if you really want a
 map that's there too on another page.
 
-Generally, the site loads at a reasonable speed too. Nice and web
-crawler friendly, so Google likes you (they also have a sitemap) - and
-so do the poor unfortunates like me who have to try and crawl these
-pages too, and make some kind of sense of them. 
+Generally, the site loads at a reasonable speed too, and has good
+navigation, with a simply laid out top menu - nothing fancy - but
+effective. Nice and web crawler friendly, so Google likes you (they
+also have a sitemap) - and so do the poor unfortunates like me who
+have to try and crawl these pages too, and make some kind of sense of
+them.
 
 Furama even include their various hotel codes such as their Amadeus
 code. These are useful pieces of data for uniquely identifying
@@ -104,17 +105,18 @@ of improving it.)
 
 ## Why are things so bad?
 
-I think there are two main reasons why things are so bad:
+I think there are three main reasons why things are so bad:
 
 1. HTML
 2. Wordpress
+3. Data hoarding
 
 Let me explain.
 
-## HTML is awful
+## 1. HTML is presentational
 
 Here's the thing everyone forgets about HTML - **it is a
-presentational format, not a semantic format**. This is best
+presentational format, not a semantic format**. This problem is best
 illustrated by a simple example. Imagine you are a web spidery thing
 for a moment and you saw this:
 
@@ -157,7 +159,7 @@ are using artificial intelligence and Natural Language Processing
 (NLP) to try and figure out what this mess means - but they have their
 work cut out for them.
 
-## Microformats
+### Microformats
 
 There are microformats like hCard too that allow you to put semantic
 markup into HTML. Again this is best explained by example. 
@@ -203,7 +205,7 @@ The sad fact of the matter is [Microformats](http://microformats.org)
 (and there are numerous flavours) has had very little take up.
 
 There are some good people, like [schema.org](http://schema.org) who
-are trying to move people in the right direction with standards such as
+are trying to move things in the right direction with standards such as
 RDFa, Microdata and JSON-LD. But many sites don't take advantage of
 these standards.
 
@@ -216,7 +218,7 @@ web sites out there don't. Trip Advisor for example uses JSON-LD, but
 I'm guessing mostly so Google and Microsoft can do a better job of
 indexing their site.
 
-## Wordpress
+## 2. Wordpress
 
 The second problem I want to talk about is Wordpress. 
 
@@ -237,30 +239,53 @@ than a few of those sites around still.
 
 The bigger problem is that it allows people that have very little web
 training create sites that are both slow and insecure, as well as just
-poorly designed from an informational point of view. Often the focus
-is on getting up some glossy pics (that should have been compressed
-more or resized) than actually relaying useful information. 
+poorly designed from an informational point of view. They often use a
+"one click install" facility, and never get near a MySQL database,
+unless things go horribly wrong (which they sometimes do).
+
+Often the focus for desginers is on getting up some glossy pics (that
+should have been compressed more or resized) and "creating a brand"
+than actually providing useful information. 
 
 When the "web masters" manually test the site, they often assume that
 any perceived slowness (if they perceive it at all) is because "the
 Internet is slow", or that's "just the way the Internet is". It may
 well be, but their site isn't helping things.
 
+Very often there is no *information flow* too, so content is manually
+entered by someone into a WP site, but then updates are an after
+thought - there is often no automatic process in place to update
+data. This problem is exacerbated when a third-party developer is
+responsible for the site - there is often a poor communication channel
+between this agency and the parent company, if they talk to eachother
+at all.
+
 Now Wordpress is an awesome Content Management System for very large
-websites, but my point is many sites built with it shouldn't have
-been. In this respect I believe the resurgence of static sites is
-actually A Good Thing (TM).
+artcile-based websites. Look at [QZ](https://qz.com) for a Wordpress
+site done right. But you are looking at a site that cost over a
+million dollars to develop and costs a shedload of money each month to
+keep running. They are using Wordpress VIP and it depends on your
+level of service but I believe that costs around $10k a month - not
+exactly chump change.
 
-## Why does any of this matter?
+My point is many sites built with Wordpress shouldn't have been. Sure
+Wordpress makes it easy to make a site, it also makes it easy to make
+a bad site.
 
-This stuff is important, not only for the customer's sense of
-satisfaction, but for much bigger reasons. 
+In this respect I believe the resurgence of static sites and static
+site generators (Hugo, Octopress, Jekyll) is actually A Good Thing
+(TM), and not the step backwards many people seem to think it is.
 
-The web is becoming stratified into the data "haves" and "have
-nots". There is a constant battle in play to control information on
-the web. Many of the big outfits, are intent on hoarding as much data
-as they can. You see this reflected in removal of RSS feeds of data,
-and APIs, that would let external programs access this data.
+## 3. Data hoarding
+
+There's a problem at play here that you maybe only really notice when
+you come to extract data from the web. The web is becoming stratified
+into the data "haves" and "have nots".
+
+There is a constant battle in play to control information on the
+web. Many of the big outfits, are intent on hoarding as much data as
+they can. You see this reflected in removal of RSS feeds of data, and
+APIs, that would let external programs access this data.
 
 Now, while I fully support an organization's right to protect its hard
 won data, right now we don't have a level playing field. The big
@@ -274,9 +299,9 @@ they hoard their scraped data.
 The general problem is that "data hoarding" in the wider web is not a
 good thing.
 
-## APIs to the rescue?
+### Hello APIs
 
-But there is a plus side here. APIs. 
+But there is a possible plus side here. APIs. 
 
 For example, Trip Advisor do at least [offer an
 API](https://developer-tripadvisor.com/content-api/) (currently). You
@@ -287,14 +312,9 @@ can get the following data from their site:
 * Overall rating, ranking, subratings, awards, the number of reviews the rating is based on, rating bubbles image
 * Price level symbol, accommodation category/subcategory, attraction type, restaurant cuisine(s)
 
-This is a very useful subset of data.
+This is a very useful subset of data. But...
 
-These days Microsoft are increasingly becoming the "good guys"
-too. Bing has a [very nice
-API](https://docs.microsoft.com/en-gb/rest/api/cognitiveservices/bing-web-api-v7-reference)
-you can use to access Bing's search results.
-
-## Goodbye APIs
+### Goodbye APIs
 
 The above APIs are all well and good as long as they are
 maintained. And there's the rub.
@@ -308,14 +328,57 @@ Google are also [closing
 down](https://techcrunch.com/2017/11/01/google-will-pull-its-qpx-express-api-in-april-2018-cutting-off-its-flight-data-feed/amp/)
 their flight search API too. 
 
-Yahoo too has been notorious for closing down APIs.
+Yahoo too has become notorious for [closing down APIs](https://searchengineland.com/confirmed-yahoo-to-close-buzz-traffic-apis-maybe-delicious-59012).
 
 This loss of API coverage exacerbates the issue of data hoarding. Data
 silos are order of the day.
 
+In this respect Microsoft are increasingly becoming the "good guys"
+these days. Bing has a [very nice
+API](https://docs.microsoft.com/en-gb/rest/api/cognitiveservices/bing-web-api-v7-reference)
+you can use to access Bing's search results.
+
+### The case of the disappearing RSS feeds
+
+As people move away from blogs and websites and into the smothering
+embrace of "social media" their data disappears into a walled garden -
+accessible no more, unless you are into advertising and fake
+news. This is a shame. RSS feeds were one of the best inventions of
+the web - they allowed you to suck in data from a variety of sources,
+process it to your own ends, and store it for posterity. These days a
+lot of sites don't bother with RSS feeds, which I think it a real
+shame. Back to Trip Advisor again and this thread about how they
+[closed down their RSS
+feeds](https://www.tripadvisor.co.uk/ShowTopic-g1-i12104-k7514343-Reinstate_RSS_feeds-Help_us_make_TripAdvisor_better.html). Data
+disappearing into the walled garden again?
+
+I think all websites should have RSS feeds to provide a data feed
+where it makes sense to do so. 
+
+And before you say it - yes it is on my TODO list for this site. Give
+us a chance precious, give us a chance...
+
+## Why does any of this matter?
+
+This stuff is important, not only for the customer's sense of
+satisfaction, but for much bigger reasons. Websites should be fast and
+responsive and have the information we need. Semantic markup should be
+widespread and sites should be designed with web spiders and indexing
+at least partly in mind.
+
 All these problems - slowness, poor design, poor training, lack of
 semantic markup, removal of RSS feeds and lack of APIs, data hoarding,
-it all leads to one thing - the woeful current state of the web.
+it all leads to one thing - the woeful state of the web. 
 
-In a future article I'll take a look at what can be done to improve
+Things could be so much better.
+
+**Updates:**
+
+1. In a future article I'll take a look at what can be done to improve
 things.
+
+2. [James](https://www.j-bedford.com) pointed me at
+   [Webflow](https://webflow.com), which I'd not seen before. It looks
+   awesome. I also notice one of the first words they use on their
+   website is "semantic". Nice.
+
