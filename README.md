@@ -20,6 +20,8 @@ job thank you very much. This is some light relief.
 6. Page from text
 7. Page from XML
 8. Makefile for site build
+9. Page from API
+10. Page from web calendar
 
 ## Tools
 
