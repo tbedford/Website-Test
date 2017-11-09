@@ -13,8 +13,8 @@ job thank you very much. This is some light relief.
 ## TODO
 
 [*] Add dates to articles and use CSS to highlight them (ISO-8601) YYYY-MM-DD~~
-[ ] Simple Atom feed generator class
-[ ] Simple RSS feed generator class
+[ ] Change scripts so it's easier to do one file at a time
+[ ] Simple Atom feed generator
 [ ] Page from CSV
 [ ] Page from database (MySQL)
 [ ] Page from text
