@@ -1,7 +1,7 @@
 # Ever expanding memory
 
 Just thought it was interesting to take a look at console RAM sizes
-over the years:
+over the years. Here's some data for the Playstation:
 
 | Model         |   Year   |   RAM (MB) | VRAM (MB) |
 |:--------------|:--------:|:----------:|:---------:|
@@ -11,6 +11,7 @@ over the years:
 | Playstation 4 |  2013    | 8000       | 256       |
 | Playstation 5 |  2020?   |  ??        | ??        |
 
+And for the Xbox:
 
 | Model         | Year   |  RAM (MB) | VRAM (MB)| 
 |:--------------|:------:|:---------:|:--------:|
