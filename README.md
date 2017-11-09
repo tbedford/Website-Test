@@ -12,8 +12,8 @@ job thank you very much. This is some light relief.
 
 ## TODO
 
-- [*] Add dates to articles and use CSS to highlight them (ISO-8601) YYYY-MM-DD
-- [*] Change scripts so it's easier to build one page at a time
+- [x] Add dates to articles and use CSS to highlight them (ISO-8601) YYYY-MM-DD
+- [x] Change scripts so it's easier to build one page at a time
 - [ ] Add published date/time and last updated date/time
 - [ ] Simple Atom feed generator
 - [ ] Page from CSV
@@ -46,7 +46,7 @@ editing the website - I was actually fixing my TODO list.
 ![Emacs screenshot](./images/emacs_screenshot.png "Emacs screenshot")
 
 OK so my website is very simple, but it does have fast page load
-times, and it would be a *lot* fast if I had no CSS and no syntax
+times, and it would be a *lot* faster if I had no CSS and no syntax
 colouring.
 
 
