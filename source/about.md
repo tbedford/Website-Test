@@ -4,36 +4,48 @@ Hi, I'm Tony.
 
 This website holds a few thoughts on various technical topics (as well
 as on cats and coffee). I felt like I needed a place to keep various
-notes I was accumulating and I decided to share (inflict) my ramblings
-on others through this site. Sorry about that!
+notes I was accumulating and I decided to ~~share~~ inflict my
+ramblings on others through this site. Sorry about that!
 
-As you can probably tell from the "retro" (i.e. lurid) colours used on
-this site, it is not meant to be taken too seriously! I have enough
-serious writing in my day job thanks very much!
+Please note this site is not meant to be taken too seriously! I have
+enough "serious" writing in my day job thanks very much!
 
 You can also read this website directly in [my
-GitHub](https://github.com/tbedford). I also store the tools used to
-build this site there. I tend to like to know how things work, so I
-generally prefer to take the DIY approach to things like websites - so
-no fancy Wordpress site here. 
+GitHub](https://github.com/tbedford) if you want to. I also store the
+tools used to build this site there. I tend to like to know how things
+work, so I generally prefer to take the DIY approach to things like
+websites - so no fancy-pants Wordpress site here.
 
-I am also a big believer in "incremental improvement" so expect to see
-that in play here.
+I am a big believer in "incremental improvement" so expect to see that
+in play here.
 
 ## Technical interests
 
-My interests mostly centre around databases and operating systems. I
-can code in Python and C. I have also worked with Java, Objective-C,
-and C++ in the past, and if I go way back, VAX-BASIC, F77 and Z-80
-assembly language (all thankfully long since forgotten)! I recently
-became much more interested in all aspects of distributed systems and
-information retrieval.
+I have a wide range of technical interests, but currently I seemed to
+be most interested in data-driven websites, information retrieval and
+process automation. Python is especially good in this arena.
 
-I love to code (although I'm **not** one of those coding geniuses),
-and recently wrote a couple of versions of my own memory allocator,
-that included nifty features such as block splitting and coalescing. I
-have also worked on various data munging/web scraping projects in the
-past. More details on my [GitHub page](https://github.com/tbedford).
+## Coding
+
+Although I enjoy coding I am **not** one of those coding geniuses you
+hear about.
+
+However, I _can_ code (just about) in Python and C. I have also worked
+with Java, Objective-C, and C++ in the recent past, and if I go way
+back, VAX-BASIC, F77, COBOL, and Z-80 assembly language (all
+thankfully long since forgotten)! 
+
+I once wrote an oil rig data aquisition system in TurboBASIC. It's
+still one of the most productive languages I have ever used.
+
+Recent C projects have included a couple of attempts at my own memory
+allocator. It included nifty features such as block splitting and
+coalescing in an effort to reduce memory fragmentation. I wrote
+extensive documentation for both attempts, which you can read in my
+GitHub.
+
+I have also recently worked on various Python data munging and web
+scraping projects.
 
 ## Current employment
 
@@ -62,8 +74,8 @@ I also designed and delivered a course on Embedded C for Nokia
 ## Personal
 
 I have a cat! He's probably the most spoiled cat in the world, but all
-'parents' probably say that. His name is Timmy. I adopted him some
-years ago - he was a rescue:
+owners probably say that. His name is Timmy. I adopted him some years
+ago - he was a rescue:
 
 ![Timmy](./images/timmy.png "Timmy")
 
@@ -71,12 +83,14 @@ And here's me posing: ;)
 
 ![tony](./images/johnny_starbucks_resized.jpg "Tony")
 
-I am currently based in the UK, but spend as much time as I can in the
-Philippines. Here's why:
+I am currently based in the UK, but like to spend time in the
+Philippines when I can. Here's why:
 
 ![hammock](./images/hammock.jpg "Hammock")
 
 
 ## Contact
 
-You can contact me through my [Contact page](./contact.html).
+My contact details are on my [Contact page](./contact.html). Please
+get in touch!
+
