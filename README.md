@@ -12,17 +12,17 @@ job thank you very much. This is some light relief.
 
 ## TODO
 
-[*] Add dates to articles and use CSS to highlight them (ISO-8601) YYYY-MM-DD~~
-[*] Change scripts so it's easier to build one page at a time
-[ ] Add published date/time and last updated date/time
-[ ] Simple Atom feed generator
-[ ] Page from CSV
-[ ] Page from database (MySQL)
-[ ] Page from text
-[ ] Page from XML
-[ ] Page from API
-[ ] Page from web calendar
-[ ] Makefile for site build
+- [*] Add dates to articles and use CSS to highlight them (ISO-8601) YYYY-MM-DD
+- [*] Change scripts so it's easier to build one page at a time
+- [ ] Add published date/time and last updated date/time
+- [ ] Simple Atom feed generator
+- [ ] Page from CSV
+- [ ] Page from database (MySQL)
+- [ ] Page from text
+- [ ] Page from XML
+- [ ] Page from API
+- [ ] Page from web calendar
+- [ ] Makefile for site build
 
 
 ## Tools
@@ -39,8 +39,15 @@ A few notes on how this website is put together:
 4. The website building script, which is very simple, also cleans HTML Tidy to tidy up the HTML.
 5. I upload a copy of the generated HTML to Neocities.
 
+
+I use Emacs to edit pretty much everything. Here's a screen shot of me
+editing the website - I was actually fixing my TODO list.
+
+![Emacs screenshot](./images/emacs_screenshot.png "Emacs screenshot")
+
 OK so my website is very simple, but it does have fast page load
 times, and it would be a *lot* fast if I had no CSS and no syntax
 colouring.
+
 
 
