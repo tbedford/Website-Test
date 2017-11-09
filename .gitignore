@@ -1,5 +1,11 @@
 .DS_Store
 
+# HTML Tidy error file
+errors.txt
+
+# Generated HTML
+html/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
