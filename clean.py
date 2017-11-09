@@ -9,12 +9,10 @@ html_head = '''
   <head>
 <title>TITLE</title>
 
-<link href="/style.css" rel="stylesheet" type="text/css" media="all">
+<link href="/style-brown.css" rel="stylesheet" type="text/css" media="all">
 <link rel="stylesheet"
-      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/solarized-dark.min.css">
-
-  </head>
-  
+      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/solarized-light.min.css">
+  </head>  
   <body>
 '''
 

@@ -44,6 +44,10 @@
 * [Python Universal Feed Parser](https://pypi.python.org/pypi/feedparser)
 * [Atom publishing protocol](https://www.ibm.com/developerworks/library/x-atompp1/index.html)
 
+## Python
+
+* [LXML Python XML library](http://lxml.de)
+
 ## Memory
 
 * [General article on memory allocators - good background reading before implementation](http://www.flounder.com/memory_allocation.htm)
