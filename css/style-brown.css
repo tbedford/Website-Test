@@ -36,6 +36,21 @@ li {
     color: goldenrod;
 }
 
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid saddlebrown;
+}
+
+th {
+    background-color: green;
+    color: honeydew;
+}
+
+tr:nth-child(even) {background-color: lavender}
+
 .footer {
     color: purple;
 }
