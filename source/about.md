@@ -94,3 +94,10 @@ Philippines when I can. Here's why:
 My contact details are on my [Contact page](./contact.html). Please
 get in touch!
 
+---
+
+| Meta Data                                  |
+|:--------------|:--------------------------:|
+| Published     | 2017-10-01T12:21:24+0000   |
+| Updated       | 2017-11-09T16:59:54+0000   |
+| Tags          | Personal, Interests        |
