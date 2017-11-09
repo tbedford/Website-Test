@@ -14,8 +14,10 @@ job thank you very much. This is some light relief.
 
 - [x] Add dates to articles and use CSS to highlight them (ISO-8601) YYYY-MM-DD
 - [x] Change scripts so it's easier to build one page at a time
+- [ ] Differentiate between data and iso-date for styling (needs regex and CSS)
 - [ ] Add published date/time and last updated date/time
 - [ ] Simple Atom feed generator
+- [ ] h1 should always have horizontal rule beneath it (regex) 
 - [ ] Page from CSV
 - [ ] Page from database (MySQL)
 - [ ] Page from text
