@@ -13,16 +13,17 @@ job thank you very much. This is some light relief.
 ## TODO
 
 [*] Add dates to articles and use CSS to highlight them (ISO-8601) YYYY-MM-DD~~
-[ ] Change scripts so it's easier to do one file at a time
+[*] Change scripts so it's easier to build one page at a time
+[ ] Add published date/time and last updated date/time
 [ ] Simple Atom feed generator
 [ ] Page from CSV
 [ ] Page from database (MySQL)
 [ ] Page from text
 [ ] Page from XML
-[ ] Makefile for site build
 [ ] Page from API
 [ ] Page from web calendar
-[ ] Add published date/time and last updated date/time
+[ ] Makefile for site build
+
 
 ## Tools
 
