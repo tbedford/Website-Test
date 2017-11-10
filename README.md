@@ -14,6 +14,8 @@ job thank you very much. This is some light relief.
 
 - [x] Add dates to articles and use CSS to highlight them (ISO-8601) YYYY-MM-DD
 - [x] Change scripts so it's easier to build one page at a time
+- [ ] Code to convert general date format to ISO-8601 full date format
+- [x] Code to extract metadata from article
 - [ ] Add summary to each article (required for Atom feed)
 - [ ] Add metadata to each article (required for Atom feed)
 - [ ] Differentiate between date and iso-date for styling (needs regex and CSS)
