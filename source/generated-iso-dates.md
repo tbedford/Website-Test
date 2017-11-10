@@ -1,8 +1,11 @@
 # Generating ISO-8601 dates on Mac OS X
 
-In this article I talk about how you can generate ISO-8601 format
-dates on the Mac OS X command line, and also how you can do it in
-Python too.
+Published: 2017-10-01 12:21:36 UTC
+Updated: 2017-11-10 12:26:00 UTC 
+
+Summary: In this article I talk about how you can generate ISO-8601
+format dates on the Mac OS X command line, and also how you can do it
+in Python too.
 
 As I go through the process of figuring out how to generate an Atom
 feed for my site, I've stumbled on a couple of interesting issues. 
