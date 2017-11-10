@@ -30,7 +30,6 @@ not the fastest way to achieve something, but you do learn a lot!
 - [x] Code to extract metadata from article
 - [ ] Add summary to each article (required for Atom feed)
 - [ ] Add metadata to each article (required for Atom feed)
-- [ ] Differentiate between date and iso-date for styling (needs regex and CSS)
 - [ ] Add published date/time and last updated date/time
 - [ ] Simple Atom feed generator
 - [ ] Makefile for site build
