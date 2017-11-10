@@ -96,8 +96,6 @@ get in touch!
 
 ---
 
-| Meta Data     | Value                      |
-|:--------------|:---------------------------|
-| Published     | 2017-10-01T12:21:24+0000   |
-| Updated       | 2017-11-09T16:59:54+0000   |
-| Tags          | Personal, Interests        |
+Published: 2017-10-01 12:21:36 UTC
+Updated: 2017-11-10 12:26:00 UTC
+
