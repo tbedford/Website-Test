@@ -1,19 +1,19 @@
+
 body {
-    background-color: steelblue;
-    color: lightgrey;
-    font-family: Verdana;
+    background-color: aliceblue;
+    color: #373737;
 }
 
 a {
-    color: gold;  
+    color: royalblue;  
 }
 
 a:visited {
-    color: hotpink;  
+    color: lightskyblue;  
 }
 
 a:hover {
-    color: greenyellow;   
+    color: black;   
 }
 
 a:active {
@@ -21,21 +21,40 @@ a:active {
 }
 
 h1 {
-    color: greenyellow;  
+    color: darkslategrey;  
 }
 
 h2 {
-    color: turquoise;
+    color: dimgrey;
+}
+
+h3 {
+    color: lightslategrey;
 }
 
 li {
-    color: goldenrod;
+    color: slateblue;
 }
 
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid midnightblue;
+}
+
+th {
+    background-color: midnightblue;
+    color: honeydew;
+}
+
+tr:nth-child(even) {background-color: powderblue}
+
 .footer {
-    color: gold;
+    color: purple;
 }
 
 .date {
-    color: yellow;
+    color: tomato;
 }

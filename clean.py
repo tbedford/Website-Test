@@ -9,9 +9,9 @@ html_head = '''
   <head>
 <title>TITLE</title>
 
-<link href="/style-brown.css" rel="stylesheet" type="text/css" media="all">
+<link href="/style.css" rel="stylesheet" type="text/css" media="all">
 <link rel="stylesheet"
-      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/solarized-light.min.css">
+      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/mono-blue.min.css">
   </head>  
   <body>
 '''
