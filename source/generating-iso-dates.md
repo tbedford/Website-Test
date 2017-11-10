@@ -1,8 +1,5 @@
 # Generating ISO-8601 dates on Mac OS X
 
-Published: 2017-10-01 12:21:36 UTC
-Updated: 2017-11-10 12:26:00 UTC 
-
 Summary: In this article I talk about how you can generate ISO-8601
 format dates on the Mac OS X command line, and also how you can do it
 in Python too.
@@ -37,3 +34,9 @@ References:
 
 * [Stack overflow article](https://stackoverflow.com/questions/7216358/date-command-on-os-x-doesnt-have-iso-8601-i-option#7216394)
 * [Wikipedia ISO-8601](https://en.wikipedia.org/wiki/ISO_8601)
+
+---
+
+Published: 2017-10-01 12:21:36 UTC
+Updated: 2017-11-10 12:26:00 UTC 
+UUID: 6768260E-5713-4899-BE43-130BF74DFED2
