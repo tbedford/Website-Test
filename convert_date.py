@@ -7,15 +7,16 @@
 
 import re
 
-s = "2017-10-01 12:21:36 UTC"
+def convert_date (s):
+    m = re.search (r'(\d\d\d\d-\d\d-\d\d)', s)
+    date = m.group(1)
 
-m = re.search (r'(\d\d\d\d-\d\d-\d\d)', s)
-date = m.group(1)
-print (date)
+    m = re.search (r'(\d\d:\d\d:\d\d)', s)
+    time = m.group(1)
 
-m = re.search (r'(\d\d:\d\d:\d\d)', s)
-time = m.group(1)
-print (time)
+    iso_date = date + "T" + time + "Z"
 
-iso_date = date + "T" + time + "Z"
-print (iso_date)
+    return iso_date
+
+print (convert_date ("2017-10-01 12:21:36 UTC"))
+
