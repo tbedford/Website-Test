@@ -14,18 +14,22 @@ job thank you very much. This is some light relief.
 
 - [x] Add dates to articles and use CSS to highlight them (ISO-8601) YYYY-MM-DD
 - [x] Change scripts so it's easier to build one page at a time
+- [ ] Add summary to each article (required for Atom feed)
+- [ ] Add metadata to each article (required for Atom feed)
 - [ ] Differentiate between date and iso-date for styling (needs regex and CSS)
 - [ ] Add published date/time and last updated date/time
 - [ ] Simple Atom feed generator
+- [ ] Makefile for site build
 - [ ] h1 should always have horizontal rule beneath it (regex) 
+
+Experimental:
+
 - [ ] Page from CSV
 - [ ] Page from database (MySQL)
 - [ ] Page from text
 - [ ] Page from XML
 - [ ] Page from API
 - [ ] Page from web calendar
-- [ ] Makefile for site build
-
 
 ## Tools
 
