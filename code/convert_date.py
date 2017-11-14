@@ -7,7 +7,10 @@
 
 import re
 
-def convert_date (s):
+def convert_date1 (s):
+
+    print("Input date: %s" % s)
+    
     m = re.search (r'(\d\d\d\d-\d\d-\d\d)', s)
     date = m.group(1)
 
@@ -18,5 +21,35 @@ def convert_date (s):
 
     return iso_date
 
-print (convert_date ("2017-10-01 12:21:36 UTC"))
+print (convert_date1 ("2017-10-01 12:21:36 UTC"))
+
+
+# Convert the following format
+# Obtained with date -u
+# Tue 14 Nov 2017 09:29:15 UTC
+# To:
+# 2017-11-14T09:29:15Z
+
+def convert_date2 (s):
+
+    print("Input date: %s" % s)
+
+    months = {'Jan': 1, 'Feb': 2, 'Mar': 3, 'Apr': 4, 'May': 5, 'Jun': 6, 'Jul': 7, 'Aug': 8, 'Sep': 9, 'Oct': 10, 'Nov': 11, 'Dec': 12}
+    
+    m = re.search (r'(\w\w\w) (\d\d) (\w\w\w) (\d\d\d\d) (\d\d:\d\d:\d\d) (\w\w\w)', s)
+
+    if m.group(6) != "UTC":
+        print("Only UTC format should be specified!")
+        exit(-1)
+    
+    
+    YYYY = m.group(4)
+    MM = str(months[m.group(3)])
+    DD = m.group(2)
+    time = m.group(5)
+    
+    return YYYY + '-' + MM + '-' + DD + 'T' + time + 'Z'
+
+
+print(convert_date2 ("Tue 14 Nov 2017 09:29:15 UTC"))
 
