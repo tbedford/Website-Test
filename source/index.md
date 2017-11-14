@@ -7,5 +7,5 @@ Thoughts on code, cats and coffee...
 * [My projects](./projects.html) 
 * [Presentations (by others)](./presentations.html)
 * [Links](./links.html)
-* [Articles](./articles.html)
+* [Articles](./articles.html) - Last updated: 2017-11-14
 
