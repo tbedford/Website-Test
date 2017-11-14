@@ -81,3 +81,37 @@ it.
 
 If there are Rust programmers out there who know please contact
 me via email (email address is on the Contact page of my website).
+
+Update:
+
+Actually, for this problem it turns out you don't need Rust. I was
+forgetting the `const` keyword (it's been quite a while since I wrote
+C code). So, for the above example you should do the following:
+
+``` C
+#include<stdlib.h>
+
+void my_func (const int *ptr)
+{
+    free ((void *)ptr);
+}
+
+int main (int argc, char **argv)
+{
+
+    const int *p = malloc (1024);
+
+    my_func(p);
+
+    *p = 1234;
+
+    return 0;
+}
+```
+
+This will give you a compile time error as you are trying to modify a
+pointer that really should not be modified in these circumstances.
+
+* Published: 2017-10-10 09:30:24 UTC
+* Updated: 2017-11-14 09:28:00 UTC
+
