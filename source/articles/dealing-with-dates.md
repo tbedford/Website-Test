@@ -70,7 +70,7 @@ and slow down depending on tides, the moon, the sun, and which way the
 wind is blowing.
 
 So astronomical time and TAI get out of synch, so there's this "fiddle
-factor" called the leap second they have to apply now and then and
+factor" called the *leap second* they have to apply now and then and
 that's when [Linux crashes](https://access.redhat.com/articles/15145)
 and [all hell breaks
 loose](https://www.wired.com/2012/07/leap-second-glitch-explained/). This
@@ -150,7 +150,7 @@ def convert_date (s):
     return m.group(1) + "T" + m.group(2) + "Z"
 ```
 
-As an aisde, if you type the command `date` in the terminal normally
+As an aside, if you type the command `date` in the terminal normally
 you will get a date-time in this format `Fri 10 Nov 2017 14:03:59
 GMT`. In summer this would probably show a BST on the end I would
 guess - that's one reason why I avoid this format, you'd have to start
@@ -158,9 +158,9 @@ dealing with setting clocks backwards and forwards and all that
 malarkey. By sticking with UTC I never have to worry about that. 
 
 You can do `date -u` to get a date-time adjusted to UTC and formatted
-like this: `Tue 14 Nov 2017 13:21:21 UTC`. I have cosidered this date
+like this: `Tue 14 Nov 2017 13:21:21 UTC`. I have considered this date
 format too as it is very human readable. I have not quite decided
-whether to use this format or not, so the code to convert is to
+whether to use this format or not, but the code to convert it to
 ISO-8601 is as follows:
 
 ``` python

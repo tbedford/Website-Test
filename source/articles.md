@@ -1,5 +1,6 @@
 # Articles
 
+* 2017-11-14 [Dealing with dates](./dealing-with-dates.html) 
 * 2017-11-07 [The woeful web](./woeful-web.html) 
 * 2017-11-05 [Caching in](./disk-caching.html) 
 * 2017-11-01 [On console RAM sizes](./console-memory.html) 
