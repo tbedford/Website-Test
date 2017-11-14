@@ -27,7 +27,8 @@ not the fastest way to achieve something, but you do learn a lot!
 - [x] Add dates to articles and use CSS to highlight them (ISO-8601) YYYY-MM-DD
 - [x] Change scripts so it's easier to build one page at a time
 - [x] Code to convert general date format to ISO-8601 full date format
-- [x] Code to extract metadata from article
+- [ ] Code to extract metadata from article
+- [ ] Articles page should be automagically generated
 - [ ] Add summary to each article (required for Atom feed)
 - [ ] Add metadata to each article (required for Atom feed)
 - [ ] Add published date/time and last updated date/time
