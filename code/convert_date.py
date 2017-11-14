@@ -21,7 +21,20 @@ def convert_date1 (s):
 
     return iso_date
 
-print (convert_date1 ("2017-10-01 12:21:36 UTC"))
+def convert_date3 (s):
+
+    print("Input date: %s" % s)
+
+    m = re.search (r'(\d\d\d\d-\d\d-\d\d) (\d\d:\d\d:\d\d) (\w\w\w)', s)
+
+    if m.group(3) != "UTC":
+        print("ERROR: Only UTC format should be specified!")
+        exit(-1)
+
+    return m.group(1) + "T" + m.group(2) + "Z"
+
+#print (convert_date1 ("2017-10-01 12:21:36 UTC"))
+print (convert_date3 ("2017-05-03 09:01:45 UTC"))
 
 
 # Convert the following format
@@ -51,5 +64,5 @@ def convert_date2 (s):
     return YYYY + '-' + MM + '-' + DD + 'T' + time + 'Z'
 
 
-print(convert_date2 ("Tue 14 Nov 2017 09:29:15 UTC"))
+#print(convert_date2 ("Tue 14 Nov 2017 09:29:15 UTC"))
 
