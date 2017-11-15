@@ -28,6 +28,7 @@ not the fastest way to achieve something, but you do learn a lot!
 - [x] Change scripts so it's easier to build one page at a time
 - [x] Code to convert general date format to ISO-8601 full date format
 - [ ] Code to extract metadata from article
+- [ ] Links page should be XML which gets converted to HTML
 - [ ] Articles page should be automagically generated
 - [ ] Add summary to each article (required for Atom feed)
 - [ ] Add metadata to each article (required for Atom feed)
