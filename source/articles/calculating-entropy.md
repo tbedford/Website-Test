@@ -1,5 +1,8 @@
 # Calculating entropy
 
+Summary: This article looks into how to calculate entropy. The article
+includes example C code.
+
 I was reading something and it mentioned in passing that you can
 convert from base 10 to base 2 by simply dividing by the base to
 convert to, and then collecting the remainder digits. So for base 10
@@ -217,3 +220,7 @@ double log2x = ceil(log10(x+1)/log10(2));
 So, as per Shannon's law, the entropy of x is log2(x), and you use the
 formula to work that out.
 
+---
+* Published: 2017-10-11 08:30:00 UTC
+* Updated: 2017-11-15 17:30:00 UTC
+* UUID: 09F99C84-B2DF-46C0-8030-8FBECE4A1590

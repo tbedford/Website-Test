@@ -1,5 +1,8 @@
 # Can Rust help?
 
+Summary: In this article I look into some problems with C pointers and
+wonder if Rust can help.
+
 I've heard a little bit about Rust and was thinking about its use in
 developing low-level code. I'm not totally sure what it's capable of
 though as I've not had time to go into it - yet. I think it may be a
@@ -112,6 +115,8 @@ int main (int argc, char **argv)
 This will give you a compile time error as you are trying to modify a
 pointer that really should not be modified in these circumstances.
 
+---
 * Published: 2017-10-10 09:30:24 UTC
-* Updated: 2017-11-14 09:28:00 UTC
+* Updated: 2017-11-15 17:33:00 UTC
+* UUID: B011AAA9-5304-40C6-BCB7-28DC218AB2BC
 

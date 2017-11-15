@@ -1,5 +1,9 @@
 # Remembering TurboDOS
 
+Summary: Back in the early 80s the company I worked for ran its entire
+operation on a Z-80 based operating system called TurboDOS. This
+article fondly remembers how capable the system was.
+
 I just discovered this awesome [TurboDOS
 site](http://www.cpm8680.com/turbodos/).
 
@@ -58,5 +62,10 @@ operation in Tanzania. So, not a small company - all running off a few
 Z80s clocked at 4MHz. 
 
 They really were remarkable times.
+
+---
+* Published: 2017-10-02 05:30:00 UTC 
+* Updated: 2017-11-15 17:40:20 UTC
+* UUID: 3466E689-D274-4D70-B3FF-8369AD7CA039
 
 

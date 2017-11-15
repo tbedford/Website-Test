@@ -1,5 +1,8 @@
 # How Python saved my sanity!
 
+Summary: A light hearted look into how Python can help you retain your
+sanity!
+
 They were dark days.
 
 I had to build 12 million lines of J2EE code before breakfast and
@@ -168,4 +171,9 @@ of sanity I may have had left.
 
 Thanks Python. I owe you. Big time.
 
+---
+
+* Published: 2017-10-14 06:30:00 UTC
+* Updated: 2017-11-15 17:37:00 UTC
+* UUID: 7330619E-DA7A-4E17-BAAD-90C62A5F79A5
 
