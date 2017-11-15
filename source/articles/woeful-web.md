@@ -1,5 +1,8 @@
 # The woeful web
 
+Summary: In this article I look at what I think are some serious
+issues with the web today.
+
 The web is in a terrible state. I found this out the hard way
 recently. I was tasked with scraping some data off various sites in
 Thailand. It was not a pleasant experience. 
@@ -377,8 +380,14 @@ Things could be so much better.
 1. In a future article I'll take a look at what can be done to improve
 things.
 
-2. [James](https://www.j-bedford.com) pointed me at
+2. [James](https://www.instagram.com/countryside.coder/) pointed me at
    [Webflow](https://webflow.com), which I'd not seen before. It looks
    awesome. I also notice one of the first words they use on their
    website is "semantic". Nice.
+
+---
+* Published: 2017-11-07 09:00:00 UTC
+* Last updated: 2017-11-15 12:56:00 UTC
+* UUID: 86EF52C7-CF29-47BA-B804-FCB6F5770F39
+
 
