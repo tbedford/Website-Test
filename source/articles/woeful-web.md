@@ -387,7 +387,7 @@ things.
 
 ---
 * Published: 2017-11-07 09:00:00 UTC
-* Last updated: 2017-11-15 12:56:00 UTC
+* Updated: 2017-11-15 12:56:00 UTC
 * UUID: 86EF52C7-CF29-47BA-B804-FCB6F5770F39
 
 
