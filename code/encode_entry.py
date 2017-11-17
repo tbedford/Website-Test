@@ -1,5 +1,4 @@
 # Encode an entry in XML
-
 #<entry>
 #  <title>Creating an Atom feed</title>
 #  <link href="https://coffeeandcode.neocities.org/creating-atom-feed.html"/>
