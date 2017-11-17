@@ -6,29 +6,12 @@ sanity!
 They were dark days.
 
 I had to build 12 million lines of J2EE code before breakfast and
-Maven wasn't having any of it. The work day was spent in a
-caffeine-fuelled daze. Nothing seemed to work. You've heard of the
-Midas Touch? I had the opposite - everything I touched turned to
-shit. Everything was drenched in complexity and the software fragile
-at the best of times. DevOps would spend a week raving about some new
-Chef or Puppet script and then the deployed system would just fart and
-crap its pants. Databases imploded left, right and centre. It wasn't
-supposed to be this way.
-
-I was getting stressed and burnt out. Small companies would come to me
-with real-world business problems and I would look at Java and
-"enterprise tools" and want to poke my own eyes out..
-
-By 2014 I was on the road to quitting the IT business after over 30
-years in it. I'd worked as a coder, a trainer, a tech writer, a
-manager. I felt like I'd done it all and had the freebie conference
-T-shirts to prove it.
-
-I wanted out. I was becoming jaded and cynical about the business and
-software in particular. Web apps made me laugh like a rabid
-hyena. Someone wrote a web app to tell you when to go to pee-pee and
-the irony of it was lost on many. I realized we'd jumped the shark. I
-was becoming majorly depressed.
+Maven wasn't having any of it. The day was spent in a caffeine-fuelled
+daze. Nothing seemed to work. You've heard of the Midas Touch? I had
+the opposite - everything I touched turned to mud. Everything was
+drenched in complexity and the software fragile at the best of
+times. Databases imploded left, right and centre. It wasn't supposed
+to be this way.
 
 And then one day I got an itch that needed scratching - and I'm not
 talking about fleas. It was the run up to Christmas 2015. I had a
@@ -58,24 +41,24 @@ cranial haemorrhage. I just couldn't. Writing the Java to do it would
 be painful, and I just didn't have the time or energy, or the desire
 to be even more insane than I already was.
 
-PHP was the next option. I'd done a project previously in PHP,
-a command line set of tools for turning DITA XML into HTML 5. It had
-worked out quite well although I ran out of time on the project. PHP
-could certainly do it. But I remembered I'd had a hard time when I
-came back to the PHP codebase 6 months later, trying to figure out
-what the heck I'd done. There was too much line noise, too many $s and
-too many things that seemed like a good idea at the time but turned
-out to be very horrible (and mostly my fault).
+PHP was the next option. I'd done a project previously in PHP, a
+command line set of tools for turning DITA XML into HTML 5. It had
+worked out quite well as proof of concept. PHP could certainly do
+it. But I remembered I'd had a hard time when I came back to the PHP
+codebase 6 months later, trying to figure out what the heck I'd
+done. There was too much line noise, too many $s and too many things
+that seemed like a good idea at the time but turned out to be very
+horrible (and most probably my fault).
 
 Could Python help?
 
 A few characters typed at the terminal confirmed I had Python already
 installed on my MacBook Pro. I figured it couldn't be worse than PHP.
 
-I wrote a little spider program. It worked. Soon I had about 8000
-articles downloaded and Python was flinging text files around and
-whacking things into MySQL and I was running queries and getting back
-useful results. 
+I wrote a simple little spider program. To my utter amazement it
+worked forst time. Soon I had about 8000 articles downloaded and
+Python was flinging text files around and whacking things into MySQL
+and I was running queries and getting back useful results.
 
 ``` python
 # Inject all records into MySQL database
@@ -114,8 +97,7 @@ conn.close()
 f.close()
 ```
 
-I then wrote a little author stats program in about five minutes that
-worked first time:
+I then wrote a little author stats program in about five minutes flat:
 
 ``` python
 # author_stats.py
@@ -145,6 +127,9 @@ for author in sorted(stats, key=stats.get, reverse=True):
     i = i + 1
 ```
 
+It was clean, simple, obvious code - I rarely had to visit Stack
+Overflow or look things up.
+
 I was getting real insight into the authors and how frequently they
 submitted, how many pieces they'd written and how long they'd been
 writing for the site. This was real data mining (albeit on a small
@@ -155,21 +140,24 @@ My two day coding adventure with Python came to a close, all too soon,
 but it was a revelation. Programming could be productive and fun! Who
 knew? Python programmers I guess.
 
-I'd like to say I saw the light at that point and became a raving
-Python fanatic. I was sold, but didn't get much chance to do Python
-coding again for a while. Until a friend who owned a small company
-came to me with some business problems that needed solving and Python
-was a good match. But that's another story...
+I was sold, but didn't get much chance to do Python coding again for a
+while. 
 
-Python has been a Godsend. It's a very readible and clean
-language. It's very capable. It can crunch text, HTML, XML and pretty
-much any type of file you can throw at it. It can read and write
-databases, you can build simple but effective web apps in it.
+And then at 3.00am one night a friend who owns a small oil services
+company called me out of the blue with some business problems that
+needed solving and Python was a good match. But that's another
+story...
+
+Python is wonderful. It's a very readible and clean language. It's
+very capable. It can crunch text, HTML, XML and pretty much any type
+of file you can throw at it. It can read and write databases, you can
+build simple but effective CGI web apps in it. And if you are building
+the next killer web app there's Django and Flask too.
 
 Python restored my faith in programming, and it restored any semblence
 of sanity I may have had left.
 
-Thanks Python. I owe you. Big time.
+Thanks Python!
 
 ---
 
