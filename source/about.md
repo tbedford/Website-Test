@@ -47,6 +47,10 @@ GitHub.
 I have also recently worked on various Python data munging and web
 scraping projects.
 
+What my desktop typically looks like:
+
+![Screenie](./images/screenie.png "Screenshot")
+
 ## Current employment
 
 I'm a contract technical writer, specializing in writing docs for
