@@ -99,7 +99,7 @@ template = '''
 
 def encode_entry (filename, title, published, updated, uuid, summary):
 
-    return template % title, base_url, filename, uuid, updated, published, summary 
+    return template % (title, base_url, filename, uuid, updated, published, summary)
 
 # Main
 
@@ -112,7 +112,7 @@ for filename in fileinput.input():
 
     # chomp
     filename = filename.rstrip()
-    print ("HTML file: "+filename)
+    print ("HTML file:>%s< " % filename)
 
     fin = open (filename, 'r')
     html = fin.read ()

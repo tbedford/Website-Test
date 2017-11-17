@@ -29,13 +29,18 @@ test2 = '''
 <link href="%s%s"/>
 '''
 
+test3 = '''
+<summary>%s</summary>
+<link href="%s%s"/>
+'''
+
+filename = "test.html"
 summary = "This is a summary"
 
+def fn_test3(filename, summary):
 
-def fn_test1(summary):
+    return (test3 % (summary, base_url, filename))
 
-    return (test % summary)
-
-print(fn_test1(summary))
+print(fn_test3(filename, summary))
 
 
