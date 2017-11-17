@@ -1,24 +1,15 @@
 # Why I still use Emacs
 
-So Terry wandered into my office as was his habit to do so at random
-intervals, without his shoes and socks on, and started assiduously
-picking his feet and tearing off chunks of toenails. I didn't mind. I
-liked Terry. He was incredibly smart and one of the few friends I had at
-the time. He later went on to bigger and better things (unlike me),
-and the whole dodgy foot habit didn't seem to impinge on his career at
-all - it was probably an asset - a quirk that endeared him to the
-pointy haired boss.
-
-Anyway, I digress. Terry announced he and a couple of the lads were
-going up to London to sort out this damn James Gosling guy, who was
-giving a talk that evening, about this newfangled thing called
-NetBeans, and did I want to come. You betcha. Their main aim was to
-take him to task over what was going on with this Java malarkey, which
-they weren't happy with, and bend his ear about about pretty much all
-of it. I thought it would be a great opportunity to see the man
-himself, who is a A Legend, jealously admire his magnificent hacker
-beard and shiny pate combo (I have one of the two), and ask one or two
-questions of my own.
+I was chilling out in the office when Terry came in and announced he
+and a couple of the lads were going up to London to sort out this damn
+James Gosling guy, who was giving a talk that evening, about this
+newfangled thing called NetBeans, and did I want to come. You
+betcha. Their main aim was to take him to task over what was going on
+with this Java malarkey, which they weren't happy with, and bend his
+ear about about pretty much all of it. I thought it would be a great
+opportunity to see the man himself, who is a A Legend, jealously
+admire his magnificent hacker beard and shiny pate combo (I have one
+of the two), and ask one or two questions of my own.
 
 James gave a really great talk, but I always remember one thing he
 said about NetBeans, the Java IDE. He said "I'm just trying to get
