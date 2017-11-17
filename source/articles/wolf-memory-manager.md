@@ -1,5 +1,8 @@
 # Wolfenstein's memory manager
 
+Summary: An overview of the Wolfenstein 3D compacting memory
+allocator.
+
 I just bought [Fabien Sanglard's](http://fabiensanglard.net) Game
 Engine Black Book which is now available on Kindle. It looks like a
 great book and I will do a full review once I've read all of
@@ -154,5 +157,14 @@ was just one of many ground-breaking pieces of technology he had to
 create in order to get a fast First Person Shooter up and running fast
 on the limited hardware of the time, it really puts into perspective
 what an amazing achievement it was.
+
+---
+
+* Published: 2017-10-27 04:17:48 UTC
+* Updated: 2017-10-27 04:17:48 UTC
+* UUID: D61383DB-F306-4A98-ACEB-07FD70A80FB0
+
+
+
 
 

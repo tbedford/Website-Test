@@ -1,5 +1,8 @@
 # Ever expanding memory
 
+Summary: A brief look at how console memory has oncreased over the
+years.
+
 Just thought it was interesting to take a look at console RAM sizes
 over the years. Here's some data for the Playstation:
 
@@ -36,4 +39,10 @@ have limited memory though. Some examples:
 * Network routers - apparently [Superscale
   Networks](https://www.superscale.io) use Linux-based routers that
   only have 4 MB - 16 MB of RAM, I guess in order to save money.
+
+---
+
+* Published: 2017-11-01 11:30:00 UTC
+* Updated: 2017-11-01 11:30:00 UTC
+* UUID: 77883961-67A5-4F55-874C-5C5B9C57AA40
 

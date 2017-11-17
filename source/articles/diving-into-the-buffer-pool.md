@@ -1,6 +1,6 @@
 # Diving into the buffer pool
 
-Some quick notes on buffer pools...
+Summary: In this article I provide some brief notes on buffer pools.
 
 The need for buffer pools. If you have a memory constrained system and
 multiple processes or even interrupt routines are running you might
@@ -55,3 +55,10 @@ allocation fails due to a free block not being big enough.
 Buffer pools are an excellent solution in embedded systems, or in any
 scenario where you are going to create a lot of allocations of the
 same size.
+
+---
+
+* Published: 2017-10-23 05:34:24 UTC
+* Updated: 2017-10-23 05:34:24 UTC
+* UUID: 6EAD225F-44D8-43C0-81F6-EA4F6E038785
+

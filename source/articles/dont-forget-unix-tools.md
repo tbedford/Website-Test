@@ -1,5 +1,8 @@
 # Don't forget the Unix tools
 
+Summary: There are times when the best approach is not to reinvent the
+wheel but use the numerous command line tools available in Unix.
+
 So many times we get lost in complexity. But the core ideas of Unix
 helps me stay sane in an insane world. The idea of small, single
 purpose tools, that you can chain together through pipes to create
@@ -44,3 +47,10 @@ reward. Happy customer. Happy me.
 Reference:
 
 [Unix Philosophy](https://en.wikipedia.org/wiki/Unix_philosophy).
+
+---
+
+* Published: 2017-10-04 06:12:14 UTC
+* Updated: 2017-10-04 06:12:14 UTC
+* UUID: E2B202C1-5316-49C6-AF40-F8F572027BC4
+

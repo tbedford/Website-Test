@@ -1,5 +1,8 @@
 # Spreadsheets everywhere
 
+Summary: On the phenomenon of the spreadsheet that starts out
+innocently nough and then becomes an out-of-control beast.
+
 It starts off innocently enough. I've got a few customer contacts
 here, I'll just whop them in an Excel spreadsheet for now. And then
 before you know it you have this giant Frankenstein monster on your
@@ -81,4 +84,10 @@ different projects, with the only changes being to the sheet
 names. You could even pass those in as command-line parameters, like I
 do with the spreadsheet filename, if you wanted to be even more
 generic.
+
+---
+
+Published: 2017-10-20 07:19:12 UTC
+Updated: 2017-10-20 07:19:12 UTC
+UUID: 45B4A35D-1A0A-499A-88B2-2BF88D21CED9
 

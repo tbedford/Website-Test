@@ -1,5 +1,8 @@
 # Excel ain't a database!
 
+Summary: A light-hearted story on the problems of using Excel as a
+database.
+
 So I got a call from a mate who owns an oil services company. He was a
 gibbering wreck on the end of the phone "I've got this spreadsheet
 with my customer list in it and I need to get these companies out
@@ -69,4 +72,10 @@ night, the sound of sheer panic on the other end of the line.
 
 And that's when I change into my best coding T-Shirt, put on a brew,
 and call my superhero Python to come down and do its thing.
+
+---
+
+* Published: 2017-10-15 07:34:16 UTC
+* Updated: 2017-10-15 07:34:16 UTC
+* UUID: 9AD44013-4732-46A2-831C-154913C1AF5F
 

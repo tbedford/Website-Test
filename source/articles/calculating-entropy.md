@@ -221,6 +221,7 @@ So, as per Shannon's law, the entropy of x is log2(x), and you use the
 formula to work that out.
 
 ---
+
 * Published: 2017-10-11 08:30:00 UTC
 * Updated: 2017-11-15 17:30:00 UTC
 * UUID: 09F99C84-B2DF-46C0-8030-8FBECE4A1590

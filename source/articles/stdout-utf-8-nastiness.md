@@ -1,5 +1,8 @@
 # Stdout was a bad, bad boy
 
+Summary: Sometimes an application may open `stdout` with ASCII
+encoding, rather than UTF-8.
+
 There's two statements you hear bandied about with Python 3:
 
 1. Python uses Unicode for all strings!
@@ -155,4 +158,11 @@ if DEBUG_MODE:
         print (error_str)
         exit()
 ```
+
+---
+
+* Published: 2017-10-19 07:17:12 UTC
+* Updated: 2017-10-19 07:17:12 UTC
+* UUID: 2DE35009-4AA6-48CB-B99D-0FFB8B722748
+
 

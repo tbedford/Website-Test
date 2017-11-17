@@ -1,5 +1,8 @@
 # Caching in
 
+Summary: A look back at how disk caching software and disk
+de-fragmenters were A Thing back in the 90s.
+
 Back when dinosaurs like me roamed the IT world, we neatly labelled
 our 8" floppy disks and dreamed of winning the lottery and being able
 to buy a 10MB hard drive. You might notice I said MB there -
@@ -62,4 +65,10 @@ too of course. Magic!
 Those were the days. I wonder if anyone thinks about things like disk
 caching and disk de-fragmenters these days? Somehow I doubt it, but
 I'm not completely sure that's a good thing.
+
+---
+
+* Published: 2017-11-05 07:24:12 UTC
+* Updated: 2017-11-05 07:24:12 UTC
+* UUID: E718A65A-8C66-4918-8E14-C88394D95D75
 

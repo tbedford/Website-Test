@@ -1,5 +1,7 @@
 # Python env issue on Ubuntu 16.04
 
+Summary: Describes an issue where Python couldn't be found on Ubuntu.
+
 I ran into an odd issue a few months back. I thought I should ut this
 up here in case anyone else runs into it. I was setting up an Ubuntu
 VPS on Digital Ocean (love it by the way). I had both Python 2.7 and
@@ -43,3 +45,9 @@ sudo ln -s /usr/bin/python2.7 /usr/bin/python
 ```
 
 Job done. Sort of thing that can catch newbies like me out!
+
+---
+
+* Published: 2017-10-17 07:45:12 UTC
+* Updated: 2017-10-17 07:45:12 UTC
+* UUID: 0D03279A-8E11-49E2-BA09-CDB73522886A

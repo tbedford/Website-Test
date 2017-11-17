@@ -1,5 +1,8 @@
 # Tales from the Bcrypt
 
+Summary: Bcrypt proves to be a very convenient library for encrypting
+passwords.
+
 So, I had to write a little piece of code to authorize users into my
 web app. I know enough that you really don't want to store passwords
 in plain text. But simply hashing a password leaves it vulnerable to
@@ -88,3 +91,11 @@ the ```.encode('utf-8')``` method.
 Actually the default for the encode method is UTF-8 anyway, but it
 doesn't hurt to be explicit, especially in this area of Python
 (strings, encodings) where there is ample scope for SNAFUs to happen!
+
+---
+
+* Published: 2017-10-09 05:14:37 UTC
+* Updated: 2017-10-09 05:14:37 UTC
+* UUID: 2A6A7EC2-C55F-4EB9-BB62-955747FF829F
+
+

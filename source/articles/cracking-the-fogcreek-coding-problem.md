@@ -1,5 +1,8 @@
 # Cracking the Fog Creek coding problem
 
+Summary: In this article I take a look at how to crack the Fog Creek
+content developer coding puzzle.
+
 >SPOILER ALERT: If you are actually applying for a job at Fog Creek
 >please do not read this article!
 
@@ -141,6 +144,13 @@ Doh! Lesson learned - always check the standard library first! This
 really is a much less error prone way of getting the solution!
 
 I think I should retire at this point! :(
+
+---
+
+* Published: 2017-10-29 05:24:21 UTC
+* Updated: 2017-10-29 17:54:38 UTC
+* UUID: 79EE7942-B6D9-437A-9691-5F8A9E502B89
+
 
 
 

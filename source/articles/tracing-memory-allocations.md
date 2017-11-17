@@ -1,5 +1,7 @@
 # Tracing memory allocations
 
+Summary: On various attempts to try and trace memory allocations.
+
 Having written the basis of a simple memory allocator, I was thinking
 about debugging memory allocations. Of course there are various tools
 out there such as `dmalloc`, Electric Fence, Valgrind and so on. I had
@@ -99,3 +101,9 @@ The code runs though.
 It also worked without the `-ldl` option.
 
 So, a work in progress. Maybe it's time to learn Valgrind?
+
+---
+
+* Published: 2017-10-05 04:37:12 UTC
+* Updated: 2017-10-05 04:37:12 UTC
+* UUID: 16FD03D5-C110-44FB-96D4-28B2EDD88683

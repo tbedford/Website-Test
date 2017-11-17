@@ -1,5 +1,7 @@
 # Why I still use Emacs
 
+Summary: A light hearted story on why I still use Emacs.
+
 I was chilling out in the office when Terry came in and announced he
 and a couple of the lads were going up to London to sort out this damn
 James Gosling guy, who was giving a talk that evening, about this
@@ -144,4 +146,11 @@ Emacs isn't going anywhere. There are a few good editors out there
 that came and went. Or went through a very dodgy patch. It would be a
 shame to invest in learning an editor only to have it disappear
 overnight. Emacs isn't going anywhere.
+
+---
+
+Published: 2017-10-01 05:19:15 UTC 
+Updated: 2017-11-17 12:28:01 UTC
+UUID: A6BE1BE7-4CE3-4225-8CA3-CC8774764FDB
+
 

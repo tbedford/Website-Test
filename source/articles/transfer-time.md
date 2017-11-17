@@ -47,6 +47,7 @@ Now, if you just had one of those 1 Gbps Google Fibre pipes in your
 house, I wonder how long it would take?
 
 ---
+
 * Published: 2017-10-31 17:20:43 UTC
 * Updated: 2017-11-15 17:43:00 UTC
 * UUID: 94F751C6-C1A5-4844-8F9C-60C981A5BFD8
