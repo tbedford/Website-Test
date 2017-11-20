@@ -1,5 +1,6 @@
 # Articles
 
+* 2017-11-20 [Generating an Atom feed](./generating-an-atom-feed.html) 
 * 2017-11-14 [Dealing with dates](./dealing-with-dates.html) 
 * 2017-11-07 [The woeful web](./woeful-web.html) 
 * 2017-11-05 [Caching in](./disk-caching.html) 

@@ -3,7 +3,7 @@
   <title>Coffee and Code Feed</title>
   <link href="https://coffeeandcode.neocities.org/" rel="self" />
   <link href="https://coffeeandcode.neocities.org/" />
-  <updated>2017-11-20T15:20:59Z</updated>
+  <updated>2017-11-20T16:49:35Z</updated>
   <author>
     <name>Tony Bedford</name>
   </author>
@@ -107,6 +107,17 @@ database.</summary>
   <updated>2017-11-17T12:13:00Z</updated>
   <published>2017-10-07T09:11:12Z</published>
   <summary>On solving a mysterious problem in a CGI web app.</summary>
+</entry>
+
+<entry>
+  <title>Generating an Atom feed</title>
+  <link href="https://coffeeandcode.neocities.org/generating-an-atom-feed.html"/>
+  <id>ED0C22B5-50F3-4C74-A3C9-C7F31EEDBD26</id>
+  <updated>2017-11-20T16:16:09Z</updated>
+  <published>2017-11-20T16:16:09Z</published>
+  <summary>This article explains how an Atom feed was added to this site
+using Python code. The article also describes adding automatic feed
+discovery to the site.</summary>
 </entry>
 
 <entry>

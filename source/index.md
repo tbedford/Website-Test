@@ -7,5 +7,5 @@ Thoughts on code, cats and coffee...
 * [My projects](./projects.html) 
 * [Presentations (by others)](./presentations.html)
 * [Links](./links.html)
-* [Articles](./articles.html) - Last updated: 2017-11-14
+* [Articles](./articles.html) - Last updated: 2017-11-20
 * [Atom feed](./atom.xml) - Autodiscovery should work too.
