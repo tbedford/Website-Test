@@ -1,7 +1,7 @@
 # Spreadsheets everywhere
 
 Summary: On the phenomenon of the spreadsheet that starts out
-innocently nough and then becomes an out-of-control beast.
+innocently enough and then becomes an out-of-control beast.
 
 It starts off innocently enough. I've got a few customer contacts
 here, I'll just whop them in an Excel spreadsheet for now. And then
@@ -87,7 +87,7 @@ generic.
 
 ---
 
-Published: 2017-10-20 07:19:12 UTC
-Updated: 2017-10-20 07:19:12 UTC
-UUID: 45B4A35D-1A0A-499A-88B2-2BF88D21CED9
+* Published: 2017-10-20 07:19:12 UTC
+* Updated: 2017-10-20 07:19:12 UTC
+* UUID: 45B4A35D-1A0A-499A-88B2-2BF88D21CED9
 
