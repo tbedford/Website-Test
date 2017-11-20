@@ -27,13 +27,13 @@ not the fastest way to achieve something, but you do learn a lot!
 - [x] Add dates to articles and use CSS to highlight them (ISO-8601) YYYY-MM-DD
 - [x] Change scripts so it's easier to build one page at a time
 - [x] Code to convert general date format to ISO-8601 full date format
-- [ ] Code to extract metadata from article
+- [x] Code to extract metadata from article
+- [x] Add summary to each article (required for Atom feed)
+- [x] Add metadata to each article (required for Atom feed)
+- [x] Add published date/time and last updated date/time
+- [x] Simple Atom feed generator
 - [ ] Links page should be XML which gets converted to HTML
 - [ ] Articles page should be automagically generated
-- [ ] Add summary to each article (required for Atom feed)
-- [ ] Add metadata to each article (required for Atom feed)
-- [ ] Add published date/time and last updated date/time
-- [ ] Simple Atom feed generator
 - [ ] Makefile for site build
 - [ ] h1 should always have horizontal rule beneath it (regex) 
 - [ ] Script to build cat pics page (resize pics etc.) so I don't have to do it manually
