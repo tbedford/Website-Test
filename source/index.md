@@ -8,4 +8,4 @@ Thoughts on code, cats and coffee...
 * [Presentations (by others)](./presentations.html)
 * [Links](./links.html)
 * [Articles](./articles.html) - Last updated: 2017-11-14
-
+* [Atom feed](./atom.xml) - Autodiscovery should work too.
