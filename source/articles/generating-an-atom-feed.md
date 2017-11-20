@@ -133,7 +133,7 @@ please let me know via my [contact page](./contact.html).
 
 ---
 
-Published: 2017-11-20 16:16:09 UTC
-Updated: 2017-11-20 16:16:09 UTC
-UUID: ED0C22B5-50F3-4C74-A3C9-C7F31EEDBD26
+* Published: 2017-11-20 16:16:09 UTC
+* Updated: 2017-11-20 16:16:09 UTC
+* UUID: ED0C22B5-50F3-4C74-A3C9-C7F31EEDBD26
 
