@@ -9,6 +9,8 @@ html_head = '''
   <head>
 <title>TITLE</title>
 
+<link rel="alternate" type="application/atom+xml" title="Coffee and Code Atom Feed" href= "https://coffeeandcode.neocities.org/atom.xml">
+
 <link href="/style.css" rel="stylesheet" type="text/css" media="all">
 <link rel="stylesheet"
       href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/mono-blue.min.css">

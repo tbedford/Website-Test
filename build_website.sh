@@ -35,3 +35,8 @@ cp ./css/style.css ./html
 # copy images into package
 cp -R ./images/* ./html/images
 
+# Finally build Atom feed
+
+find ./source/articles -name "*.md" | ./generate_atom_feed.py
+cp atom.xml ./html
+

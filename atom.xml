@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Coffee and Code Feed</title>
+  <link href="https://coffeeandcode.neocities.org/" rel="self" />
+  <link href="https://coffeeandcode.neocities.org/" />
+  <updated>2017-11-20T15:02:12Z</updated>
+  <author>
+    <name>Tony Bedford</name>
+  </author>
+  <id>urn:uuid:B2F5F303-9B73-4D58-B4DF-32EC8F74136F</id>
+  <!-- Entries go here -->
+
+<entry>
+  <title>Calculating entropy</title>
+  <link href="https://coffeeandcode.neocities.org/calculating-entropy.html"/>
+  <id>09F99C84-B2DF-46C0-8030-8FBECE4A1590</id>
+  <updated>2017-11-15T17:30:00Z</updated>
+  <published>2017-10-11T08:30:00Z</published>
+  <summary>This article looks into how to calculate entropy. The article
+includes example C code.</summary>
+</entry>
+
+<entry>
+  <title>Can Rust help?</title>
+  <link href="https://coffeeandcode.neocities.org/can-rust-help.html"/>
+  <id>B011AAA9-5304-40C6-BCB7-28DC218AB2BC</id>
+  <updated>2017-11-15T17:33:00Z</updated>
+  <published>2017-10-10T09:30:24Z</published>
+  <summary>In this article I look into some problems with C pointers and
+wonder if Rust can help.</summary>
+</entry>
+
+<entry>
+  <title>Ever expanding memory</title>
+  <link href="https://coffeeandcode.neocities.org/console-memory.html"/>
+  <id>77883961-67A5-4F55-874C-5C5B9C57AA40</id>
+  <updated>2017-11-01T11:30:00Z</updated>
+  <published>2017-11-01T11:30:00Z</published>
+  <summary>A brief look at how console memory has oncreased over the
+years.</summary>
+</entry>
+
+<entry>
+  <title>Cracking the Fog Creek coding problem</title>
+  <link href="https://coffeeandcode.neocities.org/cracking-the-fogcreek-coding-problem.html"/>
+  <id>79EE7942-B6D9-437A-9691-5F8A9E502B89</id>
+  <updated>2017-10-29T17:54:38Z</updated>
+  <published>2017-10-29T05:24:21Z</published>
+  <summary>In this article I take a look at how to crack the Fog Creek
+content developer coding puzzle.</summary>
+</entry>
+
+<entry>
+  <title>Dealing with dates</title>
+  <link href="https://coffeeandcode.neocities.org/dealing-with-dates.html"/>
+  <id>6768260E-5713-4899-BE43-130BF74DFED2</id>
+  <updated>2017-11-14T13:26:00Z</updated>
+  <published>2017-11-14T13:26:00Z</published>
+  <summary>In this article I describe dates, how they are used on this
+site, and how you can generate ISO-8601 format dates on the Mac OS X
+command line.</summary>
+</entry>
+
+<entry>
+  <title>Caching in</title>
+  <link href="https://coffeeandcode.neocities.org/disk-caching.html"/>
+  <id>E718A65A-8C66-4918-8E14-C88394D95D75</id>
+  <updated>2017-11-05T07:24:12Z</updated>
+  <published>2017-11-05T07:24:12Z</published>
+  <summary>A look back at how disk caching software and disk
+de-fragmenters were A Thing back in the 90s.</summary>
+</entry>
+
+<entry>
+  <title>Diving into the buffer pool</title>
+  <link href="https://coffeeandcode.neocities.org/diving-into-the-buffer-pool.html"/>
+  <id>6EAD225F-44D8-43C0-81F6-EA4F6E038785</id>
+  <updated>2017-10-23T05:34:24Z</updated>
+  <published>2017-10-23T05:34:24Z</published>
+  <summary>In this article I provide some brief notes on buffer pools.</summary>
+</entry>
+
+<entry>
+  <title>Don't forget the Unix tools</title>
+  <link href="https://coffeeandcode.neocities.org/dont-forget-unix-tools.html"/>
+  <id>E2B202C1-5316-49C6-AF40-F8F572027BC4</id>
+  <updated>2017-10-04T06:12:14Z</updated>
+  <published>2017-10-04T06:12:14Z</published>
+  <summary>There are times when the best approach is not to reinvent the
+wheel but use the numerous command line tools available in Unix.</summary>
+</entry>
+
+<entry>
+  <title>Excel ain't a database!</title>
+  <link href="https://coffeeandcode.neocities.org/excel-aint-a-database.html"/>
+  <id>9AD44013-4732-46A2-831C-154913C1AF5F</id>
+  <updated>2017-10-15T07:34:16Z</updated>
+  <published>2017-10-15T07:34:16Z</published>
+  <summary>A light-hearted story on the problems of using Excel as a
+database.</summary>
+</entry>
+
+<entry>
+  <title>Don't forget to flush!</title>
+  <link href="https://coffeeandcode.neocities.org/flush-stdout.html"/>
+  <id>B840D3C7-8B56-4F21-92EE-23381F9127EA</id>
+  <updated>2017-11-17T12:13:00Z</updated>
+  <published>2017-10-07T09:11:12Z</published>
+  <summary>On solving a mysterious problem in a CGI web app.</summary>
+</entry>
+
+<entry>
+  <title>How Python saved my sanity!</title>
+  <link href="https://coffeeandcode.neocities.org/how-python-saved-my-sanity.html"/>
+  <id>7330619E-DA7A-4E17-BAAD-90C62A5F79A5</id>
+  <updated>2017-11-15T17:37:00Z</updated>
+  <published>2017-10-14T06:30:00Z</published>
+  <summary>A light hearted look into how Python can help you retain your
+sanity!</summary>
+</entry>
+
+<entry>
+  <title>Python env issue on Ubuntu 16.04</title>
+  <link href="https://coffeeandcode.neocities.org/python-env-issue-on-ubuntu.html"/>
+  <id>0D03279A-8E11-49E2-BA09-CDB73522886A</id>
+  <updated>2017-10-17T07:45:12Z</updated>
+  <published>2017-10-17T07:45:12Z</published>
+  <summary>Describes an issue where Python couldn't be found on Ubuntu.</summary>
+</entry>
+
+<entry>
+  <title>Remembering TurboDOS</title>
+  <link href="https://coffeeandcode.neocities.org/remembering-turbo-dos.html"/>
+  <id>3466E689-D274-4D70-B3FF-8369AD7CA039</id>
+  <updated>2017-11-15T17:40:20Z</updated>
+  <published>2017-10-02T05:30:00Z</published>
+  <summary>Back in the early 80s the company I worked for ran its entire
+operation on a Z-80 based operating system called TurboDOS. This
+article fondly remembers how capable the system was.</summary>
+</entry>
+
+<entry>
+  <title>Spreadsheets everywhere</title>
+  <link href="https://coffeeandcode.neocities.org/spreadsheets-everywhere.html"/>
+  <id>45B4A35D-1A0A-499A-88B2-2BF88D21CED9</id>
+  <updated>2017-10-20T07:19:12Z</updated>
+  <published>2017-10-20T07:19:12Z</published>
+  <summary>On the phenomenon of the spreadsheet that starts out
+innocently nough and then becomes an out-of-control beast.</summary>
+</entry>
+
+<entry>
+  <title>Stdout was a bad, bad boy</title>
+  <link href="https://coffeeandcode.neocities.org/stdout-utf-8-nastiness.html"/>
+  <id>2DE35009-4AA6-48CB-B99D-0FFB8B722748</id>
+  <updated>2017-10-19T07:17:12Z</updated>
+  <published>2017-10-19T07:17:12Z</published>
+  <summary>Sometimes an application may open `stdout` with ASCII
+encoding, rather than UTF-8.</summary>
+</entry>
+
+<entry>
+  <title>Tales from the Bcrypt</title>
+  <link href="https://coffeeandcode.neocities.org/tales-from-the-bcrypt.html"/>
+  <id>2A6A7EC2-C55F-4EB9-BB62-955747FF829F</id>
+  <updated>2017-10-09T05:14:37Z</updated>
+  <published>2017-10-09T05:14:37Z</published>
+  <summary>Bcrypt proves to be a very convenient library for encrypting
+passwords.</summary>
+</entry>
+
+<entry>
+  <title>Tracing version of malloc</title>
+  <link href="https://coffeeandcode.neocities.org/tracing-malloc.html"/>
+  <id>43D0FFD9-5E04-493D-AF34-E1F144437695</id>
+  <updated>2017-11-15T17:45:00Z</updated>
+  <published>2017-10-25T06:00:00Z</published>
+  <summary>I managed to create some useful macros for debugging C
+programs.</summary>
+</entry>
+
+<entry>
+  <title>Tracing memory allocations</title>
+  <link href="https://coffeeandcode.neocities.org/tracing-memory-allocations.html"/>
+  <id>16FD03D5-C110-44FB-96D4-28B2EDD88683</id>
+  <updated>2017-10-05T04:37:12Z</updated>
+  <published>2017-10-05T04:37:12Z</published>
+  <summary>On various attempts to try and trace memory allocations.</summary>
+</entry>
+
+<entry>
+  <title>How long to transfer a 1TB file?</title>
+  <link href="https://coffeeandcode.neocities.org/transfer-time.html"/>
+  <id>94F751C6-C1A5-4844-8F9C-60C981A5BFD8</id>
+  <updated>2017-11-15T17:43:00Z</updated>
+  <published>2017-10-31T17:20:43Z</published>
+  <summary>How long does it take to transfer a 1TB file? Python can
+help.</summary>
+</entry>
+
+<entry>
+  <title>Why I still use Emacs</title>
+  <link href="https://coffeeandcode.neocities.org/why-i-still-use-emacs.html"/>
+  <id>A6BE1BE7-4CE3-4225-8CA3-CC8774764FDB</id>
+  <updated>2017-11-17T12:28:01Z</updated>
+  <published>2017-10-01T05:19:15Z</published>
+  <summary>A light hearted story on why I still use Emacs.</summary>
+</entry>
+
+<entry>
+  <title>The woeful web</title>
+  <link href="https://coffeeandcode.neocities.org/woeful-web.html"/>
+  <id>86EF52C7-CF29-47BA-B804-FCB6F5770F39</id>
+  <updated>2017-11-15T12:56:00Z</updated>
+  <published>2017-11-07T09:00:00Z</published>
+  <summary>In this article I look at what I think are some serious
+issues with the web today.</summary>
+</entry>
+
+<entry>
+  <title>Wolfenstein's memory manager</title>
+  <link href="https://coffeeandcode.neocities.org/wolf-memory-manager.html"/>
+  <id>D61383DB-F306-4A98-ACEB-07FD70A80FB0</id>
+  <updated>2017-10-27T04:17:48Z</updated>
+  <published>2017-10-27T04:17:48Z</published>
+  <summary>An overview of the Wolfenstein 3D compacting memory
+allocator.</summary>
+</entry>
+
+</feed>

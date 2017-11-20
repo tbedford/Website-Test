@@ -1,17 +1,20 @@
 #!/usr/bin/env python
 
-# Generate Atom feed 
+#############################################
+# Generate Atom feed for Coffee and Code
+#############################################
 
 import fileinput
 import re
+import datetime
+import os
 
 # NOTE: Header must be patched with correct datetime (feed build)
-
-header = '''
-<?xml version="1.0" encoding="utf-8"?>
+header = '''<?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Coffee and Code Feed</title>
-  <link href="https://coffeeandcode.neocities.org/"/>
+  <link href="https://coffeeandcode.neocities.org/" rel="self" />
+  <link href="https://coffeeandcode.neocities.org/" />
   <updated>2017-11-10T08:15:26+0000</updated>
   <author>
     <name>Tony Bedford</name>
@@ -33,7 +36,7 @@ footer = '''
 
 def convert_date (date):
 
-    print("Input date: %s" % date)
+#    print("Input date: %s" % date)
 
     m = re.search (r'(\d\d\d\d-\d\d-\d\d) (\d\d:\d\d:\d\d) (\w\w\w)', date)
 
@@ -50,27 +53,27 @@ def extract_metadata (html):
     # title
     m = re.search (r'# (.*)', html)
     title = m.group(1)
-    print("Title >%s<" % title)
+#    print("Title >%s<" % title)
 
     # Published
     m = re.search (r'Published: (.*)', html)
     published = convert_date(m.group(1))
-    print("Published >%s<" % published)
+#    print("Published >%s<" % published)
 
     # Updated
     m = re.search (r'Updated: (.*)', html)
     updated = convert_date(m.group(1))
-    print("Updated >%s<" % updated)
+#    print("Updated >%s<" % updated)
 
     # UUID
     m = re.search (r'UUID: ([A-F0-9-]*)', html)
     uuid = m.group(1)
-    print("UUID >%s<" % uuid)
+#    print("UUID >%s<" % uuid)
 
     # Summary
     m = re.search(r'Summary: ([\s\S]*?)\n\n', html)
     summary = m.group(1)
-    print("Summary >%s<" % summary)
+#    print("Summary >%s<" % summary)
 
     return title, published, updated, uuid, summary
 
@@ -101,9 +104,15 @@ def encode_entry (filename, title, published, updated, uuid, summary):
 
     return template % (title, base_url, filename, uuid, updated, published, summary)
 
-# Main
+####   Main  ####
 
-# TODO: Patch header file with correct date-time 
+# Patch header file with correct ISO-8601 date-time 
+utc = datetime.datetime.utcnow()
+utc = str(utc)
+m = re.search(r'(\d\d\d\d-\d\d-\d\d) (\d\d:\d\d:\d\d)', utc)
+iso_date_time = m.group(1) + 'T' + m.group(2) + 'Z'
+header = re.sub (r'<updated>(.*)</updated>', '<updated>'+ iso_date_time + '</updated>', header)
+
 feedfile = "atom.xml"
 fout = open (feedfile, 'w')
 fout.write (header)
@@ -112,14 +121,20 @@ for filename in fileinput.input():
 
     # chomp
     filename = filename.rstrip()
-    print ("HTML file:>%s< " % filename)
+    print ("Markdown file:>%s< " % filename)
 
     fin = open (filename, 'r')
-    html = fin.read ()
+    md = fin.read ()
 
     # extract entry metadata from HTML
-    title, published, updated, uuid, summary = extract_metadata(html)
+    title, published, updated, uuid, summary = extract_metadata(md)
 
+    # Use base filename, not full path
+    filename = os.path.basename(filename)
+    # And we need to change extension from `.md` to `.html`
+    filename = os.path.splitext(filename)[0]
+    filename = filename + '.html'
+    
     # Write out encoded entry
     fout.write(encode_entry (filename, title, published, updated, uuid, summary))
     
