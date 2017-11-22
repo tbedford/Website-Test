@@ -143,8 +143,6 @@ appears to do the job though from the limited testing I have given it.
 Doh! Lesson learned - always check the standard library first! This
 really is a much less error prone way of getting the solution!
 
-I think I should retire at this point! :(
-
 ---
 
 * Published: 2017-10-29 05:24:21 UTC

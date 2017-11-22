@@ -38,6 +38,7 @@ not the fastest way to achieve something, but you do learn a lot!
 - [ ] h1 should always have horizontal rule beneath it (regex) 
 - [ ] Script to build cat pics page (resize pics etc.) so I don't have to do it manually
 - [ ] Add indexing system (and later add search facility)
+- [ ] Add HTML / CSS compressor
 
 Experimental:
 

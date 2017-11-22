@@ -3,6 +3,7 @@
 import fileinput
 import re
 import os
+import datetime
 
 html_head = '''
 <html>
@@ -21,7 +22,7 @@ html_head = '''
 html_foot = '''
     <hr/>
     <div class="footer">
-       <p><a href="https://coffeeandcode.neocities.org">Home</a> | (c) 2017 Tony Bedford</p>
+       <p><a href="https://coffeeandcode.neocities.org">Home</a> | (c) 2017 Tony Bedford | Website built: YYYY-MM-DDTHH:MM:SSZ</p>
     </div>
     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
     <script>hljs.initHighlightingOnLoad();</script>
@@ -74,6 +75,16 @@ for filename in fileinput.input():
 
     # ISO-8601 format dates (YYYY-MM-DD) 2017-10-27
     html = re.sub (r'(\d\d\d\d-[0-1][0-9]-[0-3][0-9])', r'<span class="date">\1</span>', html)
+
+
+    # Get UTC date-time
+    utc = datetime.datetime.utcnow()
+    utc = str(utc)
+    m = re.search(r'(\d\d\d\d-\d\d-\d\d) (\d\d:\d\d:\d\d)', utc)
+    utc = m.group(1) + ' ' + m.group(2) + ' UTC'
+
+    # Patch footer with UTC build date-time
+    html_foot = re.sub (r'YYYY-MM-DDTHH:MM:SSZ', utc, html_foot)
     
     # Add header and footer
     html = html_head + html

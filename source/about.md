@@ -30,10 +30,10 @@ process automation. Python is especially good in this arena.
 Although I enjoy coding I am **not** one of those coding geniuses you
 hear about.
 
-However, I _can_ code (just about) in Python and C. I have also worked
-with Java, Objective-C, and C++ in the recent past, and if I go way
-back, VAX-BASIC, F77, COBOL, and Z-80 assembly language (all
-thankfully long since forgotten)! 
+However, I _can_ code in Python and C. I have also worked with Java,
+Objective-C, and C++ in the recent past, and if I go way back,
+VAX-BASIC, F77, COBOL, and Z-80 assembly language (all thankfully long
+since forgotten)!
 
 I once wrote an oil rig data aquisition system in TurboBASIC. It's
 still one of the most productive languages I have ever used.
@@ -100,6 +100,6 @@ get in touch!
 
 ---
 
-Published: 2017-10-01 12:21:36 UTC
-Updated: 2017-11-10 12:26:00 UTC
+* Published: 2017-10-01 12:21:36 UTC
+* Updated: 2017-11-10 12:26:00 UTC
 
