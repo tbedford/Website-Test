@@ -16,6 +16,14 @@ body {
     text-align: center;
 }
 
+.header h1 {
+    color: white;
+}
+
+h1 {
+    color: darkgrey;
+}
+
 .content {
   text-align: justify;  
   padding: 50px;
@@ -60,10 +68,6 @@ a:hover {
 
 a:active {
     color: turquoise;   
-}
-
-h1 {
-    color: darkgrey;
 }
 
 h2 {
