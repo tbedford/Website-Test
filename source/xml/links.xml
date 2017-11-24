@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<database>
+
+  <link type="website" text="Superscale Networks" url="https://www.superscale.io">
+
+    <uuid>2EF4B608-A2BE-4073-9C4F-9F90F606F725</uuid>
+    
+    <description>Superscale Networks use Rust and Linux-based routers with minimal RAM.</description>
+    
+    <tags>
+      <tag>Rust</tag>
+      <tag>Linux</tag>
+      <tag>Routers</tag>
+    </tags>
+
+  </link>
+
+</database>

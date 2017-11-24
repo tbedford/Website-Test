@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>The web site of coffeeandcode</title>
+    <link href="./test.css" rel="stylesheet" type="text/css" media="all">
+    <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+
+  <div class="header">
+    <h1>Welcome to my Website!</h1>
+  </div>
+
+<p>Test navmenu:</p>
+
+<div class="topnav">
+<ul>
+<li><a href="https://coffeeandcode.neocities.org">Home</a></li>
+<li><a href="https://neocities.org">Neocities</a></li>
+<li><a href="https://neocities.org">Neocities</a></li>
+</ul>
+</div>
+
+    <div class="main">
+    <p>This is a paragraph! Here's how you make a link: <a href="https://neocities.org">Neocities</a>.</p>
+
+    <p>Here's how you can make <strong>bold</strong> and <em>italic</em> text.</p>
+
+    <p>Here's how you can add an image:</p>
+    <img src="./images/neocities.png">
+
+    <p>Here's how to make a list:</p>
+
+    <ul>
+      <li>First thing</li>
+      <li>Second thing</li>
+      <li>Third thing</li>
+    </ul>
+
+  <p>Playing with font awesome:</p>
+  <button style="font-size:24px">Button <i class="fa fa-bitcoin"></i></button>
+    
+    <p>Article with justfied text.</p>
+    
+    <div class="article">
+    
+    <p>One of the hardest aspects of this was retrofitting the correct
+    metadata to my existing content. I had to work out what data would
+    be required, and how this would be added to my content. In the end
+    I settled on Published date, Updated date, Summary, and Title. In
+    addition each article has a UUID. This is required by the Atom
+    feed spec. A UUID can be generated easily enough on the command
+    line (in Mac OS X), using the command uuidgen. This seemed to be
+    sufficient for my purposes. I decided not to add the full content
+    of the article to my feed, as the user can simply click on the
+    article heading in a feed reader to read the content on my
+    site. This has the advantage that it keeps the feed simpler and
+    quicker to generate. The downside is the user will need to be able
+    to access the web in order to read the content - if they were
+    using a desktop feed reader the content would be saved for offline
+    reading if I provided a full feed. In this case the advantages of
+    speed of generation and simplicity outweighed this convenience for
+    the user. However, in the future I could offer a full feed
+    capability. This would be relatively simple to add to the existing
+    code based on my investigations so far.</p>
+
+<p>The other aspect I needed to determine was dates and how to format
+them. The Atom feed uses ISO-8601 date times. I have already described
+dates and the issues around them in my article dealing with dates, so
+I won't go into these again here.</p>
+
+<p>The data extracted from each article is used to populate an entry
+in the Atom feed. The header and footer for the Atom feed are more or
+less static pieces of text. The only requirement here is that the
+header is patched with the date-time of the feed
+generation. Essentially the entries are appended to the header in the
+output file, and then the footer written before the feed file is
+closed.</p>
+    
+    </div>
+
+  <p class="note">This is a note!! Please be aware of this important information.</p>
+
+  </div>
+  <div class="footer">
+    <p>To learn more HTML/CSS, check out these <a href="https://neocities.org/tutorials">tutorials</a>!</p>
+  </div>
+  </body>
+</html>

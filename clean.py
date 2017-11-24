@@ -9,12 +9,12 @@ html_head = '''
 <html>
   <head>
 <title>TITLE</title>
-
 <link rel="alternate" type="application/atom+xml" title="Coffee and Code Atom Feed" href= "https://coffeeandcode.neocities.org/atom.xml">
-
 <link href="/style.css" rel="stylesheet" type="text/css" media="all">
 <link rel="stylesheet"
       href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/mono-blue.min.css">
+<link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>  
   <body>
 '''

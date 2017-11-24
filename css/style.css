@@ -1,7 +1,19 @@
-
 body {
-    background-color: aliceblue;
     color: #373737;
+    background-color: aliceblue;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 80px;
+    margin-left: 80px;
+    font-family: Verdana, sans-serif;
+}
+
+h1 {
+    color: white;
+    background-color: plum;
+    font-family: "Sofia", Georgia, serif;
+    font-weight: bold;
+    text-align: center;
 }
 
 a {
@@ -18,10 +30,6 @@ a:hover {
 
 a:active {
     color: turquoise;   
-}
-
-h1 {
-    color: darkslategrey;  
 }
 
 h2 {
