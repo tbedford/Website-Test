@@ -28,9 +28,6 @@ fi
 # NOTE: Make sure we build in the build directory
 cd $BUILD_DIR
 
-pwd
-exit 0
-
 # Convert Markdown to HTML and clean HTML
 find $SRC_DIR -name "*.md" -type f | $PY_DIR/clean.py
 
