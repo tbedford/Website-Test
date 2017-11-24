@@ -7,25 +7,29 @@ SRC_DIR=../source
 ART_DIR=$SRC_DIR/articles
 PY_DIR=../python
 CSS=../css/style.css
-IMAGES_SRC=../images
-IMAGES_DEST=$HTML_DIR/images
-
+IMAGES_DIR=images
+IMAGES_SRC=../$IMAGES_DIR
+IMAGES_DEST=$HTML_DIR/$IMAGES_DIR
 
 # Check we have the necessary build directories and if not create them
-if [ ! -d "build" ]; then
-    mkdir build
-    cd build
-    if [ ! -d "html" ]; then
-        mkdir html
-        cd html
-        mkdir images
+if [ ! -d $BUILD_DIR ]; then
+    echo "Creating build directory..."
+    mkdir $BUILD_DIR
+    cd $BUILD_DIR
+    if [ ! -d $HTML_DIR ]; then
+        echo "Creating HTML directory"
+        mkdir $HTML_DIR
+        cd $HTML_DIR
+        mkdir $IMAGES_DIR
         cd ../..
     fi
-    cd ../..
 fi
 
 # NOTE: Make sure we build in the build directory
 cd $BUILD_DIR
+
+pwd
+exit 0
 
 # Convert Markdown to HTML and clean HTML
 find $SRC_DIR -name "*.md" -type f | $PY_DIR/clean.py
