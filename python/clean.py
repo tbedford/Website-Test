@@ -15,6 +15,13 @@ def get_build_time ():
     return m.group(1) + ' ' + m.group(2) + ' UTC'
 
 
+# We end up with two h1's, so remove the second (in the content only)
+# We want the first in the div class header
+def remove_h1 (content):
+
+    content = re.sub (r'<h1[\s\S]*?>([\s\S]*?)<\/h1>', r'', content)    
+    return content
+
 def clean_content(content):
 
     # Run regexs to clean up HTML
@@ -30,17 +37,13 @@ def clean_content(content):
     content = re.sub (r'<code class="lang-html">', r'<code class="html">', content)
     content = re.sub (r'<code class="lang-xml">', r'<code class="xml">', content)
 
-    # ISO-8601 format dates (YYYY-MM-DD) 2017-10-27
-    content = re.sub (r'(\d\d\d\d-[0-1][0-9]-[0-3][0-9])', r'<span class="date">\1</span>', content)
-
     return content
 
 def get_title (content):
 
     m = re.search (r'<h1[\s\S]*?>([\s\S]*?)<\/h1>', content)
     return m.group(1)
-    
-    
+
 # Read template
 ft = open (template_file, 'r')
 template = ft.read()
@@ -74,8 +77,10 @@ for filename in fileinput.input():
 
     # Grab all of HTML and clean
     content = clean_content(fin.read())
-        
-    html = template.format(TITLE=get_title(content), CONTENT=content, BUILD_TIME=get_build_time())
+    title = get_title(content)
+    content = remove_h1(content)
+    
+    html = template.format(TITLE=title, CONTENT=content, BUILD_TIME=get_build_time())
     
     # Write out temp file
     fout.write(html)

@@ -98,8 +98,4 @@ Philippines when I can. Here's why:
 My contact details are on my [Contact page](./contact.html). Please
 get in touch!
 
----
-
-* Published: 2017-10-01 12:21:36 UTC
-* Updated: 2017-11-10 12:26:00 UTC
 
