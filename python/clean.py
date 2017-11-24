@@ -75,10 +75,10 @@ for filename in fileinput.input():
     # Grab all of HTML and clean
     content = clean_content(fin.read())
         
-    template = template.format(TITLE=get_title(content), CONTENT=content, BUILD_TIME=get_build_time())
+    html = template.format(TITLE=get_title(content), CONTENT=content, BUILD_TIME=get_build_time())
     
     # Write out temp file
-    fout.write(template)
+    fout.write(html)
 
     # close down open files
     fin.close()
