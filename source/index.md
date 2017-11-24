@@ -2,7 +2,7 @@
 
 Thoughts on code, cats and coffee...
 
-* [Articles](./articles.html) - Last updated: 2017-11-20
+* [Articles](./articles.html) - Last updated: 2017-11-24
 
 ---
 

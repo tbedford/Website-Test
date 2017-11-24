@@ -4,7 +4,7 @@
 errors.txt
 
 # Generated HTML
-html/
+build/html/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

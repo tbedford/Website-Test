@@ -3,7 +3,7 @@
   <title>Coffee and Code Feed</title>
   <link href="https://coffeeandcode.neocities.org/" rel="self" />
   <link href="https://coffeeandcode.neocities.org/" />
-  <updated>2017-11-24T12:08:28Z</updated>
+  <updated>2017-11-24T17:58:22Z</updated>
   <author>
     <name>Tony Bedford</name>
   </author>
@@ -128,6 +128,16 @@ discovery to the site.</summary>
   <published>2017-10-14T06:30:00Z</published>
   <summary>A light hearted look into how Python can help you retain your
 sanity!</summary>
+</entry>
+
+<entry>
+  <title>Limits of Markdown</title>
+  <link href="https://coffeeandcode.neocities.org/limits-of-markdown.html"/>
+  <id>9AB8236F-054E-478D-B464-7E44E639D3A6</id>
+  <updated>2017-11-24T12:15:37Z</updated>
+  <published>2017-11-24T12:15:37Z</published>
+  <summary>In which I discuss the limitations of Markdown when
+constructing websites and documentation systems.</summary>
 </entry>
 
 <entry>

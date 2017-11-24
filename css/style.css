@@ -8,13 +8,43 @@ body {
     font-family: Verdana, sans-serif;
 }
 
-h1 {
+.header {
     color: white;
     background-color: plum;
     font-family: "Sofia", Georgia, serif;
     font-weight: bold;
     text-align: center;
 }
+
+.content {
+  text-align: justify;  
+  padding: 50px;
+  color: black;
+  background-color: lightgrey;
+}
+
+.topnavbar {
+    background-color: lightblue;  
+    border:2px solid black;
+}
+
+.topnavbar li {
+    display: inline;
+}
+
+.topnavbar a:link, a:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+}
+
+.topnavbar a:hover, a:active {
+    background-color: red;
+}
+
 
 a {
     color: royalblue;  
@@ -30,6 +60,10 @@ a:hover {
 
 a:active {
     color: turquoise;   
+}
+
+h1 {
+    color: darkgrey;
 }
 
 h2 {
