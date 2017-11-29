@@ -14,6 +14,103 @@ body {
     font-family: "Sofia", Georgia, serif;
     font-weight: bold;
     text-align: center;
+body {
+    color: darkgray;
+    background-color: ivory;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 80px;
+    margin-left: 80px;
+    font-family: Verdana, sans-serif;
+}
+
+.header {
+    color: darkslategrey;
+    background-color: lightgrey;
+/*    font-family: "Sofia", Georgia, serif; */
+    font-family: "Sofia", Georgia, serif;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.content {
+  text-align: justify;  
+  padding: 40px;
+  color: black;
+  background-color: oldlace;
+  border-radius: 10px;
+}
+
+.topnavbar {
+    background-color: beige;  
+    border-radius: 10px;
+}
+
+.topnavbar li {
+    display: inline;
+}
+
+.topnavbar a:link, a:visited {
+    background-color: lightgrey;
+    padding: 14px 25px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+}
+
+.topnavbar a:hover, a:active {
+    background-color: darkgrey;
+}
+
+
+a {
+    color: greenyellow;  
+}
+
+a:visited {
+    color: hotpink;  
+}
+
+a:hover {
+    color: black;   
+}
+
+a:active {
+    color: turquoise;   
+}
+
+
+h2 {
+    color: dimgrey;
+}
+
+h3 {
+    color: lightslategrey;
+}
+
+li {
+    color: slateblue;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid midnightblue;
+}
+
+th {
+    background-color: midnightblue;
+    color: honeydew;
+}
+
+tr:nth-child(even) {background-color: powderblue}
+
+.footer {
+    color: purple;
+}
     border-radius: 10px;
 }
 
