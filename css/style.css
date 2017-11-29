@@ -9,25 +9,8 @@ body {
 }
 
 .header {
-    color: greenyellow;
-    background-color: lightgrey;
-    font-family: "Sofia", Georgia, serif;
-    font-weight: bold;
-    text-align: center;
-body {
-    color: darkgray;
-    background-color: ivory;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-right: 80px;
-    margin-left: 80px;
-    font-family: Verdana, sans-serif;
-}
-
-.header {
     color: darkslategrey;
     background-color: lightgrey;
-/*    font-family: "Sofia", Georgia, serif; */
     font-family: "Sofia", Georgia, serif;
     font-weight: bold;
     text-align: center;
