@@ -1,6 +1,6 @@
 # Ever expanding memory
 
-Summary: A brief look at how console memory has oncreased over the
+Summary: A brief look at how console memory has increased over the
 years.
 
 Just thought it was interesting to take a look at console RAM sizes

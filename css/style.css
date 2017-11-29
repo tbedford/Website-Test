@@ -20,8 +20,8 @@ body {
 .content {
   text-align: justify;  
   padding: 40px;
-  color: black;
-  background-color: oldlace;
+  color: darkslategrey;
+  background-color: linen;
   border-radius: 10px;
 }
 
@@ -93,83 +93,8 @@ tr:nth-child(even) {background-color: powderblue}
 
 .footer {
     color: purple;
-}
-    border-radius: 10px;
-}
-
-.content {
-  text-align: justify;  
-  padding: 40px;
-  color: black;
-  background-color: azure;
-}
-
-.topnavbar {
-    background-color: lavender;  
-    border-radius: 10px;
-}
-
-.topnavbar li {
-    display: inline;
-}
-
-.topnavbar a:link, a:visited {
     background-color: lightgrey;
-    padding: 14px 25px;
-    text-align: center; 
-    text-decoration: none;
-    display: inline-block;
-}
-
-.topnavbar a:hover, a:active {
-    background-color: darkgrey;
-}
-
-
-a {
-    color: greenyellow;  
-}
-
-a:visited {
-    color: hotpink;  
-}
-
-a:hover {
-    color: black;   
-}
-
-a:active {
-    color: turquoise;   
-}
-
-
-h2 {
-    color: dimgrey;
-}
-
-h3 {
-    color: lightslategrey;
-}
-
-li {
-    color: slateblue;
-}
-
-table {
-    border-collapse: collapse;
-}
-
-table, th, td {
-    border: 1px solid midnightblue;
-}
-
-th {
-    background-color: midnightblue;
-    color: honeydew;
-}
-
-tr:nth-child(even) {background-color: powderblue}
-
-.footer {
-    color: purple;
+    border-radius: 10px; 
+    padding: 10px;
+    text-align: center;
 }
