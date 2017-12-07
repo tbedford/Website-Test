@@ -1,33 +1,20 @@
 body {
-    color: darkgray;
-    background-color: ivory;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-right: 80px;
-    margin-left: 80px;
+    color: darkslategray;
+    background-color: ghostwhite;
+    margin: 50px 80px 50px 80px;
     font-family: Verdana, sans-serif;
 }
 
 .header {
-    color: darkslategrey;
-    background-color: lightgrey;
-    font-family: "Sofia", Georgia, serif;
+    font-family: Georgia, serif;
     font-weight: bold;
     text-align: center;
-    border-radius: 10px;
+    text-transform: uppercase;
 }
 
 .content {
   text-align: justify;  
   padding: 40px;
-  color: darkslategrey;
-  background-color: linen;
-  border-radius: 10px;
-}
-
-.topnavbar {
-    background-color: beige;  
-    border-radius: 10px;
 }
 
 .topnavbar li {
@@ -35,24 +22,25 @@ body {
 }
 
 .topnavbar a:link, a:visited {
-    background-color: lightgrey;
+    background-color: grey;
     padding: 14px 25px;
     text-align: center; 
     text-decoration: none;
+    text-transform: uppercase;
     display: inline-block;
 }
 
 .topnavbar a:hover, a:active {
-    background-color: darkgrey;
+    background-color: lightgrey;
 }
 
 
 a {
-    color: greenyellow;  
+    color: blue;  
 }
 
 a:visited {
-    color: hotpink;  
+    color: orange;  
 }
 
 a:hover {
@@ -86,15 +74,11 @@ table, th, td {
 
 th {
     background-color: midnightblue;
-    color: honeydew;
+    color: lightgrey;
 }
 
 tr:nth-child(even) {background-color: powderblue}
 
 .footer {
-    color: purple;
-    background-color: lightgrey;
-    border-radius: 10px; 
-    padding: 10px;
     text-align: center;
 }
