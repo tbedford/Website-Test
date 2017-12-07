@@ -22,7 +22,7 @@ other things.
 
 It was one of those sites that was very old school. It was all static
 HTML files created in FrontPage. Anyone remember FrontPage? It was The
-Dog's Balls back in the late 1990s, early 00s, when the site was
+Dog's Doodah's back in the late 1990s, early 00s, when the site was
 started. While the content was great the site design sucked. It used
 really bright white and lurid coloured text on a black
 background. Reading for any more than 10 minutes and you felt like you
