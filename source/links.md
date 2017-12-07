@@ -50,6 +50,7 @@
 
 ## Memory
 
+* [Scudo hardened memory allocator](https://llvm.org/docs/ScudoHardenedAllocator.html)
 * [General article on memory allocators - good background reading before implementation](http://www.flounder.com/memory_allocation.htm)
 * [Are we out of memory?](http://www.swedishcoding.com/2008/08/31/are-we-out-of-memory/)
 * [Inside a storage allocator](http://www.flounder.com/inside_storage_allocation.htm)
