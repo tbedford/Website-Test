@@ -6,6 +6,15 @@ Thoughts on code, cats and coffee...
 
 **Website News**
 
+* [2018-01-16] - Happy New Year! It's been a little quiet here as I
+have been working through some Udemy courses. I have
+also been prepping for my upcoming Philippines
+trip. I really am excited to be attending PyCon
+Philippines this year. However, I do expect things to
+pick up on my return, starting with a review of some
+of the courses I have been doing and also a review of
+the PyCon Philippines event. I also have some
+exciting new projects in mind! Stay tuned!
 * [2017-12-07] - Udemy Black Friday has blown a mile-wide hole in my schedule. Two courses down, ten to go...
 * [2017-12-07] - Changed CSS again. I'm not changing it again. It's clean, simple and readable. That'll do.
 * [2017-11-29] - New CSS applied. Hopefully more pleasing on the eye than the previous hideous red/blue debug scheme.
