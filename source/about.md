@@ -7,8 +7,8 @@ as on cats and coffee). I felt like I needed a place to keep various
 notes I was accumulating and I decided to ~~share~~ inflict my
 ramblings on others through this site. Sorry about that!
 
-Please note this site is not meant to be taken too seriously! I have
-enough "serious" writing in my day job thanks very much!
+**Please note this site is not meant to be taken too seriously! I have
+enough "serious" writing in my day job thanks very much!**
 
 You can also read this website directly in [my
 GitHub](https://github.com/tbedford) if you want to. I also store the
@@ -21,31 +21,28 @@ in play here.
 
 ## Technical interests
 
-I have a wide range of technical interests, but currently I seemed to
-be most interested in data-driven websites, information retrieval and
-process automation. Python is especially good in this arena.
+I have a wide range of technical interests that range over embedded
+and real-time systems, operating systems, data-driven websites, and
+business process automation.
 
 ## Coding
 
-Although I enjoy coding I am **not** one of those coding geniuses you
-hear about.
+I have been programming on various systems since 1981. I started back
+then using VAX-BASIC and Z80 assembly language. I have written code
+since then in a variety of languages. 
 
-However, I _can_ code in Python and C. I have also worked with Java,
-Objective-C, and C++ in the recent past, and if I go way back,
-VAX-BASIC, F77, COBOL, and Z-80 assembly language (all thankfully long
-since forgotten)!
+I once wrote an oil rig data aquisition system in
+TurboBASIC. TurboBASIC allowed event-driven programming (long before
+Node) through the use of `ON KEY k GOSUB s` and `ON TIMER t GOSUB s`
+constructs, without any assembly language. It's still one of the most
+productive languages/environments I have ever used.
 
-I once wrote an oil rig data aquisition system in TurboBASIC. It's
-still one of the most productive languages I have ever used.
+I have been programming in C, on and off, since around 1987. I most
+recently wrote a couple of simple memory allocators in C after a
+roughly ten year hiatus from the language.
 
-Recent C projects have included a couple of attempts at my own memory
-allocator. It included nifty features such as block splitting and
-coalescing in an effort to reduce memory fragmentation. I wrote
-extensive documentation for both attempts, which you can read in my
-GitHub.
-
-I have also recently worked on various Python data munging and web
-scraping projects.
+I have been using Python on the side for around 3 years, mostly for
+web scraping, HTML processing, and spreadsheet manipulation.
 
 What my desktop typically looks like:
 
@@ -83,19 +80,17 @@ ago - he was a rescue:
 
 ![Timmy](./images/timmy.png "Timmy")
 
-And here's me posing: ;)
+And here's me being photo-bombed by a mermaid: ;)
 
 ![tony](./images/johnny_starbucks_resized.jpg "Tony")
 
-I am currently based in the UK, but like to spend time in the
-Philippines when I can. Here's why:
+I live in the UK but try to escape to the Philippines when I can.
 
 ![hammock](./images/hammock.jpg "Hammock")
 
-
 ## Contact
 
-My contact details are on my [Contact page](./contact.html). Please
-get in touch!
+My contact details are on my [Contact page](./contact.html). 
 
+Please get in touch!
 
