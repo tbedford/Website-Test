@@ -1,5 +1,9 @@
 # Links
 
+## Funny
+
+* [A hilarious video on developers](https://www.youtube.com/watch?v=ocwnns57cYQ)
+
 ## General
 
 * [Superscale Networks use Rust and Linux-based routers](https://www.superscale.io)
