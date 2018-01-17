@@ -1,9 +1,5 @@
 # Coffee and Code
 
-Thoughts on code, cats and coffee...
-
----
-
 **Website News**
 
 Happy New Year! It's been a little quiet here as I have been working
