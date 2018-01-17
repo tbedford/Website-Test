@@ -21,7 +21,7 @@ some exciting new projects in mind! Stay tuned! [2018-01-16]
 * [2018-01-16] - Added new article on real-time systems (timing).
 * [2017-12-07] - Udemy Black Friday has blown a mile-wide hole in my schedule. Two courses down, ten to go...
 * [2017-12-07] - Changed CSS again. I'm not changing it again. It's clean, simple and readable. That'll do.
-* [2017-11-29] - New CSS applied. Hopefully more pleasing on the eye than the previous hideous red/blue debug scheme.
+* [2017-11-29] - New CSS applied. Hopefully more pleasing on the eye than the debug scheme.
 * [2017-11-24] - I'm currently playing with the CSS for this site. I apologize for the debug mode colours!
 * [2017-11-24] - New article published - Limits of Markdown.
 * [2017-11-20] - There is an Atom feed with auto-discovery.
