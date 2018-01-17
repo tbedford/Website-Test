@@ -112,21 +112,3 @@ further in upcoming articles in the series in the context of the
 * Published: 2018-01-17 09:51:00 UTC
 * Updated: 2018-01-17 09:51:00 UTC
 * UUID: D877DC5C-E6EB-4F17-A256-61B50F088E9A
-
-## Real-time systems and the web
-
-
-
-## Real-time systems and the Internet of Things (IoT)
-
-edge of netwrok
-asymmetrical
-real-time control
-
----
-
-* Published: 2017-11-07 09:00:00 UTC
-* Updated: 2017-11-15 12:56:00 UTC
-* UUID: 5424F74B-749B-42AA-A726-40EE59463EE3
-
-
