@@ -6,6 +6,7 @@ Thoughts on code, cats and coffee...
 
 **Website News**
 
+* [2018-01-16] - Added new article on real-time systems.
 * [2018-01-16] - Happy New Year! It's been a little quiet here as I
 have been working through some Udemy courses. I have
 also been prepping for my upcoming Philippines

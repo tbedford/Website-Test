@@ -5,19 +5,19 @@ explore what is meant by a real-time system, specifically in the
 context of communications, the web, and the Internet of Things (IoT).
 
 The term "real-time" is bandied about a great deal these days. You
-will hear about the "real-time web" and "real-time systems" in the
-context of the Internet of Things. What exactly does "real-time" mean
-though?
+will hear about the "real-time web" and "real-time systems". But what
+exactly does "real-time system" mean though?
 
-A real-time system is one in which, obviously, time is a **key**
-consideration.
+Let's start with a simple definition and work from there...
 
-This, surprisingly, serves us well as a definition, but as nearly all
-systems care about time to a lesser or greater extent, we can refine
-our definition somewhat depending on the context. For example, a chat
-program has a different set of timing characteristics compared to an
-Anti-lock Braking System (ABS), and the ABS has different timing
-constraints compared to a video streaming application.
+> A real-time system is one in which time is a **key** consideration.
+
+This serves us well as a definition, but as nearly all systems care
+about time to a lesser or greater extent, we can refine our definition
+somewhat depending on the context. For example, a chat program has a
+different set of timing characteristics compared to an Anti-lock
+Braking System (ABS), and the ABS has different timing constraints
+compared to a video streaming application.
 
 The actual scale of time of interest depends on the application. In
 some systems you might be interested in milli- or micro-second
@@ -224,7 +224,6 @@ in the context of real-time systems.
 
 * Published: 2018-01-16 19:39:00 UTC
 * Updated: 2018-01-16 19:39:00 UTC
-* UUID : 2462CBC1-93A1-4AE4-A246-17B947066619
-
+* UUID: 2462CBC1-93A1-4AE4-A246-17B947066619
 
 

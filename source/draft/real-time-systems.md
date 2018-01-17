@@ -1,5 +1,6 @@
+# Real-time systems - networks and protocols
 
-## Real-time systems - networks and protocols
+Summary: this will be the summary
 
 - Network limitations 
   - limits of unreliable network, latency, response
@@ -37,5 +38,6 @@ real-time control
 
 * Published: 2017-11-07 09:00:00 UTC
 * Updated: 2017-11-15 12:56:00 UTC
-* UUID: 
+* UUID: 5424F74B-749B-42AA-A726-40EE59463EE3
+
 

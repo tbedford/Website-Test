@@ -52,6 +52,8 @@ cp $CSS $HTML_DIR
 cp -R $IMAGES_SRC/* $IMAGES_DEST
 
 # Finally build Atom feed
+echo "Generating Atom feed..."
 find $ART_DIR -name "*.md" | $PY_DIR/generate_atom_feed.py
 cp atom.xml $HTML_DIR
+echo "Done."
 

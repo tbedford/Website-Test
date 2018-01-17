@@ -68,7 +68,7 @@ def extract_metadata (html):
     # UUID
     m = re.search (r'UUID: ([A-F0-9-]*)', html)
     uuid = m.group(1)
-#    print("UUID >%s<" % uuid)
+    print("UUID >%s<" % uuid)
 
     # Summary
     m = re.search(r'Summary: ([\s\S]*?)\n\n', html)

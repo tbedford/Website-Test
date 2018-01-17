@@ -1,8 +1,14 @@
 # Articles
 
+This page links to some of my articles. These are written in a
+somewhat informal style, which is a polite way of saying they are in
+some cases a bit slapdash. I mainly write articles here for my own
+reference, so your mileage may vary. You can always let me know one
+way or the other!
+
 ## 2018
 
-* 2018-01-16 - [Real time systems - Par 1 - Timing](./real-time-systems-timing.html)
+* 2018-01-16 - [Real time systems - Part 1 - Timing](./real-time-systems-timing.html)
 
 ## 2017
 
