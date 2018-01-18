@@ -2,17 +2,20 @@
 
 **Website News**
 
+**[2018-01-16]**
+
 Happy New Year! It's been a little quiet here as I have been working
 through some Udemy courses. I have also been prepping for my upcoming
 Philippines trip. I really am excited to be attending PyCon
 Philippines this year. However, I do expect things to pick up on my
 return, starting with a review of some of the courses I have been
 doing and also a review of the PyCon Philippines event. I also have
-some exciting new projects in mind! Stay tuned! [2018-01-16]
+some exciting new projects in mind! Stay tuned! 
 
 
 **Updates**
 
+* [2018-01-18] - Added new article on modems.
 * [2018-01-17] - Added new article on real-time systems (networks and protocols).
 * [2018-01-16] - Added new article on real-time systems (timing).
 * [2017-12-07] - Udemy Black Friday has blown a mile-wide hole in my schedule. Two courses down, ten to go...
