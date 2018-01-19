@@ -15,7 +15,8 @@ some exciting new projects in mind! Stay tuned!
 
 **Updates**
 
-* [2018-01-18] - Added new article on modems.
+* [2018-01-19] - Added new article on real-time systems (web).
+* [2018-01-18] - Added new article on modems and the olden days.
 * [2018-01-17] - Added new article on real-time systems (networks and protocols).
 * [2018-01-16] - Added new article on real-time systems (timing).
 * [2017-12-07] - Udemy Black Friday has blown a mile-wide hole in my schedule. Two courses down, ten to go...
