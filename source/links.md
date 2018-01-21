@@ -14,6 +14,7 @@
 
 ## Databases/distributed data
 
+* [RethinkDB and real-time web apps](https://www.rethinkdb.com/blog/realtime-web/)
 * [Berkeley DB architecture](http://www.aosabook.org/en/bdb.html)
 * [RocksDB blog](http://rocksdb.blogspot.co.uk)
 * [RocksDB research topics](http://rocksdb.blogspot.co.uk/2017/04/research-topics-in-rocksdb.html)
