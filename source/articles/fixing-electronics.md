@@ -94,9 +94,14 @@ probably a hundred or more outlets on one floor. Of course some of the
 shops are now devoted primarily to the ubiquitous smart phone and
 tablet sales, but there are still the little units that will repair
 pretty much anything for you. [SST
-Repair](http://sstrepair.com/services) is a great example. They will
-fix just about anything and unlock just about anything. They have
-branches outside of Manila too.
+Repair](http://sstrepair.com/services) is a great example. 
+
+Some of the cool people at SST Repair:
+
+![SST](./images/sst-repair.png "SST Laptop Repair")
+
+They will fix just about anything and unlock just about anything. They
+have great premises and equipment have branches outside of Manila too.
 
 Of course in countries like Thailand and Philippines it is still
 economically viable to repair these devices. Labour is relatively
@@ -104,7 +109,7 @@ cheap at the moment, and the devices relatively expensive. In the UK
 the economics are different - labour is expensive, making the cost of
 repair less viable, and people are generally better off, simply
 replacing devices that no longer work or even replacing perfectly
-viable devices with the very latest model. As Thailand and Philippines
+viable devices with the latest model. As Thailand and Philippines
 continue to develop, salaries will increase, labour will become more
 expensive and the devices will become less economically viable to
 repair. Many of the repair outlets will either die, or change to a
@@ -130,11 +135,12 @@ cheaper to replace when you accidentally blow it up!
 ## Where to start?
 
 I personally don't believe the Pi is a good starting point to learn
-electronics repair. The Pi is a very sophisticated piece of
-electronics that has very complicated software. I think there is much
-value to be had from starting with a simpler device such as an Arduino
-and building some simple interface circuits (a 7-segment LED interface
-is a good starting point) and some software and go from there. 
+electronics repair. The Pi is a sophisticated piece of electronics
+that has a complicated software stack. I think there is much value to
+be had from starting with a simpler device such as an Arduino and
+building some simple interface circuits (a 7-segment LED interface is
+a good starting point) and some basic control software and go from
+there.
 
 If time was no object I would dust off my soldering iron and build a
 Z80 Single-Board Computer (SBC) from scratch. These days it's quite
@@ -158,15 +164,13 @@ My local components store, ElectroValue, is now long gone, wound up
 in 2005. I'm surprised it lasted that long to be honest. I bought
 components there from 1981 to the mid-nineties. Those were days when
 people knew about building their own computers and making sure your
-ICs had 10nF de-coupling capcitors and a stable 5V line.
+ICs had 10nF de-coupling capcitors and a stable 5V line. Electrolytic
+was something you got for your PSU, not your state after a night on
+the town.
 
 The Last Great Hope in the UK seems to be Maplins. They do at least
 sell some components and hobbyist equipment. Online, AdaFruit is also
 a shining beacon of what is possible.
-
-There is a lot to be said for getting a circuit diagram, buying some
-components and building a circuit from scratch - and getting it
-working of course!
 
 ## The future
 
@@ -174,12 +178,14 @@ It's not all bad news. There is hope. The Maker culture and the
 occasional occurrence of a local Maker Space is very welcome.
 
 There are signs that people are understanding that electronic repair
-is often the evironmentally thing to do - rather than throwing broken
-items into landfill they can often be repaired for free. [Repair
-Cafes](http://www.tewkesburyrepaircafe.co.uk/recent-repairs/) are a
-good indication of this trend. It can be quite educational simply to
-watch someone who knows what he or she is doing repair a piece of
-equipment - it can be a very positive experience!
+is often the evironmentally sane thing to do - rather than throwing
+broken items into landfill they can often be repaired for
+free. 
+
+[Repair Cafes](http://www.tewkesburyrepaircafe.co.uk/recent-repairs/)
+are a good indication of this trend. It can be quite educational
+simply to watch someone who knows what he or she is doing repair a
+piece of equipment - it can be a very positive experience!
 
 ## Conclusion
 
