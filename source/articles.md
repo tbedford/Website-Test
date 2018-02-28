@@ -8,6 +8,7 @@ way or the other!
 
 ## 2018
 
+* 2018-02-28 - [Bootstrapping](./bootstrapping.html)
 * 2018-02-28 - [Real-time systems - Part 4 - IoT](./real-time-systems-iot.html)
 * 2018-01-19 - [Real-time systems - Part 3 - Web](./real-time-systems-web.html)
 * 2018-01-18 - [Days of dial-up modems](./days-of-dial-up-modems.html)
