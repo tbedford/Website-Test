@@ -72,7 +72,7 @@ Sun Microsystems (Culver City), NTT DoCoMo (San Jose), Sharp Labs
 I also designed and delivered a course on Embedded C for Nokia
 (Camberley, UK), back when Nokia were numero uno.
 
-## Personal
+## Cat
 
 I have a cat! He's probably the most spoiled cat in the world, but all
 owners probably say that. His name is Timmy. I adopted him some years
@@ -80,13 +80,45 @@ ago - he was a rescue:
 
 ![Timmy](./images/timmy.png "Timmy")
 
+## Philippines
+
+I live in the UK but try to escape to the Philippines when I
+can. Hopefully these photos will help explain why!
+
+My office in the Philippines:
+
+![hammock](./images/hammock.jpg "Hammock")
+
+Apartment complex pool - usually I'm the only one there. I love
+outdoor/rooftop pools and there are thousands of them in the
+Philippines:
+
+![pool](./images/apartment-pool.jpg "Pool")
+
+Manila is a pretty exciting place, but it is blighted by squalor,
+abject poverty and terrible pollution. At night it can look quite
+pretty:
+
+![Manila](./images/manila-at-night.jpg "Manila at night")
+
+Out on the islands simple accommodation can be obtained. You can't be
+bothered by tuko though as every accommodation has at least one
+resident! Tuko is tagalog for gecko - so named because the sound a
+gecko makes is 'tuuukkooo':
+
+![accommodation](./images/simple-accommodation.jpg "Accommodation")
+
+Philippines abounds in natural beauty. There are jungles, beaches, islands, volcanoes, coral reefs:
+
+![camiguin](./images/white-island-camiguin.jpg "White Island Camiguin")
+
+## Me
+
 And here's me being photo-bombed by a mermaid: ;)
 
 ![tony](./images/johnny_starbucks_resized.jpg "Tony")
 
-I live in the UK but try to escape to the Philippines when I can.
-
-![hammock](./images/hammock.jpg "Hammock")
+Yep, sometimes it sucks but I still like Starbucks!
 
 ## Contact
 

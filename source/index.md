@@ -2,6 +2,14 @@
 
 **Website News**
 
+**[2018-02-28]**
+
+Well after just short of a month in the Philippines I am back. It was
+a great holiday although we did get hit by typhoon Basyang. The
+typhoon season is supposed to end in November, so we hadn't been
+expecting that! It is also something of a shock to come back from 30C
+to colder climes - it was MINUS 7C out there this morning!
+
 **[2018-01-16]**
 
 Happy New Year! It's been a little quiet here as I have been working
@@ -15,6 +23,7 @@ some exciting new projects in mind! Stay tuned!
 
 **Updates**
 
+* [2018-02-28] - Added new article on real-time systems (IoT).
 * [2018-01-19] - Added new article on real-time systems (web).
 * [2018-01-18] - Added new article on modems and the olden days.
 * [2018-01-17] - Added new article on real-time systems (networks and protocols).
