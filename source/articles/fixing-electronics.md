@@ -13,14 +13,14 @@ behind us into the distance.
 
 I'd been hired by the British Council to set up electronic repair
 courses in Uganda. The brain child of a biology lecturer at the tech
-college where I worked the project had had a long and convoluted
+college where I worked, the project had had a long and convoluted
 history. He'd been on a recuitment drive in Uganda and had literally
-tripped over a pile of electronics. When he asked what it was he was
+tripped over a pile of electronics. When he asked what it was, he was
 told it was there because no one knew how to fix it. He'd had a light
 bulb moment. All he needed now was some money and someone who knew how
 to fix electronics. The British Council provided the money. Then I was
 invited down to the college's cavernous tea rooms by someone I didn't
-know. 
+know.
 
 It turned out he'd been asking around and found he had two
 problems. The first was you could count on one hand the number of
@@ -30,17 +30,18 @@ hard cash was placed on the table in front of them.
 
 Not only did I know how to fix electronics but I'd spent three years
 working in various countries in Africa and had built up some
-resistence to possible culture shock. I'd had malaria, been bitten by
-rats, spiders and snakes, had slept next to a river full of crocodiles
-in nothing more than a flimsy tent, and had walked, driven, floated,
-and flown my way over four vast countries on the continent. He knew I
-was the man for the job. He just had to convince me I wanted it.
+resistence to possible culture shock. I'd had malaria, had close
+encounters with rats, spiders and snakes. I had slept next to a river
+full of crocodiles in nothing more than a flimsy tent, and had walked,
+driven, floated, and flown my way over four vast countries on the
+continent. He knew I was the man for the job. He just had to convince
+me I wanted it.
 
 It was my kitchen that swung things in his favour.
 
 The wife wanted a new one and we didn't have any money as we were
-surviving on my lecturer's salary and we had two children to feed and
-clothe. And the wife really wanted that new kitchen.
+surviving on my lecturer's salary and had two children to feed and
+clothe. And the wife _really_ wanted that new kitchen.
 
 We hacked out a deal, the wife would get rid of me over the summer,
 and get a new kitchen to boot, so she was happy. I might just about
@@ -54,11 +55,11 @@ summer and trained the trainers at Uganda Polytechnic Kyambogo
 very successful. The trainers trained others and everything from
 hearing aids to electron microscopes were repaired.
 
-Unfortunately couldn't leave well alone, and what had been a very
-successful and long term operation fell to dust. I moved on. I had
-learned two things though 1) College politics are ruinous. 2)
-Electronic repair was an extremely useful skill that can changed
-lives.
+Unfortunately the college couldn't leave well alone, and what had been
+a very successful and long term operation eventually fell to dust. I
+moved on. I had learned two things though 1) College politics are
+ruinous. 2) Electronic repair was an extremely useful skill that can
+changed lives.
 
 My own career moved away from electronic repair towards software
 development, in part because the economic realities were that few
@@ -81,8 +82,8 @@ electronics. These were Aladdin's caves of flashing LED displays,
 colourful racks of electronic components, and fresh solder
 fumes. These places were a hive of activity where you could get more
 or less anything electronic repaired, a phone unlocked, or spare parts
-for your laptop. The phenomenon was also were much present in
-Philippines in 2011.
+for your laptop. The phenomenon of the electronic repair shops was
+also present in Philippines in 2011.
 
 When I visited Bangkok again in 2016 I was pleased to see the repair
 shops were by and large still intact.
@@ -117,13 +118,13 @@ computer back then you went to your local ElectroValue store and
 bought the bits and built one. I actually cut my teeth by building my
 own TTY out of TTL components using the book "Television Typewriter
 Cookbook" written by Don Lancaster and published by Sams. Most people
-today don't know what a TTY is. 
+today don't know what a TTY is.
 
 The Pi has been successful, but basically represents a cheap(ish) way
 to get into programming. Some do build extension circuits for it, but
 I think in this respect the Arduino is a better option - it's a lot
 simpler and is relatively easier to understand fully. It's also
-cheaper to replace when you accidentally blow one up!
+cheaper to replace when you accidentally blow it up!
 
 
 ## Where to start?
@@ -146,28 +147,28 @@ nice channels on YouTube where people are doing interesting projects
 such as [troubleshooting arcade
 electronics](https://www.youtube.com/watch?v=WgB-VDo02vk).
 
-You can pick up practical electronics by building simple circuits on a
-breadboard and then getting them working. This usually requires basic
+You can pick up practical electronics by building a simple circuit on
+a breadboard and then getting it working. This usually requires basic
 troubleshooting skills. This was how I learned. I also picked up old
 radios and attempted to repair them - I wasn't always successful.
 
 ## Components
 
 My local components store, ElectroValue, is now long gone, wound up
-in 2005. I bought components there from 1981 to the
-mid-nineties. Those were days when people knew about building their
-own computers and making sure your ICs had 10nF de-coupling
-capcitors and a stable 5V line. 
+in 2005. I'm surprised it lasted that long to be honest. I bought
+components there from 1981 to the mid-nineties. Those were days when
+people knew about building their own computers and making sure your
+ICs had 10nF de-coupling capcitors and a stable 5V line.
 
 The Last Great Hope in the UK seems to be Maplins. They do at least
 sell some components and hobbyist equipment. Online, AdaFruit is also
 a shining beacon of what is possible.
 
 There is a lot to be said for getting a circuit diagram, buying some
-components and building a certain from scratch - and getting it
+components and building a circuit from scratch - and getting it
 working of course!
 
-## Hope
+## The future
 
 It's not all bad news. There is hope. The Maker culture and the
 occasional occurrence of a local Maker Space is very welcome.
@@ -177,13 +178,13 @@ is often the evironmentally thing to do - rather than throwing broken
 items into landfill they can often be repaired for free. [Repair
 Cafes](http://www.tewkesburyrepaircafe.co.uk/recent-repairs/) are a
 good indication of this trend. It can be quite educational simply to
-watch someone who knows what he or she is doing reapir a piece of
+watch someone who knows what he or she is doing repair a piece of
 equipment - it can be a very positive experience!
 
 ## Conclusion
 
 The art of electronics repair is probably not quite as lost as it
-appears to be at face value.  While it is true that electronic repair,
+appears to be at face value. While it is true that electronic repair,
 especially to component level, is not as commercially viable as it
 once was, there are still electronics hobbyists out there keeping the
 electronic repair flag flying. Long may that continue!
@@ -192,8 +193,9 @@ electronic repair flag flying. Long may that continue!
 ## Resources
 
 * YouTube - there are many videos on electronic repair - [EEV Blog is a good channel](https://www.youtube.com/user/EEVblog).
-* A review of the [state of electronics](https://www.youtube.com/watch?v=9GTgQrP5_c8) in Australia/The West 
-* Books: Electronic Troubleshooting by Tromal et alia, Practical Electronics for Inventors by Paul Scherz and Simon Monk.
+* A review of the [state of electronics](https://www.youtube.com/watch?v=9GTgQrP5_c8) in Australia/The West.
+* Book: Electronic Troubleshooting by Tromal et alia
+* Book: Practical Electronics for Inventors by Paul Scherz and Simon Monk.
 * Book: Radio Repair by Les Lawry-Johns (old but good).
 * PDF: [Les Lawry-Johns wonderful articles on TV
   repair](https://www.vintage-radio.info/llj/). Wonderful to read even
