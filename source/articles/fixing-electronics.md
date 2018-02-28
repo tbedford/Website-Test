@@ -168,7 +168,7 @@ ICs had 10nF de-coupling capcitors and a stable 5V line. Electrolytic
 was something you got for your PSU, not your state after a night on
 the town.
 
-The Last Great Hope in the UK seems to be Maplins. They do at least
+The Last Great Hope in the UK seems to be Maplin. They do at least
 sell some components and hobbyist equipment. Online, AdaFruit is also
 a shining beacon of what is possible.
 
@@ -208,6 +208,18 @@ electronic repair flag flying. Long may that continue!
   if you haven't got a clue about analogue electronics! Of course TV
   repair was one of those things that became less economically viable
   over the years.
+
+**Update**
+
+I had literally just finished typing the first draft of this article
+when I checked BBC News and saw the sad news that Maplin is closing
+down. Having been away I have been a bit out of the loop, but this
+comes as a shock to me. Having read over this article it's perhaps
+surprising that Maplin, like ElectroValue, lasted as long as it
+did. No doubt the online providers will pick up the slack. The BBC
+News piece on the closure can be found here:
+
+* [BBC News article on Maplin shuttering](http://www.bbc.co.uk/news/business-43223175)
 
 ---
 
