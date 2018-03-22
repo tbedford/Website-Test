@@ -50,16 +50,16 @@ What my desktop typically looks like:
 
 ## Current employment
 
-I'm a contract technical writer, specializing in writing docs for
+I'm a technical writer, specializing in writing docs for
 software developers.
+
+## Past employment
 
 As a contract technical writer I've worked for ARM, Fotango, The Open
 University, Alfresco Software, and Cambridge Silicon Radio (now
 Qualcomm).
 
-## Past employment
-
-In the past I've been a technical writer for companies such as
+I've been a permanent technical writer for companies such as
 Criterion Software (now EA), Tao Group, Oracle(MySQL), Sun
 Microsystems(MySQL), and Alfresco Software.
 

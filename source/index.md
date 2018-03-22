@@ -24,6 +24,7 @@ some exciting new projects in mind! Stay tuned!
 
 **Updates**
 
+* [2018-03-01] - Added new article "The lost art of fixing electronics".
 * [2018-02-28] - Added new article "Boostrapping".
 * [2018-02-28] - Added new photos from Philippines on `About` page.
 * [2018-02-28] - Added new article on real-time systems (IoT).

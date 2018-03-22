@@ -98,7 +98,7 @@ Repair](http://sstrepair.com/services) is a great example.
 
 Some of the cool people at SST Repair:
 
-![SST](./images/sst-repair.png "SST Laptop Repair")
+![SST](./images/sst-repair.jpg "SST Laptop Repair")
 
 They will fix just about anything and unlock just about anything. They
 have great premises and equipment have branches outside of Manila too.
