@@ -50,7 +50,7 @@ What my desktop typically looks like:
 
 ## Current employment
 
-I'm a technical writer, specializing in writing docs for
+I'm a technical writer at Nexmo, specializing in writing docs for
 software developers.
 
 ## Past employment
