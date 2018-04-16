@@ -12,24 +12,30 @@ hostPort = 9000
 
 OK = 200
 
+# Webhook params
+# {'keyword': ['TEST'],
+# 'message-timestamp': ['2018-04-16 11:19:22'],
+# 'messageId': ['0C000000A7438C74'],
+# 'msisdn': ['447931550511'],
+# 'text': ['Test yo!'],
+# 'to': ['447418340545'],
+# 'type': ['text']}
+
 class MyServer(BaseHTTPRequestHandler):
     
-    def do_POST(self):
-
-        if self.path.startswith('/webhooks/inbound-sms') :
-
-            self.send_response(OK)
-            self.send_header("Content-type", "application/json")
-            self.end_headers()
-            
-            data = self.rfile.read()
-            pprint (data)
-            
     def do_GET(self):
 
         self.send_response(OK)
         self.send_header("Content-type", "text/html")
         self.end_headers()
+
+        if self.path.startswith('/webhooks/inbound-sms'):
+        
+            result = urlparse(self.path)
+            params = parse_qs(result.query)
+            data = params['text'][0]
+
+            print ("Telemetry data is: %s" % data)
 
             
 # Run server        
