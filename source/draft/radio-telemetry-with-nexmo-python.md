@@ -38,7 +38,7 @@ I dropped down into an empty pit and grumbling to myself started
 welding in a bracket for the mud level sensor, and wished the whole
 mess of cables, the bane of my life, would just go away...
 
-## Scenarios
+## So what is radio telemetry?
 
 The above little vignette hints at a problem. When you have a biggish
 data acquisition project you usually have to end up installing
@@ -47,8 +47,22 @@ better way is to use radio telemetry. In the age of the Internet of
 Things this should be quite possible, and it is, within certain
 limitations.
 
-Radio telemetry is especially useful in scenarios where the source at edge-of-network
-is:
+Radio telemetry is the ability to send data, especially data from
+sensors and actuators, via radio waves running than through electrical
+cables.
+
+Radio telemetry is especially useful in scenarios where the source at
+edge-of-network is, physically very remote, or possibly even
+moving. Obvious when you try to run cables from the GPS sensor on a
+train and wire it back to your logging unit you are in for some
+trouble. Telemetry by radio waves is more or less essential. You could
+simply store the data locally for downloading later, but this does not
+give you the real-time data you need in many scenarios. OK by
+real-time here we are not talking high frequency updates - we might
+only need to know the position of the train every 30 seconds or
+so. 
+
+So, just to recap, radio telemetry is very useful 
 
 1. Remote
 2. Moving
@@ -62,15 +76,27 @@ Some examples:
 - Weather station
 - Alarms of all kinds
 
-
-
 ## Limitations
 
 1. Low frequency. Say one SMS per hour. For vehicle tracking you would
    probably send a messsage every minute, which would rack up costs of
    SMSs.
    
-2. Small amounts of data.    
+2. Small amounts of data.
+
+## Nexmo SMS limitations
+
+https://help.nexmo.com/hc/en-us/articles/203993598-What-is-the-Throughput-Limit-for-Outbound-SMS-
+
+
+
+## Legal
+
+I'm not sure you could use your typical unlimited SMS plan in such a
+scenario. You would have to contact your provider. If you are sending
+a lot of SMS your provider might kick up about it. Still one SMS an
+hour for 24 SMS per day is not going to be too problematic - my
+daughter used to send several hundred SMS a day when she was about 15!
 
 ## Hardware
 
