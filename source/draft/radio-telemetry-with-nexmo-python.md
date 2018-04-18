@@ -48,21 +48,23 @@ Things this should be quite possible, and it is, within certain
 limitations.
 
 Radio telemetry is the ability to send data, especially data from
-sensors and actuators, via radio waves running than through electrical
+sensors and actuators, via radio waves rather than through electrical
 cables.
 
 Radio telemetry is especially useful in scenarios where the source at
-edge-of-network is, physically very remote, or possibly even
-moving. Obvious when you try to run cables from the GPS sensor on a
+edge-of-network is physically very remote, or possibly even
+moving. Obviously when you try to run cables from the GPS sensor on a
 train and wire it back to your logging unit you are in for some
 trouble. Telemetry by radio waves is more or less essential. You could
 simply store the data locally for downloading later, but this does not
 give you the real-time data you need in many scenarios. OK by
 real-time here we are not talking high frequency updates - we might
-only need to know the position of the train every 30 seconds or
-so. 
+only need to know the position of the train every 30 seconds or so.
 
-So, just to recap, radio telemetry is very useful 
+## Scenario
+
+So, just to recap, radio telemetry is very useful where the source of
+the data is:
 
 1. Remote
 2. Moving
@@ -75,14 +77,56 @@ Some examples:
 - River level monitoring / flood warning
 - Weather station
 - Alarms of all kinds
+- Periodic status updates
+
+In this article I am specifically looking at sending small amounts of
+low frequency telemtry data via SMS, using the Nexmo SMS API and a
+little bit of Python.
+
+## Overview
+
+So what are we looking at specifically in this article?
+
+With low cost boards available you have the potential for very cheap
+sensor electronics. A Raspberry Pi or Arduino are suitable
+for low cost multi-channel data acquisition from a variety of
+sensors. They are also capable of carrying out various control tasks
+such as temperature control and motor control.
+
+Witn suppliers like [Ada Fruit](https://www.adafruit.com) supplying
+cheap SMS modules for Pi and 'shields' for Arduino - the sky is quite
+literally the limit. You could acquire data on multiple channels and
+then send that information via SMS - it does not matter how remote the
+sensor is (as long as there's is mobile coverage), or whether it's
+moving or not.
+
+By way of example, messages might be as follows:
+
+1. TANK1=25.1, TANK2=13.2, TANK3=43.9(ALARM), TANK4=9.7
+2. (21.62514414481643, -2.3010920480245426)=23.7
+3. DANGER: Turbine 1 is overheating. Please call 0123456789.
+
+Note, you can identify the source of the data by the incoming message
+phone number, so you don't need to include that in the message unless
+more than one unit are sharing an "SMS hub". Actually in many
+scenarios the idea of an SMS hub could be quite useful.
+
+
+## Types of radio networks
+
+G3, G4, SMS, packet radio etc.
+
 
 ## Limitations
 
-1. Low frequency. Say one SMS per hour. For vehicle tracking you would
-   probably send a messsage every minute, which would rack up costs of
-   SMSs.
-   
-2. Small amounts of data.
+When using SMS as a radio telemetry system, there are some limitations
+to take into account:
+
+1. The rate at which you can SMS messages.
+2. The message length of a single SMS.
+
+... discuss these limitations a bit more.
+
 
 ## Nexmo SMS limitations
 
@@ -94,9 +138,10 @@ https://help.nexmo.com/hc/en-us/articles/203993598-What-is-the-Throughput-Limit-
 
 I'm not sure you could use your typical unlimited SMS plan in such a
 scenario. You would have to contact your provider. If you are sending
-a lot of SMS your provider might kick up about it. Still one SMS an
-hour for 24 SMS per day is not going to be too problematic - my
+a lot of SMS messages your provider might kick up about it. Still one
+SMS an hour for 24 SMS per day is not going to be too problematic - my
 daughter used to send several hundred SMS a day when she was about 15!
+If in doubt check with your provider and possibly a lawyer!
 
 ## Hardware
 
@@ -129,8 +174,8 @@ Including dealing with a data packet spread over multiple messages.
   is a fascinating look at a big IoT project. A system similar to the
   one described in this article could be used to implement an alarm
   system. I think the idea of underwater robots is really cool too!
-- Ada Fruit
-
+- [Ada Fruit](https://www.adafruit.com) - suppliers of all kinds of electronic goodies, including SMS/GPS modules/shields.
+- Nice piece on [GPS Tracking](https://en.wikipedia.org/wiki/GPS_tracking_unit)
 
 ---
 
