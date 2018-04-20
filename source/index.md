@@ -24,6 +24,7 @@ some exciting new projects in mind! Stay tuned!
 
 **Updates**
 
+* [2018-04-20] - Added new article "On buying my first smartphone". 
 * [2018-04-18] - Added link for website license/disclaimer and update copyright year in license. 
 * [2018-04-13] - Added new article "Intro to Ngrok".
 * [2018-03-31] - Added new article "Pastures new".
