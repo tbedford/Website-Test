@@ -217,6 +217,17 @@ myServer.server_close()
 print(time.asctime(), "Server Stops - %s:%s" % (hostName, hostPort))
 ```
 
+
+## Testing the backend
+ 
+You'll need to sign up for a Nexmo account.
+
+If you plan to run the test code locally you can use Ngrok. See my
+[article on
+Ngrok](https://coffeeandcode.neocities.org/intro-to-ngrok.html) for
+some pointers on how to do this.
+ 
+
 ## It could be a two-way thing
 
 xxx modules can receive SMS for control purposes.
