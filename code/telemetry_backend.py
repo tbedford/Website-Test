@@ -16,9 +16,9 @@ OK = 200
 # {'keyword': ['TEST'],
 # 'message-timestamp': ['2018-04-16 11:19:22'],
 # 'messageId': ['0C000000A7438C74'],
-# 'msisdn': ['447931550511'],
+# 'msisdn': ['441234567890'],
 # 'text': ['Test yo!'],
-# 'to': ['447418340545'],
+# 'to': ['440987654321'],
 # 'type': ['text']}
 
 class MyServer(BaseHTTPRequestHandler):
