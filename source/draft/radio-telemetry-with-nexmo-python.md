@@ -1,8 +1,8 @@
 # Cheap radio telemetry with Nexmo and Python
 
 Summary: This article looks at how to set up a cheap radio telemetry
-system using Arduino or Raspberry Pi with an SMS shield, Nexmo and a
-little bit of Python on the back end.
+system using something like a Raspberry Pi with an SMS module, Nexmo
+and a little bit of Python on the back end.
 
 I crawled further down the cable duct and got an attack of
 claustrophobia. It was in the depths of a Norwegian winter and despite
@@ -56,10 +56,10 @@ Radio telemetry is especially useful in scenarios where the source at
 edge-of-network is physically very remote, or possibly even
 moving. Obviously when you try to run cables from the GPS sensor on a
 train and wire it back to your logging unit you are in for some
-trouble. Telemetry by radio waves is more or less essential in that
+trouble! ;) Telemetry by radio waves is more or less essential in that
 case. You could simply store the data locally for downloading later,
 but this does not give you the real-time data you need in many
-scenarios. OK by real-time here we are not talking high frequency
+scenarios. By real-time here we are not talking high frequency
 updates - we might only need to know the position of the train every
 30 seconds or so.
 
@@ -95,18 +95,18 @@ for low cost multi-channel data acquisition from a variety of
 sensors. They are also capable of carrying out various control tasks
 such as temperature control and motor control.
 
-Witn suppliers like [Ada Fruit](https://www.adafruit.com) supplying
-cheap SMS modules for Pi and 'shields' for Arduino - the sky is quite
-literally the limit. You could acquire data on multiple channels and
+Witn suppliers like [Ada Fruit](https://www.adafruit.com) providing
+cheap SMS modules for Pi and 'shields' for Arduino - the sky is, quite
+literally, the limit. You could acquire data on multiple channels and
 then send that information via SMS - it does not matter how remote the
-sensor is (as long as there's mobile coverage), or whether it's
-moving or not.
+sensor is (as long as there's mobile coverage), or whether the sensor
+is moving or not.
 
 By way of example, messages might be sent as follows:
 
-1. TANK1=25.1, TANK2=13.2, TANK3=43.9(ALARM), TANK4=9.7
-2. (21.62514414481643, -2.3010920480245426)=23.7
-3. DANGER: Warp drive is overheating. Please call +44-0123456789.
+1. TANK1=25.1M, TANK2=13.2M, TANK3=43.9M(ALARM), TANK4=9.7M
+2. (21.62514414481643, -2.3010920480245426)=233.7Kg
+3. DANGER: Warp drive is overheating! Please call +44-000000000 immediately!
 
 Note, you can identify the source of the data by the incoming message
 phone number, so you don't need to include that in the message unless
@@ -114,25 +114,20 @@ more than one unit are sharing an "SMS hub". Actually in many
 scenarios the idea of an SMS hub could be quite useful.
 
 
-## Types of radio networks
-
-G3, G4, SMS, packet radio etc.
-
-
 ## Limitations
 
 When using SMS as a radio telemetry system, there are some limitations
 to take into account:
 
-1. The rate at which you can send SMS messages. (Nexmo throttles to around 30 API calls a second)
-2. The message length of a single SMS. (Theoretically there is a standard but different carriers have different restrictions)
+1. The rate at which you can send SMS messages. (Nexmo throttles to
+   around 30 API calls a second)
+2. The message length of a single SMS. (Theoretically there is a
+   standard but different carriers have different restrictions)
 
-... discuss these limitations a bit more.
-
-
-## Nexmo SMS limitations
-
-https://help.nexmo.com/hc/en-us/articles/203993598-What-is-the-Throughput-Limit-for-Outbound-SMS-
+For small data applications these retrictions will be fine. If you
+have especially large chunks of data that data can be spread over
+multiple messages. I would not go over three messages though because
+not all carriers deliver as many as six.
 
 
 ## Legal
@@ -144,24 +139,30 @@ SMS an hour for 24 SMS per day is not going to be too problematic - my
 daughter used to send several hundred SMS a day when she was about 15!
 If in doubt check with your provider and possibly a lawyer!
 
-## Hardware
 
+## Getting set up
 
-## Data format
+1. Install Ngrok. If you plan to run the test code locally you can use
+Ngrok. See my [article on
+Ngrok](https://coffeeandcode.neocities.org/intro-to-ngrok.html) for
+some pointers on how to do this.
+2. You'll need to sign up for a Nexmo account. You'll get a couple of
+Euros free credit which will let you run a few tests. Renting a
+virtual number costs around 1.5 Euros a month. There are then small
+costs per outbound call or SMS, but in the example shown here you'll
+be testing by sending an inbound SMS with your data in it.
+3. Purchase a Nexmo Number (Long Virtual Number). This is the number you'll 
+send your telemetry SMS to.
+4. Configure a webhook. See the following screenshot:
 
-Including dealing with a data packet spread over multiple messages.
+![Webhook](./images/sms-webhook.png "Configuring a webhook")
 
-## Mobile networks primer
-
-
-
-## Nexmo
-
-## Costs
+You now need to write some code!
 
 ## Python backend
 
-1. Receiving inbound SMS (data)
+Here's the Python code for reacting to an inbound SMS, which contains
+your telemetry data:
 
 ``` python
 # Python 3
@@ -177,15 +178,6 @@ hostName = "localhost"
 hostPort = 9000
 
 OK = 200
-
-# Webhook params
-# {'keyword': ['TEST'],
-# 'message-timestamp': ['2018-04-16 11:19:22'],
-# 'messageId': ['0C000000A7438C74'],
-# 'msisdn': ['441234567890'],
-# 'text': ['Test yo!'],
-# 'to': ['440987654321'],
-# 'type': ['text']}
 
 class MyServer(BaseHTTPRequestHandler):
     
@@ -204,7 +196,7 @@ class MyServer(BaseHTTPRequestHandler):
             print ("Telemetry data is: %s" % data)
 
             
-# Run server        
+# Run server
 myServer = HTTPServer((hostName, hostPort), MyServer)
 print(time.asctime(), "Server Starts - %s:%s" % (hostName, hostPort))
         
@@ -219,28 +211,74 @@ print(time.asctime(), "Server Stops - %s:%s" % (hostName, hostPort))
 
 
 ## Testing the backend
- 
-You'll need to sign up for a Nexmo account.
+  
+Send a text into your Nexmo Number. You'll see tracing like the
+following (I've redacted my phone number and Nexmo number):
 
-If you plan to run the test code locally you can use Ngrok. See my
-[article on
-Ngrok](https://coffeeandcode.neocities.org/intro-to-ngrok.html) for
-some pointers on how to do this.
- 
+``` 
+Sat Apr 28 08:16:40 2018 Server Starts - localhost:9000
+127.0.0.1 - - [28/Apr/2018 08:18:28] "GET /webhooks/inbound-sms?msisdn=4400000000&to=4400000000&messageId=0B000000D29DB198&text=Telemetry+data+123456789&type=text&keyword=TELEMETRY&message-timestamp=2018-04-28+07%3A18%3A34 HTTP/1.1" 200 -
+Telemetry data is: Telemetry data 123456789
+```
+
+Just to make it a bit easier to read the webhook response parameters
+(with phone numbers redacted) are in the following format:
+
+```
+{
+    'keyword': ['TELEMETRY'],
+    'message-timestamp': ['2018-04-16 11:19:22'],
+    'messageId': ['0C000000A7438C74'],
+    'msisdn': ['440000000000'],
+    'text': ['Telemetry+data+123456789'],
+    'to': ['4400000001'],
+    'type': ['text']
+}
+```
+
+The code grabs the data. Of course you can do anything you want wirth
+this data including, resending it, processing it, storing it to a file
+and so on. Note also ther MSISDN is the phone number of the sending
+device, so you have immediate identification of source. Of course if
+there are multiple channels on one source the message does still need
+to identify the channel, for example `CH1=23.1, CH2=46.5, CH3=1.2`.
+
 
 ## It could be a two-way thing
 
-xxx modules can receive SMS for control purposes.
+With Nexmo you can have inbound and outbound phone calls and text
+messages. So, you culd for example send a control SMS to your
+monitoring or control equipment. You could do things like switch on
+your lights at home, activate sprinklers, or switch off a pump that's
+overheating. The applications are endless.
 
-## References
+## Closing words
 
+I have just scratched the surface here of what is an area with
+enormous potential. I hope you've found this useful. You have at least
+seen that you can write some Python code to receive data sent in via
+SMS, and with that the sky is the limit.
+
+As always if you've any questions see my Contact page for details of
+how to get in touch.
+
+
+## Resources
+
+- [Ngrok](https://ngrok.com) - Generally a really useful tool to add to your skillset.
+- [Nexmo sign up](https://dashboard.nexmo.com/sign-up) - Go here to get a FREE Nexmo account.
+- [Nice
+  article](https://www.clockworksms.com/blog/the-gsm-character-set/)
+  on SMS character encoding and message length.
 - [Vast canal monitoring system in
   China](https://spectrum.ieee.org/tech-talk/telecom/internet/a-massive-iot-sensor-network-keeps-watch-over-a-1400kilometer-canal). This
   is a fascinating look at a big IoT project. A system similar to the
   one described in this article could be used to implement an alarm
   system. I think the idea of underwater robots is really cool too!
-- [Ada Fruit](https://www.adafruit.com) - suppliers of all kinds of electronic goodies, including SMS/GPS modules/shields.
-- Nice piece on [GPS Tracking](https://en.wikipedia.org/wiki/GPS_tracking_unit)
+- [Ada Fruit](https://www.adafruit.com) - suppliers of all kinds of
+  electronic goodies, including SMS/GPS modules/shields.
+- Nice piece on [GPS
+  Tracking](https://en.wikipedia.org/wiki/GPS_tracking_unit)
 
 ---
 
