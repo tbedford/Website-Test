@@ -1,7 +1,7 @@
-# Cheap radio telemetry with Nexmo and Python
+# Radio telemetry with Nexmo and Python
 
 Summary: This article looks at how to set up a cheap radio telemetry
-system using something like a Raspberry Pi with an SMS module, Nexmo
+system using something like a Raspberry Pi with an SMS module, Nexmo,
 and a little bit of Python on the back end.
 
 I crawled further down the cable duct and got an attack of
@@ -18,11 +18,11 @@ is immovable bulk, kept in position by state-of-the-art GPS and huge
 computer-controlled thrusters. I lugged the cable a bit
 further. Nearly there. I dropped down into the pit room, exhausted,
 and pondered how much easier my life would be if I didn't have to lug
-cables around. So far, I reckoned I'd wired up 50 sensors, and I was
-probably half-done. The most dangerous to install had been the kelly
-height sensor. I'd been winched up into the derrick by a roughneck
-who'd just worked 12 hours straight. At one point I think he fell
-asleep standing up, leaving me dangling in mid air. I quickly
+cables around. So far, I reckoned I'd wired up fifty sensors, and I
+was probably half-done. The most dangerous to install had been the
+kelly height sensor. I'd been winched up into the derrick by a
+roughneck who'd just worked 12 hours straight. At one point I think he
+fell asleep standing up, leaving me dangling in mid air. I quickly
 tie-wrapped the kelly bottle onto the kelly block, a makeshift sensor
 as simple as it was ingenious - a pressurized system of water and
 air - you went up - more water pressure on a strain gauge, you went
@@ -49,15 +49,16 @@ Things this should be quite possible, and it is, within certain
 limitations.
 
 Radio telemetry is the ability to send data, especially data from
-sensors and actuators, via radio waves rather than through electrical
-cables.
+sensors, via radio waves rather than through electrical cables.
 
 Radio telemetry is especially useful in scenarios where the source at
 edge-of-network is physically very remote, or possibly even
-moving. Obviously when you try to run cables from the GPS sensor on a
+moving. Obviously, when you try to run cables from the GPS sensor on a
 train and wire it back to your logging unit you are in for some
-trouble! ;) Telemetry by radio waves is more or less essential in that
-case. You could simply store the data locally for downloading later,
+trouble! ;) 
+
+Telemetry by radio waves is more or less essential where the sensor is
+moving. You could simply store the data locally for downloading later,
 but this does not give you the real-time data you need in many
 scenarios. By real-time here we are not talking high frequency
 updates - we might only need to know the position of the train every
@@ -82,7 +83,7 @@ Some examples:
 - Periodic status updates
 
 In this article I am specifically looking at sending small amounts of
-low frequency telemetry data via SMS, using the Nexmo SMS API and a
+low-frequency telemetry data via SMS, using the Nexmo SMS API and a
 little bit of Python.
 
 ## Overview
@@ -95,7 +96,7 @@ for low cost multi-channel data acquisition from a variety of
 sensors. They are also capable of carrying out various control tasks
 such as temperature control and motor control.
 
-Witn suppliers like [Ada Fruit](https://www.adafruit.com) providing
+With suppliers like [Ada Fruit](https://www.adafruit.com) providing
 cheap SMS modules for Pi and 'shields' for Arduino - the sky is, quite
 literally, the limit. You could acquire data on multiple channels and
 then send that information via SMS - it does not matter how remote the
@@ -106,7 +107,7 @@ By way of example, messages might be sent as follows:
 
 1. TANK1=25.1M, TANK2=13.2M, TANK3=43.9M(ALARM), TANK4=9.7M
 2. (21.62514414481643, -2.3010920480245426)=233.7Kg
-3. DANGER: Warp drive is overheating! Please call +44-000000000 immediately!
+3. DANGER: Warp drive is overheating! Please call +44-700000000 immediately!
 
 Note, you can identify the source of the data by the incoming message
 phone number, so you don't need to include that in the message unless
@@ -125,20 +126,22 @@ to take into account:
    standard but different carriers have different restrictions)
 
 For small data applications these retrictions will be fine. If you
-have especially large chunks of data that data can be spread over
+have especially large chunks of data, that data can be spread over
 multiple messages. I would not go over three messages though because
 not all carriers deliver as many as six.
 
 
 ## Legal
 
-I'm not sure you could use your typical unlimited SMS plan in such a
+I'm not sure you could use your typical 'unlimited SMS plan' in such a
 scenario. You would have to contact your provider. If you are sending
 a lot of SMS messages your provider might kick up about it. Still one
 SMS an hour for 24 SMS per day is not going to be too problematic - my
 daughter used to send several hundred SMS a day when she was about 15!
-If in doubt check with your provider and possibly a lawyer!
+I think for hobby testing and so on, which is what we are talking
+about here, you should be fine.
 
+**If in doubt check with your provider and possibly a lawyer!**
 
 ## Getting set up
 
@@ -161,7 +164,7 @@ You now need to write some code!
 
 ## Python backend
 
-Here's the Python code for reacting to an inbound SMS, which contains
+Here's the Python code for reacting to the inbound SMS that contains
 your telemetry data:
 
 ``` python
@@ -236,18 +239,20 @@ Just to make it a bit easier to read the webhook response parameters
 }
 ```
 
-The code grabs the data. Of course you can do anything you want wirth
-this data including, resending it, processing it, storing it to a file
-and so on. Note also ther MSISDN is the phone number of the sending
-device, so you have immediate identification of source. Of course if
-there are multiple channels on one source the message does still need
-to identify the channel, for example `CH1=23.1, CH2=46.5, CH3=1.2`.
+The code fishing out the telemetry data. Of course you can do anything
+you want with this data including: resending it, processing it,
+storing it to a file and so on.
+
+Note also ther MSISDN is the phone number of the sending device, so
+you have immediate identification of source. Of course if there are
+multiple channels on one source the message does still need to
+identify the channel, for example `CH1=23.1, CH2=46.5, CH3=1.2`.
 
 
 ## It could be a two-way thing
 
 With Nexmo you can have inbound and outbound phone calls and text
-messages. So, you culd for example send a control SMS to your
+messages. So, you could for example send a control SMS to your
 monitoring or control equipment. You could do things like switch on
 your lights at home, activate sprinklers, or switch off a pump that's
 overheating. The applications are endless.
@@ -282,6 +287,6 @@ how to get in touch.
 
 ---
 
-* Published: 2018-xx-xx 04:30:12 UTC
-* Updated: 2018-xx-xx 04:30:12 UTC
+* Published: 2018-05-02 06:10:07 UTC
+* Updated: 2018-05-02 06:10:42 UTC
 * UUID: C7052670-A284-47DA-A80D-5D847A4B2C68
