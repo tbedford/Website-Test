@@ -1,2 +1,0 @@
-# Static versus dynamic websites
-
