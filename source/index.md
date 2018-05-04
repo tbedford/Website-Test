@@ -2,6 +2,33 @@
 
 **Website News**
 
+**[2018-05-04]**
+
+I was pleased to see I managed to exceed my target quota of articles
+for last month, despite being incredibly busy with my new job. I
+expect to perhaps do as many as five articles this month, but we will
+see.
+
+Sometime early this morning I wrote the very first lines of what will
+be the new website. I think this news probably warrants an article in
+its own right. I can reveal a few things. It will be a Flask web
+app. It will use Markdown as the source file format, and it will most
+likely be hosted on Heroku. There will be new features such as tags,
+comments, and a better design. Actually the core design - a pipeline
+of processing stages on the Markdown and HTML source will stay. Those
+Bash shell scripts really have to go though!
+
+The other shocking news is I've been edging away from using
+Emacs/Magit and have been using Visual Studio Code a lot more. It has
+proved suprisingly wonderful to use. Surely that deserves an article!
+Still, Emacs will still be my go to editor for the smaller tasks and
+when I log into my test servers.
+
+The stats for the site continue to climb ever upward. Thank you for
+your support, and I'm glad some of you find my ramblings of some
+interest.
+
+
 **[2018-02-28]**
 
 Well after just short of a month in the Philippines I am back. It was
