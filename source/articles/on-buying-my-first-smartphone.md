@@ -57,7 +57,7 @@ apps I put on was Trainline. Then I made sure I had Maps. Gmail,
 Slack, Oyster card, Starbucks soon followed. Notes also has a very
 useful, but little known, document scanner, great for capturing
 receipts, and I can convert to PDF and save on iCloud, reading for
-uoploading to the expense system.
+uploading to the expense system.
 
 I like iMessage too - at least it's a really nice way to communicate
 with other people on iPhones for free. However, I had issues with
