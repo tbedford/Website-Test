@@ -8,6 +8,7 @@ way or the other!
 
 ## 2018
 
+* 2018-05-08 - [Really simple encryption](./realy-simple-encryption.html)
 * 2018-05-02 - [Radio telemetry with Nexmo and Python](./radio-telemetry-with-nexmo-python.html)
 * 2018-04-20 - [On buying my first smartphone](./on-buying-my-first-smartphone.html)
 * 2018-04-13 - [Intro to Ngrok](./intro-to-ngrok.html)
