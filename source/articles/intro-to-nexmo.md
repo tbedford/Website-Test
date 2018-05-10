@@ -386,16 +386,16 @@ print(time.asctime(), "Server Stops - %s:%s" % (hostName, hostPort))
 There are numerous ways to deply your application. You only really
 have to deploy the business logic in this case. For testing purposes I
 created a Digital Ocean droplet and assigned a spare domain name I had
-as this was a simple but realistic deplyment scenario.
+as this was a simple but realistic deployment scenario.
 
 Another interesting option is to run the business logic on your local
 machine. As Nexmo attempts to call back on the webhook URLs you
 provided, this would not usually work, as the URLs need to point to
 locations that are accessible over the public Internet. You can get
-around this by using a tool such as [Ngrok], which will expose your
-callback URLs to nexmo through a tunnel. How to do this is beyond the
-scope of this blog post - but do not fear this has already been
-covered in an [in-depth blog
+around this by using a tool such as [Ngrok](https://www.ngrok.com),
+which will expose your callback URLs to nexmo through a tunnel. How to
+do this is beyond the scope of this blog post - but do not fear this
+has already been covered in an [in-depth blog
 post](https://www.nexmo.com/blog/2017/07/04/local-development-nexmo-ngrok-tunnel-dr/)
 by Aaron Bassett. If using Ngrok your webhook URLs would typically be
 something like `http://1234ABCD.ngrok.io/webhooks/event` and
