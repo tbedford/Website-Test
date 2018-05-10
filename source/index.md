@@ -51,6 +51,7 @@ some exciting new projects in mind! Stay tuned!
 
 **Updates**
 
+* [2018-05-10] - Added new article "Intro to Nexmo"
 * [2018-05-08] - Added new article "Really simple encryption". 
 * [2018-05-02] - Added new article "Radio telemetry with Nexmo and Python". 
 * [2018-04-20] - Added new article "On buying my first smartphone". 

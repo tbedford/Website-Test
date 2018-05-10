@@ -154,16 +154,16 @@ Service, it does not need to call the Nexmo API directly.
 
 Here's a summary of what you will do:
 
-1. - [ ] Sign up for a Nexmo account
-2. - [ ] Review the Nexmo Dashboard
-3. - [ ] Create a new Nexmo Application
-4. - [ ] Generate your application's public/private key pair
-5. - [ ] Purchase a Nexmo Number and assign it to your application
-6. - [ ] Set callback links for your application
-7. - [ ] Add business logic to your application
-8. - [ ] Deploy your application
-9. - [ ] Test your application
-10. - [ ] Have fun!
+- [ ] Sign up for a Nexmo account
+- [ ] Review the Nexmo Dashboard
+- [ ] Create a new Nexmo Application
+- [ ] Generate your application's public/private key pair
+- [ ] Purchase a Nexmo Number and assign it to your application
+- [ ] Set callback links for your application
+- [ ] Add business logic to your application
+- [ ] Deploy your application
+- [ ] Test your application
+- [ ] Have fun!
 
 ### 1. Sign up for a Nexmo account
 
@@ -471,7 +471,7 @@ foundation on which to continue your explorations of the Nexmo API.
 
 ---
 
-* Published: 2018-05-10 08:30:00 UTC
-* Updated: 2018-05-10 08:30:00 UTC
+* Published: 2018-05-10 06:00:00 UTC
+* Updated: 2018-05-10 06:00:00 UTC
 * UUID: 401CAFF8-5681-4D9E-B2B6-3A73432BD67A
 
