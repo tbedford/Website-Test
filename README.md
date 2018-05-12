@@ -42,7 +42,6 @@ A few notes on how this website is put together:
 6. [build_website.sh] Remove temporary files.
 7. [build_website.sh] Run HTML Tidy over HTML files.
 8. [build_website.sh] Prepare upload package.
-9. [build_website.sh] Generate Atom file.
-
+9. [build_website.sh] Generate Atom feed (calls `generate_atom_feed.py`).
 
 ---
