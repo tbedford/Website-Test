@@ -1,31 +1,54 @@
 <html>
-  <head>
-    <title>{TITLE}</title>
-    <link rel="alternate" type="application/atom+xml" title="Coffee and Code Atom Feed" href= "https://coffeeandcode.neocities.org/atom.xml">
-    <link href="/style.css" rel="stylesheet" type="text/css" media="all">
-    <link rel="stylesheet"
-          href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/mono-blue.min.css">
-    <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  </head>  
-  <body>
-    <div class="topnavbar">
-    <div class="header"><h1>{TITLE}</h1></div>
-      <ul>
-        <li><a href="./index.html">Home</a></li>
-        <li><a href="./articles.html">Articles</a></li>
-        <li><a href="./about.html">About</a></li>
-        <li><a href="./contact.html">Contact</a></li>
-        <li><a href="./projects.html">My Projects</a></li>
-        <li><a href="./presentations.html">Presentations</a></li>
-        <li><a href="./links.html">Links</a></li>
-      </ul>
-    </div>
-    <div class="content">{CONTENT}</div>
-    <div class="footer">
-      <p><a href="https://coffeeandcode.neocities.org">Home</a> | (c) 2017 - 2018 Tony Bedford | Website built: {BUILD_TIME} | <a href="https://github.com/tbedford/Website-Test">Website source code</a> | <a href="./atom.xml">Atom feed</a></p> | <a href="https://github.com/tbedford/Website-Test/blob/master/LICENSE">License</a>
-    </div>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
-    <script>hljs.initHighlightingOnLoad();</script>
-  </body>
+
+<head>
+  <title>{TITLE}</title>
+  <link rel="alternate" type="application/atom+xml" title="Coffee and Code Atom Feed" href="https://coffeeandcode.neocities.org/atom.xml">
+  <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/tomorrow-night-blue.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <div class="topnavbar">
+    <ul>
+      <li>
+        <a href="./index.html">Home</a>
+      </li>
+      <li>
+        <a href="./articles.html">Articles</a>
+      </li>
+      <li>
+        <a href="./about.html">About</a>
+      </li>
+      <li>
+        <a href="./contact.html">Contact</a>
+      </li>
+      <li>
+        <a href="./projects.html">My Projects</a>
+      </li>
+      <li>
+        <a href="./presentations.html">Presentations</a>
+      </li>
+      <li>
+        <a href="./links.html">Links</a>
+      </li>
+    </ul>
+  </div>
+  <div class="header">
+    <h1>{TITLE}</h1>
+  </div>
+  <div class="content">{CONTENT}</div>
+  <div class="footer">
+    <p>
+      <a href="https://coffeeandcode.neocities.org">Home</a> | (c) 2017 - 2018 Tony Bedford | Website built: {BUILD_TIME} |
+      <a href="https://github.com/tbedford/Website-Test">GitHub</a> |
+      <a href="./atom.xml">Atom feed</a>
+    </p> |
+    <a href="https://github.com/tbedford/Website-Test/blob/master/LICENSE">License</a>
+  </div>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+</body>
+
 </html>
