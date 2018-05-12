@@ -32,4 +32,17 @@ A few notes on how this website is put together:
 4. The website building script, which is very simple, also cleans HTML Tidy to tidy up the HTML.
 5. I upload a copy of the generated HTML to Neocities.
 
+## Pipeline
+
+1. [build_website.sh] Create build directories as required.
+2. [build_website.sh] Obtain list of Markdown files and pipe to clean.py.
+3. [clean.py] Convert to Markdown using markdown system command.
+4. [clean.py] Runs series of clean filters to transform content.
+5. [clean.py] Inject content into Template and write out HTML file.
+6. [build_website.sh] Remove temporary files.
+7. [build_website.sh] Run HTML Tidy over HTML files.
+8. [build_website.sh] Prepare upload package.
+9. [build_website.sh] Generate Atom file.
+
+
 ---
