@@ -5,10 +5,7 @@ import re
 import os
 import datetime
 
-template_file = '../templates/template.html'
-
 def get_build_time ():
-
     build_time = datetime.datetime.utcnow()
     build_time = str(build_time)
     m = re.search(r'(\d\d\d\d-\d\d-\d\d) (\d\d:\d\d:\d\d)', build_time)
@@ -18,12 +15,10 @@ def get_build_time ():
 # We end up with two h1's, so remove the second (in the content only)
 # We want the first in the div class header
 def remove_h1 (content):
-
     content = re.sub (r'<h1[\s\S]*?>([\s\S]*?)<\/h1>', r'', content)    
     return content
 
 def clean_content(content):
-
     # Run regexs to clean up HTML
     content = re.sub (r'<style[\s\S]*?<\/style>', r'', content)
     content = re.sub (r'<link[\s\S]*?<\/link>', r'', content)
@@ -40,11 +35,11 @@ def clean_content(content):
     return content
 
 def get_title (content):
-
     m = re.search (r'<h1[\s\S]*?>([\s\S]*?)<\/h1>', content)
     return m.group(1)
 
 # Read template
+template_file = '../templates/template.html'
 ft = open (template_file, 'r')
 template = ft.read()
 ft.close()

@@ -13,6 +13,24 @@
 * [Try out old DiskMags - very cool!](https://archive.org/details/diskmags?and[]=subject%3A%22MS-DOS+diskmags%22)
 * [Handmade Hero Episode Guide](https://hero.handmade.network/episodes)
 
+## Character sets and encoding
+
+* [Strange details of strings at FaceBook](https://www.youtube.com/watch?v=kPR8h4-qZdk)
+* [Unicode strings](https://www.youtube.com/watch?v=ysh2B6ZgNXk)
+
+Interesting presentation. Interesting that U+21B4 requires three bytes
+if encoded in UTF-8 and only two bytes with UTF-16 - which explains
+why UTF-16 is commonly used for non-latin (e.g. Japanese) character
+encoding - it's a lot more efficient at encoding those non-latin
+characters. I think what they are doing with
+[CopperSpice](http://www.copperspice.com/index.html) is also
+interesting. It's amazing the state (i.e. mess) of many legacy
+libraries when it comes to encodings. Also have a [YouTube
+channel](https://www.youtube.com/copperspice). Documentation on
+[string
+terminology](http://www.copperspice.com/docs/cs_string/overview_terminology.html).
+
+
 ## Databases/distributed data
 
 * [RethinkDB and real-time web apps](https://www.rethinkdb.com/blog/realtime-web/)
@@ -38,11 +56,45 @@
 * [Amazing amount of info on databases](https://db-engines.com/en/)
 
 
+## Games tech
+
+* [Memory by Handmade Hero - Casey
+Muratori](https://www.youtube.com/watch?v=MvDUe2evkHg&list=PLEMXAbCVnmY6Azbmzj3BiC3QRYHE9QoG7)
+
 ## Information Retrieval / Search
 
 * [Free IR book online](https://nlp.stanford.edu/IR-book/html/htmledition/irbook.html)
 * [Interview with Matt Wells of Gigablast (PDF)](http://www.gigablast.com/acmqueue.pdf)
 * [Gigablast costs](http://www.gigablast.com/searchfeed.html) - Bing also offers a paid search API (free on small scale)
+
+## Operating systems tech
+
+* [Deconstructing the OS](https://www.youtube.com/watch?v=h7D88U-5pKc)
+
+* [Rust and Concurrency by David
+  Sullins](https://www.youtube.com/watch?v=oIikwmeGVYY)
+  
+As a programmer it's really important to understand concepts of
+Resources, Ownership, Lifetime, Scope - and this is critical in a
+concurrent context. One minor point, scope is not necessarily the same
+thing as lifetime, at least in C (you can have a static variable in a
+function with global lifetime but local scope).
+
+* [Kavya Joshi on Keeping Time in Real
+  Systems](https://youtu.be/BRvj8PykSc4) 
+  
+Great talk on clocks and clock synchronization in distributed systems.
+  
+* [You can be a kernel hacker by Julia
+  Evans](https://www.youtube.com/watch?v=0IQlpFWTFbM) 
+  
+Wonderful talk by Julia Evans. She is a "high energy" presenter - you
+won't be bored. I really like it when Julia uses /proc to recover a
+deleted file. Cool. She is also very, very funny - the piece on how to
+submit a kernel patch around 18 minutes in is hilarious. I _loved_
+this talk! One of the best presenters I've seen in a while.
+
+
 
 ## Syndication / publishing protocols
 
@@ -52,10 +104,20 @@
 
 ## Python
 
+* [Python, Fabric, Ansible by Tim
+  Henderson](https://www.youtube.com/watch?v=4qav2EuXsGU) 
+  
+Not many presentations start with a poem, but this one does and it's
+great. Very good presenter who speaks clearly and at the right
+pace. Very useful presentation on managing systems.
+
 * [LXML Python XML library](http://lxml.de)
 
 ## Memory
 
+* [Making Allocators Work Part 1 by Alisdair Meredith](https://www.youtube.com/watch?v=YkiYOP3d64E)
+* [Anatomy of a memory allocation by Jorge Rodriguez](https://www.youtube.com/watch?v=c0g3S_2QxWM)
+* [Memory and C++ debugging at EA by Scott Wardle](https://www.youtube.com/watch?v=8KIvWJUYbDA)
 * [Julia Evans on memory profiling](https://jvns.ca/blog/2018/02/06/profiler-week-5/)
 * [Scudo hardened memory allocator](https://llvm.org/docs/ScudoHardenedAllocator.html)
 * [General article on memory allocators - good background reading before implementation](http://www.flounder.com/memory_allocation.htm)
