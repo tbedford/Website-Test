@@ -5,14 +5,14 @@ couple of simple JavaScript programs.
 
 I decided it was high time I learned JavaScript. I have dabbled before but
 never really learnt it properly. I decided to write a couple of programs that
-use an HTML canvas to test the language out a bit. I use simple
+use an HTML Canvas to test the language out a bit. I use simple
 iteration, JavaScript objects, arrays and conditionals. The bread and
 butter things you need to write any porogram. Things went really well
 and I was able to put together some very simple demos in a couple of
 hours.
 
 As a language I'm not a huge fan of JavaScript - at least as it was in
-the old days. I orefer Python or C, but the thing is each language has
+the old days. I prefer Python or C, but the thing is, each language has
 certain things it's good at and if you want code running in your
 browser JavaScript, or at least code running on a JavaScript engine in
 the browser, is the way to go.
@@ -64,7 +64,8 @@ out. But here's my first attempt:
   
   var b = {x: x, y: y, rad: 30, color: col};
 
-  function move_ball(ball){
+  function move_ball(ball)
+  {
     if (ball.x > (canvas.width - ball.rad) || ball.x < (0 + ball.rad)) {
        dx = -dx;
     }
@@ -88,16 +89,16 @@ out. But here's my first attempt:
   }
 
   
-  function draw(){
-
+  function draw()
+  {
     ctx.clearRect(0, 0, canvas.width, canvas.height);
 
-      // draw small static ball at centre (for debugging)
-      ctx.beginPath();
-      ctx.arc(canvas.width/2, canvas.height/2, 10, 0, Math.PI*2, false);
-      ctx.fillStyle = "#FF0022";
-      ctx.fill();
-      ctx.closePath();
+    // draw small static ball at centre (for debugging)
+    ctx.beginPath();
+    ctx.arc(canvas.width/2, canvas.height/2, 10, 0, Math.PI*2, false);
+    ctx.fillStyle = "#FF0022";
+    ctx.fill();
+    ctx.closePath();
 
     move_ball(b);
     draw_ball(b);
@@ -114,7 +115,7 @@ can simplify things. Obviously if you are writing Node code you will
 be (or have to get) very familiar with callbacks. They are simple in
 that your code gets called back by the underlying engine when its
 ready for you. This asynchronous nature of callbacks is of course at
-the very heart of Node. In the above code, the draw function gets
+the very heart of Node. In the above code, the `draw` function gets
 called back after a 30 milli-second timeout. The callback is set up by
 the `setInterval` function.
 
@@ -143,7 +144,9 @@ Once the obbject has been created we can pass it to functions and give
 its attributes values. I needed to do this for this example because I
 want lots of balls bouncing around the screen! Each ball object can
 then have its attributes set individually and retain that
-state. Because there will be lots of balls bouncing around I simply
+state. 
+
+Because there will be lots of balls bouncing around I simply
 keep track of them all in an array. I can work my way along the array
 updating the attributes of each object. This is a common use case in
 games for example, where you have a list of 'baddy' objects stored in
@@ -186,7 +189,6 @@ writing some fun JavaScript:
 
 
     function random_color() {
-
       var r = random_int(0, 255);
       var g = random_int(0, 255);
       var b = random_int(0, 255);
@@ -199,7 +201,6 @@ writing some fun JavaScript:
 
 
     function random_ball() {
-
       var rad = random_int(20, 70);
       var dx = random_int(-8, 8);
       var dy = random_int(-8, 8);
@@ -250,7 +251,6 @@ writing some fun JavaScript:
     }
 
     function move_ball(ball) {
-
       // check x within bounds
       if (ball.x > (canvas.width - ball.rad) || ball.x < (0 + ball.rad)) {
         ball.dx = -ball.dx;
@@ -332,11 +332,8 @@ learning adventures.
 
 * [W3 Schools info on HTML Canvas](https://www.w3schools.com/html/html5_canvas.asp)
 
-
 ---
 
 * Published: 2018-07-05 19:56:00 UTC
 * Updated: 2018-07-05 19:56:00 UTC
 * UUID: 0658BAA4-3D77-40AA-9BAA-7F188924AB0E
-
-
