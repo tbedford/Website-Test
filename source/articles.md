@@ -8,6 +8,7 @@ way or the other!
 
 ## 2018
 
+* 2018-07-05 - [Learning JavaScript with HTML5 Canvas](./learning-javascript.html)
 * 2018-05-11 - [Dial a chiptune](./dial-a-chip-tune.html)
 * 2018-05-10 - [Intro to Nexmo](./intro-to-nexmo.html)
 * 2018-05-08 - [Really simple encryption](./really-simple-encryption.html)
