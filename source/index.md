@@ -2,6 +2,17 @@
 
 **Website News**
 
+**[2018-07-05]**
+
+Well I did not manage to get out any articles last month, although I have a few in the draft state. I have been incredibly busy at [work](https://developer.nexmo.com/team), and also had a trip to NYC in there too. Plus I am
+going through the pain of buying a house. Still I did publish double my quota in May so I don't feel completely horrible.
+
+This month I hope to get a couple of those draft/idea pieces brushed up and published. We will see. The numbers continue to be quite strong (much to my surprise) with about 21,000 page views to date. Not huge, but more than my expectations.
+
+I have now more or less completely switched from Emacs to VS Code and am loving it. I still use Emacs from time to time on the command line. VS Code continues to impress and let's hope things stay that way.
+
+In other news I am looking forward to Fabien Sanglard's Doom book. I am especially looking forward to seeing how Fabien handles the Doom Zone memory allocator, although I expect most people will be more interested in the rendering chapter.
+
 **[2018-05-04]**
 
 I was pleased to see I managed to exceed my target quota of articles

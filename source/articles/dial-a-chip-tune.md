@@ -105,7 +105,7 @@ A few points about the code:
   actually hitting any other key will play a third tune.
 - The NCCOs are where the real action happens (excuse the pun). These
   are described in detail in the [Nexmo NCCO Reference
-  Guide](https://developer.nexmo.com/api/voice/ncco) so I won't repeat
+  Guide](https://developer.nexmo.com/voice/voice-api/ncco-reference) so I won't repeat
   that here.
 
 Hopefully mostly the code is self-explanatory. The Flask app mostly
@@ -140,7 +140,7 @@ webhooks and Nexmo Call Control Objects (NCCOs).
 ---
 
 * Published: 2018-05-11 07:12:00 UTC
-* Updated: 2018-05-11 07:12:00 UTC
+* Updated: 2018-07-05 17:53:00 UTC
 * UUID: 5424F74B-749B-42AA-A726-40EE59463EE3
 
 
