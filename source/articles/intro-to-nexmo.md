@@ -440,7 +440,7 @@ HTTP methods Nexmo uses to interact with your business logic.
 
 Here are a few simple changes you can make to explore your application further:
 
-1. Change the [voice name](https://developer.nexmo.com/api/voice/ncco#payload-6) and message.
+1. Change the [voiceName](https://developer.nexmo.com/voice/voice-api/ncco-reference#talk) and message.
 2. Print a tracing message that is conditional on call state. For example
    when the call is answered print "Call now answered".
 3. Add support for URLs of the form `/call?to=447700900000`, which
@@ -472,6 +472,6 @@ foundation on which to continue your explorations of the Nexmo API.
 ---
 
 * Published: 2018-05-10 06:00:00 UTC
-* Updated: 2018-05-10 06:00:00 UTC
+* Updated: 2018-07-05 17:52:00 UTC
 * UUID: 401CAFF8-5681-4D9E-B2B6-3A73432BD67A
 
