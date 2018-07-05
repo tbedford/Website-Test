@@ -1,11 +1,11 @@
-# Learning JavaScript
+# Learning JavaScript with HTML5 Canvas
 
 Summary: In this article I decide to learn JavaScript and write a
 couple of simple JavaScript programs.
 
 I decided it was high time I learned JavaScript. I have dabbled before but
 never really learnt it properly. I decided to write a couple of programs that
-use an HTML Canvas to test the language out a bit. I use simple
+use an HTML5 Canvas to test the language out a bit. I use simple
 iteration, JavaScript objects, arrays and conditionals. The bread and
 butter things you need to write any porogram. Things went really well
 and I was able to put together some very simple demos in a couple of
@@ -17,7 +17,7 @@ certain things it's good at and if you want code running in your
 browser JavaScript, or at least code running on a JavaScript engine in
 the browser, is the way to go.
 
-I actually found working with JavaScript and the HTML 5 Canvas great
+I actually found working with JavaScript and the HTMLß5 Canvas great
 fun. I would like to see young coders taking this approach on the
 basis that JavaScript running in the browser gives you instant
 gratification. You can see colours, and objects and it's all good.
@@ -317,7 +317,7 @@ to VS Code and so no longer experience this issue.
 ## Summary
 
 This was a really fun experiment and I found I loved the interactivity
-of running JavaScript in the browser, and using HTML 5 Canvas it was
+of running JavaScript in the browser, and using HTML5 Canvas it was
 fairly easy to see Colourful Things. A great way to learn a language!
 
 I had really wanted to progress this and do some fun demos such as a
@@ -330,7 +330,7 @@ learning adventures.
 
 ## Resources
 
-* [W3 Schools info on HTML Canvas](https://www.w3schools.com/html/html5_canvas.asp)
+* [W3 Schools info on HTML5 Canvas](https://www.w3schools.com/html/html5_canvas.asp)
 
 ---
 
