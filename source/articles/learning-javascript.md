@@ -330,10 +330,11 @@ learning adventures.
 
 ## Resources
 
+* [Try out my bouncing balls demo](https://coffeeandcode.neocities.org/demos/balls.html)
 * [W3 Schools info on HTML5 Canvas](https://www.w3schools.com/html/html5_canvas.asp)
 
 ---
 
 * Published: 2018-07-05 19:56:00 UTC
-* Updated: 2018-07-05 19:56:00 UTC
+* Updated: 2018-07-06 10:33:00 UTC
 * UUID: 0658BAA4-3D77-40AA-9BAA-7F188924AB0E
