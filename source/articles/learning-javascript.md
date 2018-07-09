@@ -29,7 +29,9 @@ As with learning any language your first attempt at writing something
 is usually painful and the result horrible and you figure it all
 out. But here's my first attempt:
 
-## Code attempt 1
+## Code attempt 1 - Bouncing Ball
+
+First, you can try out my [bouncing ball demo](https://coffeeandcode.neocities.org/demos/ball.html)
 
 ``` html
 <!DOCTYPE html>
@@ -123,7 +125,9 @@ You can save the above code to a file such as `ball.html` and then
 double click it to run it in a browser. You should see a ball bouncing
 around the screen.
 
-## Code attempt 2
+## Code attempt 2 - Bouncing Balls
+
+First, you can try out my [bouncing balls demo](https://coffeeandcode.neocities.org/demos/balls.html)
 
 The main thing I wanted to add in my next attempt was the use of JavaScript objects. JavaScript
 doesn't have classes built into the core language, but you can create `objects` in JavaScript. Here's the
@@ -336,5 +340,5 @@ learning adventures.
 ---
 
 * Published: 2018-07-05 19:56:00 UTC
-* Updated: 2018-07-06 10:33:00 UTC
+* Updated: 2018-07-09 15:17:00 UTC
 * UUID: 0658BAA4-3D77-40AA-9BAA-7F188924AB0E
