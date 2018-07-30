@@ -2,16 +2,44 @@
 
 **Website News**
 
+**[2018-07-30]**
+
+Another month gone! Wow! 
+
+I did manage to get a couple of pieces published this month. I also
+updated my about page. The material on Philippines was a little out of
+place so I removed it. Timmy, bless him, got edited too. The blog was
+originally meant to cover various topics, but seems to have defaulted
+to a "yet another boring tech blog", so the About page now reflects
+that.
+
+The big plans to actually push the blog to the next level have not
+materialized sadly. I have been very busy with work and "real life". I
+do hope to get a couple more pieces published in August - we will see.
+
 **[2018-07-05]**
 
-Well I did not manage to get out any articles last month, although I have a few in the draft state. I have been incredibly busy at [work](https://developer.nexmo.com/team), and also had a trip to NYC in there too. Plus I am
-going through the pain of buying a house. Still I did publish double my quota in May so I don't feel completely horrible.
+Well I did not manage to get out any articles last month, although I
+have a few in the draft state. I have been incredibly busy at
+[work](https://developer.nexmo.com/team), and also had a trip to NYC
+in there too. Plus I am going through the pain of buying a
+house. Still I did publish double my quota in May so I don't feel
+completely horrible.
 
-This month I hope to get a couple of those draft/idea pieces brushed up and published. We will see. The numbers continue to be quite strong (much to my surprise) with about 21,000 page views to date. Not huge, but more than my expectations.
+This month I hope to get a couple of those draft/idea pieces brushed
+up and published. We will see. The numbers continue to be quite strong
+(much to my surprise) with about 21,000 page views to date. Not huge,
+but more than my expectations.
 
-I have now more or less completely switched from Emacs to VS Code and am loving it. I still use Emacs from time to time on the command line. VS Code continues to impress and let's hope things stay that way.
+I have now more or less completely switched from Emacs to VS Code and
+am loving it. I still use Emacs from time to time on the command
+line. VS Code continues to impress and let's hope things stay that
+way.
 
-In other news I am looking forward to Fabien Sanglard's Doom book. I am especially looking forward to seeing how Fabien handles the Doom Zone memory allocator, although I expect most people will be more interested in the rendering chapter.
+In other news I am looking forward to Fabien Sanglard's Doom book. I
+am especially looking forward to seeing how Fabien handles the Doom
+Zone memory allocator, although I expect most people will be more
+interested in the rendering chapter.
 
 **[2018-05-04]**
 

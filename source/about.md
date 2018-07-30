@@ -2,10 +2,10 @@
 
 Hi, I'm Tony. 
 
-This website holds a few thoughts on various technical topics (as well
-as on cats and coffee). I felt like I needed a place to keep various
-notes I was accumulating and I decided to ~~share~~ inflict my
-ramblings on others through this site. Sorry about that!
+This website holds a few thoughts on various technical topics. I felt
+like I needed a place to keep various notes I was accumulating and I
+decided to ~~share~~ inflict my ramblings on others through this
+site. Sorry about that!
 
 **Please note this site is not meant to be taken too seriously! I have
 enough "serious" writing in my day job thanks very much!**
@@ -51,6 +51,8 @@ What my desktop typically looks like:
 
 ![Screenie](./images/screenie.png "Screenshot")
 
+Update: More recently I have been using VSCode a lot and love it!
+
 ## Current employment
 
 I'm a technical writer at [Nexmo](https://developer.nexmo.com/team),
@@ -86,54 +88,12 @@ was very difficult to convince manufacturers that the smartphone was
 the future - then the iPhone happened and the world was changed
 forever.
 
-## Cat
-
-I have a cat! He's probably the most spoiled cat in the world, but all
-cat daddies (and mummies) probably say that. His name is Timmy. I
-adopted him some years ago - he was a rescue:
-
-![Timmy](./images/timmy.png "Timmy")
-
-
-## Philippines
-
-I live in the UK but try to escape to the Philippines when I
-can. Hopefully these photos will help explain why!
-
-My office in the Philippines:
-
-![hammock](./images/hammock.jpg "Hammock")
-
-Apartment complex pool - usually I'm the only one there. I love
-outdoor/rooftop pools and there are thousands of them in the
-Philippines:
-
-![pool](./images/apartment-pool.jpg "Pool")
-
-Manila is a pretty exciting place, but it is blighted by squalor,
-abject poverty and terrible pollution. At night it can look quite
-pretty:
-
-![Manila](./images/manila-at-night.jpg "Manila at night")
-
-Out on the islands simple accommodation can be obtained. You can't be
-bothered by tuko though as every accommodation has at least one
-resident! Tuko is tagalog for gecko - so named because the sound a
-gecko makes is 'tuuukkooo':
-
-![accommodation](./images/simple-accommodation.jpg "Accommodation")
-
-Philippines abounds in natural beauty. There are jungles, beaches, islands, volcanoes, coral reefs:
-
-![camiguin](./images/white-island-camiguin.jpg "White Island Camiguin")
-
 ## Me
 
 And here's me being photo-bombed by a mermaid: ;)
 
 ![tony](./images/johnny_starbucks_resized.jpg "Tony")
 
-Yep, sometimes it sucks but I still like Starbucks!
 
 ## Contact
 
