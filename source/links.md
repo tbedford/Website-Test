@@ -136,6 +136,7 @@ pace. Very useful presentation on managing systems.
 * [Snappy compression](http://google.github.io/snappy/)
 * [History of data compression in Japan](http://oku.edu.mie-u.ac.jp/~okumura/compression/history.html)
 * [Data compression course](http://www.fadden.com/apple2/hdc/index.html)
+* [FaceBook's Zstandard](https://facebook.github.io/zstd/)
 
 ## Pony
 
