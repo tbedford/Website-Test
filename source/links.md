@@ -7,11 +7,18 @@
 ## General
 
 * [FaceBook's tech research website](https://research.fb.com)
+* [FaceBook code](https://code.fb.com)
+* [FaceBook Open Source](https://opensource.fb.com)
 * [Superscale Networks use Rust and Linux-based routers](https://www.superscale.io)
 * [Great website by Paul Hsieh](http://www.azillionmonkeys.com/qed/index.html)
 * [Hashing functions](http://burtleburtle.net/bob/c/lookup3.c)
 * [Try out old DiskMags - very cool!](https://archive.org/details/diskmags?and[]=subject%3A%22MS-DOS+diskmags%22)
 * [Handmade Hero Episode Guide](https://hero.handmade.network/episodes)
+
+
+## Documentation systems
+
+* [Docusaurus](https://docusaurus.io/blog/2017/12/14/introducing-docusaurus)
 
 ## Character sets and encoding
 
