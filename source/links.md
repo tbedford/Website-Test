@@ -65,6 +65,8 @@ terminology](http://www.copperspice.com/docs/cs_string/overview_terminology.html
 
 ## Games tech
 
+* [Cube Engine by Wouter van Oortmerssen](http://cubeengine.com)
+
 * [Memory by Handmade Hero - Casey
 Muratori](https://www.youtube.com/watch?v=MvDUe2evkHg&list=PLEMXAbCVnmY6Azbmzj3BiC3QRYHE9QoG7)
 
