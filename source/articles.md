@@ -8,6 +8,7 @@ way or the other!
 
 ## 2018
 
+* 2018-10-30 - [Understanding Unix time](./unix-time.html)
 * 2018-07-06 - [Customizing your Bash shell prompt](./customizing-your-bash-shell-prompt.html)
 * 2018-07-05 - [Learning JavaScript with HTML5 Canvas](./learning-javascript.html)
 * 2018-05-11 - [Dial a chiptune (with Nexmo)](./dial-a-chip-tune.html)

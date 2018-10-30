@@ -6,6 +6,7 @@
 
 ## General
 
+* [David Madore's site - lots of technical details](http://www.madore.org/~david/sitemap.html)
 * [FaceBook's tech research website](https://research.fb.com)
 * [FaceBook code](https://code.fb.com)
 * [FaceBook Open Source](https://opensource.fb.com)
