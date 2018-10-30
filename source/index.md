@@ -2,6 +2,16 @@
 
 **Website News**
 
+**[2018-10-13]**
+
+It's not happening is it! July was the last time I wrote some
+articles. I have though been extremely busy. I did manage to put
+together a piece on using [Nexmo's Audit API with
+Python](https://www.nexmo.com/blog/2018/10/09/get-nexmo-audit-events-with-python-dr/)
+in addition to rewriting our Messages and Dispatch API docs and doing
+a bunch of other work. If you are fairly new to Python or Nexmo you
+can probably learn something from it I hope. 
+
 **[2018-07-30]**
 
 Another month gone! Wow! 
