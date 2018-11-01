@@ -29,7 +29,7 @@ has three main parts:
 
 These are joined by the '.' character in this format:
 
-```
+``` shell
 xxxxx.yyyyy.zzzzz
 ```
 

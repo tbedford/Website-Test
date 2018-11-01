@@ -8,7 +8,12 @@ So good news and bad news. I have recently published a couple of
 articles - that's the good news. The bad news is for some reason I
 can't yet figure out, the syntax colouring I used seems to be broken
 but only for a few pages. I will look into this over the new day or
-two. In the meantime enjoy the new articles.
+two. In the meantime enjoy the new articles. UPDATE: Now
+fixed. Highlight JS does not like code blocks without a `class`
+specifier. Quick fix is to always specify a language in the Markdown
+codeblock. If you have one codeblock that does not have the
+language/class specified, it seems to prevent highlighting for all
+other codeblocks on the page.
 
 **[2018-10-13]**
 
