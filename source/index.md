@@ -2,6 +2,14 @@
 
 **Website News**
 
+**[2018-11-01]**
+
+So good news and bad news. I have recently published a couple of
+articles - that's the good news. The bad news is for some reason I
+can't yet figure out, the syntax colouring I used seems to be broken
+but only for a few pages. I will look into this over the new day or
+two. In the meantime enjoy the new articles.
+
 **[2018-10-13]**
 
 It's not happening is it! July was the last time I wrote some

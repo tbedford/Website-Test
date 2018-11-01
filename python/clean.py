@@ -27,10 +27,12 @@ def clean_content(content):
     # Handle code blocks
     content = re.sub (r'<code class="lang-C">', r'<code class="c">', content)
     content = re.sub (r'<code class="lang-Python">', r'<code class="python">', content)
+    content = re.sub (r'<code class="lang-python">', r'<code class="python">', content)
     content = re.sub (r'<code class="lang-shell">', r'<code class="shell">', content)
     content = re.sub (r'<code class="lang-text">', r'<code class="text">', content)
     content = re.sub (r'<code class="lang-html">', r'<code class="html">', content)
     content = re.sub (r'<code class="lang-xml">', r'<code class="xml">', content)
+    content = re.sub (r'<code class="lang-json">', r'<code class="json">', content)
 
     return content
 
