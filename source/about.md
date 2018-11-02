@@ -2,34 +2,30 @@
 
 Hi, I'm Tony. 
 
-This website holds a few thoughts on various technical topics. I felt
-like I needed a place to keep various notes I was accumulating and I
-decided to ~~share~~ inflict my ramblings on others through this
-site. Sorry about that!
+Why yet another boring technical blog?
 
-**Please note this site is not meant to be taken too seriously! I have
-enough "serious" writing in my day job thanks very much!**
+Over the years I found that when a problem came up, I would figure out
+how to solve it, and then promptly forget what I did. This became
+quite annoying in 2017 so I decided to start this blog as a way to
+capture things that I learned over time. I just need to keep reminding
+myself to write up the bits and bobs that I learn along the way.
 
-You can also read this website directly in [my
-GitHub](https://github.com/tbedford) if you want to. I also store the
-tools used to build this site there. I tend to like to know how things
-work, so I generally prefer to take the DIY approach to things like
-websites - so no fancy-pants Wordpress site here.
+I've also written some thoughts on my experiences much further back in
+my career, in the hope that some of them may be vaguely interesting,
+or even mildly entertaining.
 
-I am a big believer in "incremental improvement" so expect to see that
-in play here.
+Although I mainly write about technical topics, I reserve the right to
+write about other topics of interest to geeks. For example, I just
+started to put together a Crossfit gym in my garage and hope to see
+the benefits of that through 2019. I have also wrestled with mild
+depression and burnout a couple of times in my career and that may
+also be of interest to you dear reader. 
 
-## Technical interests
-
-I have a wide range of technical interests that includes embedded and
-real-time systems, operating systems, data-driven websites, and
-business process automation.
-
-## Coding
+## Programming
 
 I have been programming on various systems since 1981. I started back
 then using VAX-BASIC and Z80 assembly language. I have written code
-since then in a variety of languages. 
+since then in a variety of languages.
 
 I once wrote an oil rig data aquisition system in
 TurboBASIC. TurboBASIC allowed event-driven programming (long before
@@ -47,11 +43,17 @@ after a roughly ten year hiatus from the language.
 I have been using Python on the side for around 3 years, mostly for
 web scraping, HTML processing, and spreadsheet manipulation.
 
-What my desktop typically looks like:
+I have been an avid Emacs user for some time. I first started using it
+when I worked on MySQL Connectors documentation. I had to write
+example code in various languages and also DocBook XML and found Emacs
+could handle it all very easily. What my desktop typically looks like:
 
 ![Screenie](./images/screenie.png "Screenshot")
 
-Update: More recently I have been using VSCode a lot and love it!
+About March 2018 I started using VSCode for a large project I was
+involved in for work and have found it very good. I now use a mix of
+VSCode and Emacs. In Nov 2018 I started using Projectile in Emacs. So
+far so good.
 
 ## Current employment
 
@@ -87,6 +89,11 @@ back before either iOS and Android, in fact, before smartphones! It
 was very difficult to convince manufacturers that the smartphone was
 the future - then the iPhone happened and the world was changed
 forever.
+
+## Other interests
+
+My non-technical interests include walking, scuba, travel, photgraphy,
+and travel writing.
 
 ## Me
 
