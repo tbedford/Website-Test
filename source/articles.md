@@ -8,6 +8,7 @@ way or the other!
 
 ## 2018
 
+* 2018-11-02 - [Emacs keyboard configuration on Mac](./emacs-keyboard-config-on-mac.html)
 * 2018-11-01 - [Understanding JWTs](./understanding-jwts.html)
 * 2018-10-30 - [Understanding Unix time](./unix-time.html)
 * 2018-07-06 - [Customizing your Bash shell prompt](./customizing-your-bash-shell-prompt.html)
