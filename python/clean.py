@@ -33,6 +33,7 @@ def clean_content(content):
     content = re.sub (r'<code class="lang-html">', r'<code class="html">', content)
     content = re.sub (r'<code class="lang-xml">', r'<code class="xml">', content)
     content = re.sub (r'<code class="lang-json">', r'<code class="json">', content)
+    content = re.sub (r'<code class="lang-lisp">', r'<code class="lisp">', content)
 
     return content
 
