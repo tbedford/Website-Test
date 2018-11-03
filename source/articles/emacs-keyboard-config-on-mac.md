@@ -19,9 +19,11 @@ configuration is certainly a very nice thing to have.
 This article assumes you know a bit about Emacs such as the importance
 of the Control and Meta keys as used for correct Emacs operation.
 
+p.s. I still haven't got this quite right!
+
 ## Getting a '#' character
 
-When you start using Emacs on the Mac one of the first issues you run
+When you start using Emacs on the Mac, one of the first issues you run
 into is how to get the darn '#' character to work! It seems like such a
 basic thing. But many fall at this first hurdle. The easiest solution
 I have come across is to insert the following line of Elisp into your
@@ -59,6 +61,8 @@ Terminal Preferences known as 'Use Option as Meta key'. Make sure that
 is ticked and lo and behold your option key now works correctly as the
 Emacs Meta key.
 
+## Start and end of buffer hot keys
+
 If you only ever use the terminal version of Emacs then everything is
 plain sailing, more or less, from now on. So for example, let's say
 you want to configure `M-up` as 'go to start of buffer' and `M-down`
@@ -82,13 +86,23 @@ key setup no longer works - you can't jump to start and end of buffer
 using `M-up` or `M-down`. Why? The reason is that in the terminal
 version we'd configured the Terminal application itself in Preferences
 to 'Use Option as Meta key'. We need the same sort of config for the
-Desktop. Well there isn't one. So you have to do something else. You
-can reassign the Option key. I don't ever use this key on Mac
-anyway. So go to System Preferences/Keyboard. There's a button called
-"Modifer Keys...". Click that. You can then reassign the Option key. I
-reassign it to Escape. This is all cool because in Emacs the Meta key
-can be the alt/option or Escape key, although the Esc key is not
-normally used as it's up there out of the way on the top left of the
+Desktop. Well there isn't one. So you have to do something else. One
+thing you *could* do is you can reassign the Option key.
+
+**UPDATE: While this does work if you only use Emacs, it kills the '#'
+for other apps!! Not good. I am working on a fix. I have gone back to
+setting the Mac key to its default and switching 'Use Option as Meta
+key' in Terminal. I think I am going to have to use a different key
+combo for beginning and end of buffer in the Desktop Emacs. You can
+use Esc-< and Esc->, but this requires using the shift key which is
+awkward. Esc-, and Esc-. might work, so you don't have to use the
+Shift key, but I need to do some more testing.**
+
+So go to System Preferences/Keyboard. There's a button called "Modifer
+Keys...". Click that. You can then reassign the Option key. I reassign
+it to Escape. This is all cool because in Emacs the Meta key can be
+the alt/option or Escape key, although the Esc key is not normally
+used as it's up there out of the way on the top left of the
 keyboard. So now the Option key no longer does the usual Mac things,
 which frees it up for use in Emacs. You'll find once you've done this
 that `M-up` and `M-down` now works as expected in both terminal Emacs

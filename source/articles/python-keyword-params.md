@@ -3,7 +3,7 @@
 Summary: In this article I take a quick look at Python keyword (named)
 parameters.
 
-In a [previous article](./understandintg-jwts.html) I looked at a use
+In a [previous article](./understanding-jwts.html) I looked at a use
 case where Python keyword parameters could be quite useful. This was
 in building the payload for a JWT. If you remember, I built the
 payload at the time using the following code snippet:
