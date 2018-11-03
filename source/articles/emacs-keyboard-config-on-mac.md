@@ -19,7 +19,9 @@ configuration is certainly a very nice thing to have.
 This article assumes you know a bit about Emacs such as the importance
 of the Control and Meta keys as used for correct Emacs operation.
 
-p.s. I still haven't got this quite right!
+p.s. I still haven't got this quite right! I will do a tidy up article
+in the near future. Sorry! I'm leaving this here though as there are
+still some useful bits.
 
 ## Getting a '#' character
 
