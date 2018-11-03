@@ -2,6 +2,10 @@
 
 **Website News**
 
+**[2018-11-03]** A few new articles added recently, including a really
+bad one about Emacs config. Sorry about that. Anyway, I updated my
+Contact page as well so please send your complaints in!
+
 **[2018-11-01]**
 
 So good news and bad news. I have recently published a couple of
