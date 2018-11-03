@@ -89,14 +89,29 @@ to 'Use Option as Meta key'. We need the same sort of config for the
 Desktop. Well there isn't one. So you have to do something else. One
 thing you *could* do is you can reassign the Option key.
 
-**UPDATE: While this does work if you only use Emacs, it kills the '#'
+**UPDATE1:** While this does work if you only use Emacs, it kills the '#'
 for other apps!! Not good. I am working on a fix. I have gone back to
 setting the Mac key to its default and switching 'Use Option as Meta
 key' in Terminal. I think I am going to have to use a different key
 combo for beginning and end of buffer in the Desktop Emacs. You can
 use Esc-< and Esc->, but this requires using the shift key which is
 awkward. Esc-, and Esc-. might work, so you don't have to use the
-Shift key, but I need to do some more testing.**
+Shift key, but I need to do some more testing.
+
+**UPDATE2:** So rather than leave you in the lurch I've come up with a
+quick fix. You can use the M-, and M-. to go to beginning and end of
+buffer in desktop Emacs. My fingers are still wired to using M-up and
+M-down, which is what I use in the Terminal Emacs, but I've never been
+able to get that to work for some reason in Desktop Emacs. At least
+M-, and M-. is a bit easier to use than the usual M-< and M->, which
+is the default setting for Emacs and a pain to use due to the need to
+use Shift as well. Anyway, sorry about this confusion and here's the
+additional config:
+
+``` lisp
+(global-set-key (kbd "M-,") 'beginning-of-buffer)
+(global-set-key (kbd "M-.") 'end-of-buffer)
+```
 
 So go to System Preferences/Keyboard. There's a button called "Modifer
 Keys...". Click that. You can then reassign the Option key. I reassign
