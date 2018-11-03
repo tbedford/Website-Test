@@ -26,12 +26,12 @@ adjust UTC to resynchronize it with astronomical time.
 Since 1970 only positive leap seconds (insertions) have been added to
 a day, and no negative leap seconds have been required (yet). 
 
-Unix time treats _each and every day_ as exactly 24 * 60 * 60 seconds,
-which is 86400 seconds, and so does not take into account leap
-seconds. Unix time is therefore equivalent to the value of UTC seconds
-since midnight 1st January 1970 minus one second for each leap second
-since the Epoch. Since UTC was introduced in 1972 there have been 27
-leap seconds inserted into it, so, as I write this, it is:
+Unix time treats _each and every day_ as exactly `24 * 60 * 60`
+seconds, which is 86400 seconds, and so does not take into account
+leap seconds. Unix time is therefore equivalent to the value of UTC
+seconds since midnight 1st January 1970 minus one second for each leap
+second since the Epoch. Since UTC was introduced in 1972 there have
+been 27 leap seconds inserted into it, so, as I write this, it is:
 
 ``` shell
 Unix time seconds = UTC seconds (since midnight 1st January 1970) - 27
