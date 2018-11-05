@@ -2,6 +2,11 @@
 
 **Website News**
 
+**[2018-11-05]**
+
+Fixed Emacs article. New config works fine both in Terminal and
+Desktop on Mac.
+
 **[2018-11-03]** 
 
 A few new articles added recently, including a really bad one about

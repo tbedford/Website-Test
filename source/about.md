@@ -14,13 +14,6 @@ I've also written some thoughts on my experiences much further back in
 my career, in the hope that some of them may be vaguely interesting,
 or even mildly entertaining.
 
-Although I mainly write about technical topics, I reserve the right to
-write about other topics of interest to geeks. For example, I just
-started to put together a Crossfit gym in my garage and hope to see
-the benefits of that through 2019. I have also wrestled with mild
-depression and burnout a couple of times in my career and that may
-also be of interest to you dear reader. 
-
 ## Programming
 
 I have been programming on various systems since 1981. I started back
