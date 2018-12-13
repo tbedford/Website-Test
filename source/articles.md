@@ -8,6 +8,7 @@ way or the other!
 
 ## 2018
 
+* 2018-12-13 - [Doom Zone Memory Manager](./doom-zone-memory-manager.html)
 * 2018-11-03 - [Python keyword parameters](./python-keyword-params.html)
 * 2018-11-02 - [Emacs keyboard configuration on Mac](./emacs-keyboard-config-on-mac.html)
 * 2018-11-01 - [Understanding JWTs](./understanding-jwts.html)

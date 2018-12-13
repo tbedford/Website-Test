@@ -4,23 +4,25 @@ Summary: On the mysteries of the Doom Zone Memory Manager.
 
 So Fabien Sanglard's Game Engine Black Book - Doom dropped through the
 letter box yesterday, just about 25 years after the original Doom was
-uploaded. On first inspection the quality of the book blew me
-away. Syntax coloured code snippets, colour diagrams, photos, trivia,
-detailed tech explanations - wonderful stuff and I'm sure this book
-will keep me engrossed over the xmas period. One section I already
-read though was the brief section on Doom's Zone Memory Manager.
+uploaded. 
+
+On first inspection the quality of the book blew me away. Syntax
+coloured code snippets, colour diagrams, photos, trivia, detailed tech
+explanations - wonderful stuff and I'm sure this book will keep me
+engrossed over the Xmas period. One section I already read though was
+the brief section on Doom's Zone Memory Manager.
 
 One question that I'd always wondered about - what were these
 mysterious zones? Looking at the code there is only ever one zone -
-main zone. So, why zone memeory allocator?
+main zone. So, why zone memory allocator?
 
 Fabien says in the book that the intention originally was to support
 multiple zones, but with the introduction of DOS 4GW, the Watcom DOS
-extender, the 32-bit flat model became availble.
+extender, the 32-bit flat model became available.
 
 This suggests perhaps that originally Doom was targeting machines that
 had a segregated memory map - with DOS, upper memory, extended memory,
-exapnded memory and all that nonsense that made the original Wolf 3D
+expanded memory and all that nonsense that made the original Wolf 3D
 such a nightmare to work with. Personally I think this is unlikely. I
 think the more likely explanation is to do with memory fragmentation.
 
@@ -28,11 +30,11 @@ One of the problems in games is that memory allocations come in all
 shapes, sizes and durations. Some are small allocations in the range
 less than 1k, other allocations may be tens or hundreds of K in
 size. Some allocations are brief and quickly freed, some are static
-for the diuration of the game. So frequency and lifetime of
-allocations can be quite varied.
+for the duration of the game. So frequency and lifetime of allocations
+can be varied.
 
 All this leads to fragmentation of the memory map, where your map ends
-up looking like swiss cheese. One solution is to use something like
+up looking like Swiss cheese. One solution is to use something like
 the original Wolfenstein's compacting allocator, where memory is moved
 around to create a big contiguous free memory space. Another solution
 is to use [buffer
@@ -48,14 +50,14 @@ another Zone where allocations greater than 100k are made and so
 on. The actual zones would depend on the nature of the app, in this
 case the game.
 
-The idea behind this is by keeping allocations of approxinately the
-same size in the same zone you reduice fragmentation, compared to the
+The idea behind this is by keeping allocations of approximately the
+same size in the same zone you reduce fragmentation, compared to the
 case where you have a single zone where you have lots of tiny
 allocations (for say a texture) and big allocations for level data,
 sound effects and music etc. When the small allocations are freed up
 you end up with lots of little gaps in your map, meaning the chances
 of finding a contiguous free space of a sufficient size for a larger
-allocation reduces. 
+allocation reduces.
 
 In the end Doom did not use this approach, but I think that may have
 been the original intention. Probably what was found was that on
@@ -76,11 +78,13 @@ somewhat ironic.
 ## Doom's skies and backdrops
 
 As minor digression at this point. Those backdrops in Doom such as the
-mountain views and skies and city skylines had always fascinated
+mountain views and skies and city skylines have always fascinated
 me. Fabien reveals in his book where those images actually came from -
-I was really surprised! The book is full of gems like this and I have
-only scanned through it. I'm sure many more Doom secrets will be
-revealed when I read things in more detail.
+I was really surprised! 
+
+The book is full of gems like this and I have only scanned through
+it. I'm sure many more Doom secrets will be revealed when I read
+things in more detail!
 
 ## Summary
 
@@ -99,7 +103,7 @@ interest in game technology, or the history of Doom it is a Must Buy.
 ---
 
 * Published: 2018-12-13 08:14:22 UTC
-* Updated: 2018-12-13 12:13:00 UTC
+* Updated: 2018-12-13 09:40:00 UTC
 * UUID: C9945431-87D7-45BC-B83B-442BBA0D2FE2
 
 
