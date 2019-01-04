@@ -2,6 +2,45 @@
 
 **Website News**
 
+**[2019-01-04]**
+
+Happy New Year! I hope you all had a relaxing festive period!
+
+**A quick look back over 2018**
+
+It was a hell of a year which saw me start by spending a month in the
+Philippines and then take on a new job at Nexmo. I had to hit the
+ground running at Nexmo, but luckily I've had some experience of doing
+that over the years. As well as doing a ton of work on the Nexmo
+Developer Platform, I also moved house! In summary 2018 was a lot of
+hard work, but worth it. I also managed to put out 21 articles on this
+website. Website traffic has exceeded my expectations for such a
+remote corner of the web - I checked this morning and a few days ago I
+was getting around 150 unique visitors a day. That's far more than I
+had anticipated. In terms of content, my target is 24 articles a year,
+and I didn't quite hit that, although I did write a couple of
+additional articles for the Nexmo blog. One would always like to write
+more, and I had no shortage of ideas, but time was just not on my
+side - if you have ever moved house while holding down a full-time job
+you'll understand!
+
+**Where are we going in 2019?**
+
+As far as this website is concerned I expect things to tick along as
+they have been. As I learn interesting (to me) technical topics I will
+add notes here. I am keeping my article target at 24 - if I can hit
+that I'll be doing well I think!
+
+All the best for 2019 and thanks for reading!
+
+**[2018-12-13]**
+
+I added an article on the Doom Zone Memory Manager.
+
+I also managed to put together a festive piece using Nexmo and Python
+for the [Nexmo
+blog](https://www.nexmo.com/blog/2018/12/03/dial-a-christmas-carol-with-nexmo-and-python-dr/).
+
 **[2018-11-05]**
 
 Fixed Emacs article. New config works fine both in Terminal and
