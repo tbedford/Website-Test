@@ -85,8 +85,8 @@ forever.
 
 ## Other interests
 
-My non-technical interests include walking, scuba, travel, photgraphy,
-and travel writing.
+My non-technical interests include cats, walking, cycling, scuba,
+travel, photography, and travel writing.
 
 ## Me
 
