@@ -209,7 +209,7 @@ electronic repair flag flying. Long may that continue!
   repair was one of those things that became less economically viable
   over the years.
 
-**Update**
+**Update 1**
 
 I had literally just finished typing the first draft of this article
 when I checked BBC News and saw the sad news that Maplin is closing
@@ -221,9 +221,15 @@ News piece on the closure can be found here:
 
 * [BBC News article on Maplin shuttering](http://www.bbc.co.uk/news/business-43223175)
 
+**Update 2**
+
+The BBC did a really good piece on fixing gadgets and the "Right to Repair":
+
+* [How to fix your broken gadgets](https://www.bbc.co.uk/news/uk-46807198)
+
 ---
 
 * Published: 2018-03-01 06:30:00 UTC
-* Updated: 2018-03-01 06:30:00 UTC
+* Updated: 2019-01-09 18:30:00 UTC
 * UUID: 4DCA8997-FBCE-4104-BD37-1A97637AC3B4
 
