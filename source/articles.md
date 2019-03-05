@@ -6,6 +6,10 @@ some cases a bit slapdash. I mainly write articles here for my own
 reference, so your mileage may vary. You can always let me know one
 way or the other!
 
+## 2019
+
+* 2019-03-05 - [Financial calculations in Python - Part 1](./financial-calculations-1.html)
+
 ## 2018
 
 * 2018-12-13 - [Doom Zone Memory Manager](./doom-zone-memory-manager.html)

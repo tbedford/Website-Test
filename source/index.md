@@ -2,6 +2,11 @@
 
 **Website News**
 
+**[2019-03-05]**
+
+First blood. The first article of 2019 is finally up. Sorry it took so
+long.
+
 **[2019-01-04]**
 
 Happy New Year! I hope you all had a relaxing festive period!
