@@ -1,11 +1,11 @@
 body {
-    color: powderblue;
-    background-color: darkslateblue;
-    margin: 50px 100px;
+    color: dimgrey;
+    margin: 50px 300px;
     font-family: Verdana, sans-serif;
 }
 
 .header {
+    background-color: lightgreen;
     font-weight: bold;
     text-align: center;
     text-transform: uppercase;
@@ -13,6 +13,8 @@ body {
 
 .content {
   text-align: justify;  
+  background-color: snow;
+  padding: 50px 50px;
 }
 
 .topnavbar li {
@@ -33,15 +35,15 @@ body {
 }
 
 a {
-    color: yellowgreen;  
+    color: slateblue;  
 }
 
 a:visited {
-    color: orange;  
+    color: plum;  
 }
 
 a:hover {
-    color: white;   
+    color: yellowgreen;   
 }
 
 a:active {
