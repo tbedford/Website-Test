@@ -24,7 +24,7 @@ or even mildly entertaining.
 I addition to my day job as a technical writer, I've picked up "odds
 and ends" of programming work over the years, originally in C and Java
 and more recently in Python. I've also been roped into other
-interesting (ands quite possibly nefarious) "projects" too - and they
+interesting (and quite possibly nefarious) "projects" too - and they
 have not always successful I might add!
 
 ## Programming history
@@ -74,7 +74,7 @@ I'm a technical writer at [Nexmo](https://developer.nexmo.com/team),
 specializing in writing docs for software developers. Nexmo has an
 amazing API and tools for interfacing with the Vonage network. I
 really like working for Nexmo, so I imagine I will be there until they
-prize the company laptop from my cold, dead hand...
+prise the company laptop from my cold, dead hand...
 
 We are growing fast so are [usually
 hiring](https://developer.nexmo.com/team#join)!
