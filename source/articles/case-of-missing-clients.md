@@ -52,7 +52,7 @@ for it. I asked him to get me another. He marched off muttering in
 Thai and probably thinking dark thoughts, but by then I was thinking a
 few dark thoughts of my own.
 
-***
+*
 
 Two days later, bright and early, I found myself in a cramped office
 just off Sattahip shipyard opposite Dave. Dave had the look of a
@@ -159,7 +159,7 @@ lift.
 
 "Carol. Can you give me Jom's phone number please?"
 
-***
+*
 
 It was a few days later when I met up with Jom in a restaurant just
 off the main drag down from Bangkok. She had excellent English and was
@@ -193,9 +193,11 @@ on it in pink felt tip pen.
 
 "Thanks Jom", I said, and tucked back into the Tom Yum.
 
-![bangkok days](./images/bangkok_days.jpg "Bangkok")
+*
 
 Bangkok December 2003. Heading down to Chon Buri...
+
+![bangkok days](./images/bangkok_days.jpg "Bangkok")
 
 ---
 
