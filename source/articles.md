@@ -8,6 +8,7 @@ way or the other!
 
 ## 2019
 
+* 2019-03-30 - [How to take out a contract on John Wick](./john-wick-contract.html)
 * 2019-03-30 - [The case of the missing clients](./case-of-missing-clients.html)
 * 2019-03-21 - [OpenTok hacking fun](./opentok-hacking.html)
 * 2019-03-05 - [Financial calculations in Python - Part 1](./financial-calculations-1.html)
