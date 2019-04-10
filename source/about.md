@@ -134,6 +134,9 @@ And here's me being photo-bombed by a mermaid: ;)
 
 ![tony](./images/johnny_starbucks_resized.jpg "Tony")
 
+My cat:
+
+![timmy](./images/timmy.png "Timmy")
 
 ## Contact
 
