@@ -2,6 +2,23 @@
 
 **Website News**
 
+**[2019-04-11]**
+
+In case you've not being watching the articles page or subscribed to
+my Atom feed (and according to Inoreader there are three people
+subscribed!) you may have missed my recent flurry of articles (OK
+perhaps flurry is over-egging it a bit). The one I've had a fair bit
+of feedback on is the John Wick one. If you've watched the second
+installment in the franchise you'll get the idea of what I was trying
+to do there.
+
+In other exciting news (and yes, I hope you are sitting down for this)
+I have started, at long last, to write the next installment of the
+software to run this site. The beginnings of the code are up in my
+GitHub, the project is called Tutubi (pronounced 2-2-bee). You can
+read more about it there. Well I thought that was exciting news, so
+there.
+
 **[2019-03-05]**
 
 First blood. The first article of 2019 is finally up. Sorry it took so
