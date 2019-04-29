@@ -2,6 +2,24 @@
 
 **Website News**
 
+**[2019-04-29]**
+
+I got the initial versions of the Tutubi server and client up and
+running a couple of weeks ago. They were rough, but basically did what
+was intended. I then got very busy with work, and then was very busy
+working in the house. Over this last weekend for example I put
+together five large pieces of furniture from Ikea, with more on the
+way! However, I did finally manage to look into Heroku as I need to
+know more about that for work - I am planning to get my Nexmo event
+logger/proxy up there at some point - that is going to be really
+useful for testing my Nexmo apps. The end result, I was able to get
+the Tutubi server up and running on Heroku. Being new to Heroku there
+were a few gotchas, but that just makes for more content on this site!
+I also have a couple of articles in the pipeline, but will probably
+publish those on the new site - stay tuned for more info in the coming
+weeks. Thanks for hanging in there!
+
+
 **[2019-04-11]**
 
 In case you've not being watching the articles page or subscribed to
