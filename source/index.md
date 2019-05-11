@@ -2,6 +2,47 @@
 
 **Website News**
 
+**[2019-05-11]**
+
+You can try out a very primitive version of the new website software here:
+
+http://tutubi-server.herokuapp.com/
+
+When I say primitive I am not exaggerating, but the basics are there.
+
+Most importantly I can now handle GFM code blocks without issues - or
+at least I fixed the issues with escaping that had been very
+problematic:
+
+http://tutubi-server.herokuapp.com/content/calculating-entropy
+
+I also just added support for images too. Images are hosted on
+Neocities! Note however one of the design requirements was that you
+should be able to read the source (with images working) in GitHub and
+that objective has also been achieved! 
+
+If you've not tried it, Neocities features a command line tool that
+easily allows you to upload images to a neocities site. Works like a
+charm:
+
+http://tutubi-server.herokuapp.com/content/about
+
+After some reservations with my design I think Tutubi will work quite
+nicely for my new website (not sure yet about other applications). I'm
+sure I will run into more issues (there have been many) but it will
+get there if I keep plugging away.
+
+Sadly, I have a long list of new articles (yes actual content) that
+I've not been making progress on as I've been focusing on Tutubi code
+in my spare time. I have made some progress on pieces about app
+configuration, JSON, and another in my series on financial
+calculations. Getting there slowly. Hang in there please - I am hoping
+this new content will be available on the new site next month!
+
+Just a heads up - the URL for the new site will be:
+
+https://tonys-notebook.com but it's not live yet!
+
 **[2019-04-29]**
 
 I got the initial versions of the Tutubi server and client up and
