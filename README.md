@@ -1,7 +1,11 @@
 # Website-Test
 
+It's been great fun on Neocities, but my main personal site has now moved to http://www.tonys-notebook.com/ I am however still using Neocities for media, and will also be putting a couple of experimental sites up there too. This repository will remain for the forseeable future, and I may even update the software here (although Tutubi will be the top priority). I also intend to stay a Neocities supporter. In short, Neocities still rocks, but I wanted to take my site in a different technology direction. As always thanks for tuning in.
+
 My website. This was designed to test out various ideas around using
 Markdown as a source format.
+
+## Introduction
 
 The website is also hosted at
 [Neocities](https://coffeeandcode.neocities.org) for viewing in a
