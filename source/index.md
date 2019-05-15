@@ -2,6 +2,22 @@
 
 **Website News**
 
+**[2019-05-15]**
+
+I've now finished moving over to my new site:
+
+http://www.tonys-notebook.com/
+
+I will no longer be writing new articles here at Neocities. However, I
+will continue to use Neocities as my media server for images, videos
+etc.
+
+The server is NOWHERE NEAR finished - but I will try to keep
+updating/improving the experience over the coming months.
+
+Once I get around to it I will be upgrading my Heroku Dynos to handle
+SSL, so eventually you'll be able to connect using HTTPS protocol.
+
 **[2019-05-11]**
 
 You can try out a very primitive version of the new website software here:
